@@ -1,0 +1,63 @@
+# Project information
+site_name: 'Coinstop Docs'
+site_url: ''
+
+# Repository
+repo_name: 'Coinstop.docs'
+repo_url: 'https://github.com/coinstopio/coinstopio.docs'
+
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+     accent: 'green'
+
+
+  font:
+    title: 'Proxima Nova'
+    text: 'Roboto Regular'
+    code: 'Roboto'
+#  favicon: 'insert'
+  logo: 'logo.svg'
+
+nav:
+- 'Home': 'index.md'
+- Introduction:
+  - 'insert name here': 'Introduction/insertnamehere.md'
+  - 'insertnamehere': 'Introduction/insertnamehere.md'
+- Ledger:
+  - Ledger Live:
+    - 'Setup': 'Ledger/LedgerLive/setup.md'
+
+
+# Customization
+extra_css:
+  - CSS/style.css
+  - CSS/font.css
+
+extra_javascript:
+  - JAVASCRIPT/links.js
+  - JAVASCRIPT/style.js
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/coinstopio/coinstopio.docs'
+
+
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
