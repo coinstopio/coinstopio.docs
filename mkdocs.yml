@@ -31,6 +31,8 @@ nav:
 - Ledger:
   - Ledger Live:
     - 'Setup': 'Ledger/LedgerLive/setup.md'
+- BilFodl:
+  - 'BillFodl Setup': 'BilFodl Setup/BillFodlSetup.md'
 
 
 # Customization
