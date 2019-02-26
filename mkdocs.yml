@@ -1,6 +1,6 @@
 # Project information
 site_name: 'Coinstop Docs'
-site_url: ''
+site_url: 'https://coinstopio.github.io/coinstopio.docs/'
 
 # Repository
 repo_name: 'Coinstop.docs'
@@ -25,22 +25,22 @@ theme:
 
 nav:
 - 'Home': 'index.md'
-- Introduction:
-  - 'insert name here': 'Introduction/insertnamehere.md'
-  - 'insertnamehere': 'Introduction/insertnamehere.md'
+#- Introduction:
+#  - 'insert name here': 'Introduction/insertnamehere.md'
+#  - 'insertnamehere': 'Introduction/insertnamehere.md'
 - Ledger:
   - Ledger Live:
     - 'Setup': 'Ledger/LedgerLive/setup.md'
 
 
 # Customization
-extra_css:
-  - CSS/style.css
-  - CSS/font.css
+#extra_css:
+#  - CSS/style.css
+#  - CSS/font.css
 
-extra_javascript:
-  - JAVASCRIPT/links.js
-  - JAVASCRIPT/style.js
+#extra_javascript:
+#  - JAVASCRIPT/links.js
+#  - JAVASCRIPT/style.js
 
 extra:
   social:
