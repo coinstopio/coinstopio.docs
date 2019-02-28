@@ -163,12 +163,14 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
 You've successfully added your account to Ledger Live. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:
 
--   [Send](https://coinstop.kayako.com/article/54-sending-funds-from-ledger-live)
+-   [Send](/SendingFundsFromLedgerLive.md)
 -   [Receive](https://coinstop.kayako.com/article/181-receive)
 
   
 
 **ADD NEW ACCOUNT**
+
+  
 
   
 
