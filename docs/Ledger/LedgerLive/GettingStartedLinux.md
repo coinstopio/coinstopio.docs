@@ -6,7 +6,7 @@
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   a computer has at least:
     -   Linux Ubuntu 16.10  
-        Ledger Live is incompatible with 32-bit operating systems
+        _Ledger Live is incompatible with 32-bit operating systems_
     -   a USB port. Use an adapter for USB-C ports
     -   an internet connection
 
