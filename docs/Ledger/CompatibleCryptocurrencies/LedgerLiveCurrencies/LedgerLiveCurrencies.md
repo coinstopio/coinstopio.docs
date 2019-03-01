@@ -14,6 +14,7 @@ Ledger Live supports sending, receiving and hodling the following coins and toke
 -   Bitcoin Gold ([BTG](https://bitcoingold.org/))
 -   Dogecoin ([DOGE](https://dogecoin.com/))
 -   Qtum ([QTUM](https://qtum.org/))
+-   Decred ([DCR](https://decred.org/))
 -   Digibyte ([DGB](https://digibyte.io/))
 -   Stratis ([STRAT](https://stratisplatform.com/))
 -   Komodo ([KMD](https://komodoplatform.com/))
