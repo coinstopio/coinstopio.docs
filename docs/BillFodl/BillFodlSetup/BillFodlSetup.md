@@ -1,6 +1,6 @@
 # Setting Up Your Billfodl
 
--   Your BillFodl pack should contain the following:
+Your BillFodl pack should contain the following:
 -   BillFodl hardware
 -   Alphanumeric tiles (A-Z / 1-9)
 
