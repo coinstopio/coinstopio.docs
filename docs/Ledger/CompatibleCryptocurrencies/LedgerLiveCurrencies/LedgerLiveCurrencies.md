@@ -1,7 +1,7 @@
 
 # Ledger Live Currencies
 
-Ledger Live supports sending, receiving and hodling the following coins and tokens through one standalone desktop application:
+Ledger Live supports sending, receiving and hodling the following coins and tokens through standalone desktop and mobile applications:
 
 -   Bitcoin ([BTC](https://bitcoin.org/))
 -   Ethereum ([ETH](https://www.ethereum.org/))
@@ -24,5 +24,6 @@ Ledger Live supports sending, receiving and hodling the following coins and toke
 -   Peercoin ([PPC](https://peercoin.net/))
 -   Viacoin ([VIA](https://viacoin.org/))
 -   Stealth ([XST](https://stealth.org/))
+-   Stakenet ([XSn](https://stakenet.io/))
 -   PoSW ([POSW](https://posw.io/))
 -   Hyper Cash ([HSR](https://h.cash/))
