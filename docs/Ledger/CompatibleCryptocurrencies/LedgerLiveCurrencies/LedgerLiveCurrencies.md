@@ -1,7 +1,7 @@
 
 # Ledger Live Currencies
 
-Ledger Live (Desktop & Mobile) natively supports the following cryptocurrencies:
+Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 
 -   Bitcoin ([BTC](https://bitcoin.org/))
 -   Ethereum ([ETH](https://www.ethereum.org/))
