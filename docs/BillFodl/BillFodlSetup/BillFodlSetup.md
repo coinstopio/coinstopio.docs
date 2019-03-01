@@ -17,5 +17,3 @@ Once the first 12 words have been entered, you can check the words to ensure the
 > _NOTE: Ensure that each row you are using is full of tiles, using blank spaces as necessary to fill up the row. There should be no way to move the tiles when the latch is closed._
 
 _During torture tests, it has been discovered that Billfodls which are not completely full may warp in extreme (greater than 600 deg C) heat._
-
-_Click_  [_HERE_](https://coinstop.io/)  _to return to Coinstop.io_
