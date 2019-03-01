@@ -10,13 +10,13 @@
 
 When [sending cryptocurrency], the network fees you offer determine your priority in the queue of pending transactions. Miners will prioritise transactions that offer high fees.
 
-_Choose high fees if you require fast confirmation or lower fees if you can wait a while to save on fees._
-
-For your convenience, Ledger Live dynamically estimates three levels of fees or allows custom fees for advanced users:
+Ledger Live offers a three (3) tiered fee structure, as well as a custom fee option:
 
 -   **High:** the transaction _should_ be included in the next block (~10 min for Bitcoin)
 -   **Standard:** the transaction _should_ be included within 3 blocks (~30 min for Bitcoin)
 -   **Low:** the transaction _should_ be included within 6 blocks (~60 min for Bitcoin)
+
+_Choose high fees if you need a faster confirmation, or a lower fee if you can wait a little longer._
 
 ## Calculation Of Fees
 
