@@ -33,8 +33,8 @@ _A countervalue is simply the value of the cryptocurrency you wish to send, agai
 3.  Click **continue**.
 4.  Carefully verify all transaction details on your device.
 
-  - _Check the address on your computer matches the address on the device_
-  - _Check that the transaction value matches the value you have selected_
+_Check the address on your computer matches the address on the device_
+_Check that the transaction value matches the value you have selected_
 
 5.  Press the right-hand button to confirm and sign the transaction if everything is correct. The transaction is then signed and sent to the network for confirmation.
 6.  Click **View Operation Details** to [track the transaction]
