@@ -5,6 +5,7 @@
    -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
    
 Make sure your Apple phone has at least:
+
         -   
         -   
         -   an internet connection (warning about public wifi)
