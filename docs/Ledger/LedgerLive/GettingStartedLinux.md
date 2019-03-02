@@ -58,7 +58,7 @@ The top bar contains the application controls.
 
 The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.
 
-  
+<br><br>  
 
 ## Lets Get Started
 
