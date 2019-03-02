@@ -1,8 +1,8 @@
 # Verify Transaction Details
 
-**DON'T TRUST, VERIFY.**
+## DON'T TRUST, VERIFY.
 
-**_Assume that your computer is compromised and that an address on your screen cannot be trusted:_**
+**_Assume that your computer is compromised and that an address on your screen cannot be trusted. Taking appropriate security precautions during a transaction could be the difference between keeping and losing funds. We've listed a few suggestions below:_**
 
 -   Always send a small amount first. Then verify that the transaction was properly received by the recipient address before proceeding to send larger amounts
 -   Use secondary communication means when obtaining a recipient address or QR code.  
