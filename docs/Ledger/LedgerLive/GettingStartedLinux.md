@@ -168,7 +168,7 @@ You've successfully added your account to Ledger Live. On the left panel, click 
 
   
 
-### ADD NEW ACCOUNT
+## ADD NEW ACCOUNT
 
   
 
