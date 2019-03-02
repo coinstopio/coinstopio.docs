@@ -2,7 +2,7 @@
 
 ### What You Need
 
-    -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
+   -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
         -   Make sure your Android phone has at least:
         -   
         -   
@@ -10,7 +10,7 @@
 
 ## Instructions
 
-1.  Download Ledger Live [Desktop](https://www.ledger.com/pages/ledger-live)or Mobile [iOS](https://itunes.apple.com/app/id1361671700) / [Android](https://play.google.com/store/apps/details?id=com.ledger.live)
+1.  Download Ledger Live Mobile [iOS](https://itunes.apple.com/app/id1361671700)
 2.  Open the downloaded Ledger Live .**dmg** file
 3.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
 4.  Open the Ledger Live application
