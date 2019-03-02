@@ -11,7 +11,7 @@
 
 ### Instructions
 
-1.  Download [Desktop](https://www.ledger.com/pages/ledger-live)
+1.  Download Ledger Live [Desktop](https://www.ledger.com/pages/ledger-live)
 
 _Make sure to download Ledger Live for the operating system you are using._
 
