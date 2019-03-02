@@ -11,12 +11,10 @@
 
 ## Instructions
 
-1.  Go to [https://www.ledger.com/pages/ledger-live](https://www.ledger.com/pages/ledger-live)
-2.  Download the Ledger Live application
-3.  Open the downloaded Ledger Live .**dmg** file
-4.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
-5.  Open the Ledger Live application
-
+1.  Download Ledger Live [Desktop](https://www.ledger.com/pages/ledger-live)or Mobile [iOS](https://itunes.apple.com/app/id1361671700) / [Android](https://play.google.com/store/apps/details?id=com.ledger.live)
+2.  Open the downloaded Ledger Live .**dmg** file
+3.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
+4.  Open the Ledger Live application
   
 
 ## Interface Overview
