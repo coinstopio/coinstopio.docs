@@ -4,7 +4,7 @@
 
    -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
    
-Make sure your Apple phone has at least:
+Make sure your Android phone has at least:
 
    -   
    -   
