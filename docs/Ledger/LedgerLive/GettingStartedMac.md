@@ -27,7 +27,7 @@ Ledger Live's interface consists of four main elements. In the left panel you'll
 
   
 
-### Menu
+### Menu [red]
 
 Use the **menu** to go to different main sections:
 
@@ -37,14 +37,14 @@ Use the **menu** to go to different main sections:
 -   **Manager:** Manage your Ledger device
 -   **Exchanges:** Discover some selected exchange services
 
-### Accounts
+### Accounts [blue]
 
 The **Accounts** section lists the name and balance of the accounts in your portfolio:
 
 -   Click on an account to open it in the main viewer
 -   Click on the **+**  icon to add accounts
 
-### Application Controls
+### Application Controls [yellow]
 
 The top bar contains the application controls.
 
@@ -52,7 +52,7 @@ The top bar contains the application controls.
 -   **Settings:** Access Ledger Live's settings
 -   **Password lock:** Lock your session by clicking on the lock icon
 
-### Main Viewer
+### Main Viewer [green]
 
 The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.
 
