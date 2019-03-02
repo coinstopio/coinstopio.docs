@@ -6,9 +6,9 @@
    
 Make sure your Apple phone has at least:
 
-        -   
-        -   
-        -   an internet connection (warning about public wifi)
+   -   
+   -   
+   -   an internet connection (warning about public wifi)
 
 ## Instructions
 
