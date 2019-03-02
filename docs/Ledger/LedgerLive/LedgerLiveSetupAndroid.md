@@ -3,11 +3,10 @@
 ### What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
--   Make sure your computer has at least:
-    -   macOS 10.9 (64-bit)  
-        Ledger Live is incompatible with 32-bit operating systems
-    -   a USB port. Use an adapter for USB-C ports
-    -   an internet connection
+-   Make sure your Android phone has at least:
+    -   
+    -   
+    -   an internet connection (warning about public wifi)
 
 ## Instructions
 
