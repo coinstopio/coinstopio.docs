@@ -4,14 +4,14 @@ _Note: Although it takes longer, it can be a good idea to send a small amount of
 
   
 
-**BEFORE YOU BEGIN**
+### Before You Begin
 
 -   Get the Ledger device that manages the account you plan on sending money from
 -   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 
   
 
-**ENTER TRANSACTION DETAILS**
+## Enter Transaction Details
 
 1.  Click **send** on the left panel
 2.  Type the name of the cryptocurrency or search within the drop-down menu to  **select the account to debit**
@@ -24,7 +24,7 @@ _Note: Although it takes longer, it can be a good idea to send a small amount of
 
   
 
-**VERIFY AND SIGN**
+## Verify & Sign
 
 1.  Connect and unlock your Ledger device
 2.  Open the appropriate cryptocurrency application as instructed
