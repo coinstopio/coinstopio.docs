@@ -11,11 +11,13 @@
 
 ### Instructions
 
-1.  Go to [https://www.ledger.com/pages/ledger-live](https://www.ledger.com/pages/ledger-live)
-2.  Download the Ledger Live application.
-3.  Double-click the Ledger Live executable file you downloaded.
-4.  If a warning displays, click **yes** to allow the installation of Ledger Live.
-5.  Once the installation completes, click **finish**.
+1.  Download [Desktop](https://www.ledger.com/pages/ledger-live)
+
+_Make sure to download Ledger Live for the operating system you are using._
+
+2.  Double-click the Ledger Live executable file you downloaded.
+3.  If a warning displays, click **Yes** to allow the installation of Ledger Live.
+4.  Once the installation completes, click **Finish**.
 
   
 
