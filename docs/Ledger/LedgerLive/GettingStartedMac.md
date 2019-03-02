@@ -1,6 +1,6 @@
 # Getting Started (Mac)
 
-**WHAT YOU NEED**
+### What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   Make sure your computer has at least:
@@ -9,7 +9,7 @@
     -   a USB port. Use an adapter for USB-C ports
     -   an internet connection
 
-**INSTRUCTIONS**
+## Instructions
 
 1.  Go to [https://www.ledger.com/pages/ledger-live](https://www.ledger.com/pages/ledger-live)
 2.  Download the Ledger Live application
@@ -19,7 +19,7 @@
 
   
 
-**INTERFACE OVERVIEW**
+## Interface Overview
 
   
 
@@ -29,7 +29,7 @@ Ledger Live's interface consists of four main elements. In the left panel you'll
 
   
 
-**MENU**
+### Menu
 
 Use the **menu** to go to different main sections:
 
@@ -39,14 +39,14 @@ Use the **menu** to go to different main sections:
 -   **Manager:** Manage your Ledger device
 -   **Exchanges:** Discover some selected exchange services
 
-**ACCOUNTS**
+### Accounts
 
-The **accounts** section lists the name and balance of the accounts in your portfolio:
+The **Accounts** section lists the name and balance of the accounts in your portfolio:
 
 -   Click on an account to open it in the main viewer
 -   Click on the **+**  icon to add accounts
 
-**APPLICATION CONTROLS**
+### Application Controls
 
 The top bar contains the application controls.
 
@@ -54,24 +54,24 @@ The top bar contains the application controls.
 -   **Settings:** Access Ledger Live's settings
 -   **Password lock:** Lock your session by clicking on the lock icon
 
-**MAIN VIEWER**
+### Main Viewer
 
 The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.
 
   
 
-**LETS GET STARTED**
+## Lets Get Started
 
   
 
 When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the _Help_ tab in the settings.
 
-**BEFORE YOU BEGIN**
+### Before You Begin
 
 -   Get your [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   Make sure Ledger Live is installed
 
-**INSTRUCTIONS**
+### Instructions
 
 Follow these steps to initialise or restore your Ledger device.
 
@@ -79,7 +79,7 @@ _Go to Step 3. Security checklist if you use a device that's already initialised
 
   
 
-**Step 1**:
+### Step 1:
 
 1.  Start the Ledger Live application
 2.  Click **Get started**
@@ -90,7 +90,7 @@ _Go to Step 3. Security checklist if you use a device that's already initialised
 
   
 
-**Step 2:**
+### Step 2:
 
 First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.
 
@@ -103,7 +103,7 @@ _Your recovery phrase backs up the private keys generated on your device that ma
 
   
 
-**Step 3:**
+### Step 3:
 
 Complete the security checklist to verify your device is running at an optimal level of security.
 
@@ -116,7 +116,7 @@ Complete the security checklist to verify your device is running at an optimal l
 
   
 
-**Step 4:**
+### Step 4:
 
 Choose a password that unlocks the application to enhance your privacy. This functionality is particularly useful if you use a shared computer.
 
@@ -129,7 +129,7 @@ _Note: Make sure to remember your password. Losing it requires resetting Ledger 
 
   
 
-**Step 5:** Bug reports & analytics
+### Step 5: Bug reports & analytics
 
 Besides mandatory technical data, you can choose which anonymous data to share with Ledger to help improve the quality of our products and services. By opting in, Ledger will automatically collect this data. You can decide to opt out at any time from the **settings** page.
 
@@ -141,15 +141,15 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
   
 
-**ADD EXISTING ACCOUNTS**
+## Add Existing Accounts
 
   
 
-**BEFORE YOU BEGIN**
+### Before You Begin
 
 -   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 
-**INSTRUCTIONS**
+### Instructions
 
 1.  On the left panel, click the **+**  icon to add accounts
 2.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
@@ -168,7 +168,7 @@ You've successfully added your account to Ledger Live. On the left panel, click 
 
   
 
-**ADD NEW ACCOUNT**
+## Add New Account
 
   
 
@@ -176,12 +176,12 @@ You've successfully added your account to Ledger Live. On the left panel, click 
 
 You can add a new account for each crypto asset supported by the Ledger Live application.
 
-**BEFORE YOU BEGIN**
+### Before You Begin
 
 -   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Zcash account, you will need to have the Zcash application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 -   If you have a new and unused account, the add account feature will not work. You can only add additional accounts if all accounts of that specific cryptocurrency have seen at least one transaction.
 
-**INSTRUCTIONS**
+### Instructions
 
 1.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
 2.  Click **next**
