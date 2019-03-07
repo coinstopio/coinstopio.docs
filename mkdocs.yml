@@ -13,8 +13,10 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-     accent: 'green'
-
+     accent: 'orange'
+  direction: 'ltr'
+  feature:
+    tabs: true  
 
   font:
     title: 'Proxima Nova'
@@ -31,14 +33,15 @@ nav:
 - Ledger:
   - Ledger Live:
     - 'Setup': 'Ledger/LedgerLive/setup.md'
+  - 'test': 'Ledger/LedgerNanoS/LedgerNanoSAdvancedPassphraseOptions.md'
 - BilFodl:
   - 'BillFodl Setup': 'BillFodl/BillFodlSetup/BillFodlSetup.md'
 
 
 # Customization
-#extra_css:
-#  - CSS/style.css
-#  - CSS/font.css
+extra_css:
+  - CSS/style.css
+  - CSS/font.css
 
 #extra_javascript:
 #  - JAVASCRIPT/links.js
