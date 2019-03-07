@@ -10,7 +10,7 @@ repo_url: 'https://github.com/coinstopio/coinstopio.docs'
 
 # Configuration
 theme:
-  name: 'material'
+#  name: 'material'
   language: 'en'
   palette:
      accent: 'orange'

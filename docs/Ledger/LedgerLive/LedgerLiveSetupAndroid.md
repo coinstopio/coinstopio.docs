@@ -1,31 +1,30 @@
-
-# Getting Started (Linux)
+# Getting Started (Android)
 
 ### What You Need
 
--   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
--   a computer has at least:
-    -   Linux Ubuntu 16.10  
-        _Ledger Live is incompatible with 32-bit operating systems_
-    -   a USB port. Use an adapter for USB-C ports
-    -   an internet connection
+   -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
+   
+Make sure your Android phone has at least:
 
-### Instructions
+   -   
+   -   
+   -   an internet connection (warning about public wifi)
 
--   Download the [Ledger Live AppImage](https://www.ledger.com/pages/ledger-live)
--   Make the file executable  
-    -   In a terminal: _chmod +x ledger-live-*.AppImage_
--   Launch the AppImage by double clicking on it or via your terminal
+## Instructions
 
+1.  Download Ledger Live Mobile [Android](https://play.google.com/store/apps/details?id=com.ledger.live)
+2.  Open the downloaded Ledger Live .**dmg** file
+3.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
+4.  Open the Ledger Live application
   
 
 ## Interface Overview
 
   
 
-Ledger Live's interface consists of four main elements. In the left panel you'll find the **Menu** and **Accounts**, in the top bar you'll find buttons for **Application Controls** and then there's the **Main Viewer**.
+Ledger Live's interface consists of four main elements. In the left panel you'll find the **menu** and **accounts**, in the top bar you'll find buttons for **application controls** and then there's the **main viewer**.
 
-![ledger_live_overview.png](https://coinstop.kayako.com/base/media/url/MELpd21WBcHPJOFOGCeZEriNapXfCnrk)
+![ledger_live_overview.png](https://coinstop.kayako.com/base/media/url/CEBdlIZUFTBJ7L6jOQacbeQG5i9ebGDv)
 
   
 
@@ -58,7 +57,7 @@ The top bar contains the application controls.
 
 The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.
 
-<br><br>  
+  
 
 ## Lets Get Started
 
@@ -141,15 +140,15 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
   
 
-## ADD EXISTING ACCOUNTS
+## Add Existing Accounts
 
   
 
-### BEFORE YOU BEGIN
+### Before You Begin
 
 -   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 
-### INSTRUCTIONS
+### Instructions
 
 1.  On the left panel, click the **+**  icon to add accounts
 2.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
@@ -163,23 +162,25 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
 You've successfully added your account to Ledger Live. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:
 
--   [Send](https://coinstop.kayako.com/article/54-sending-funds-from-ledger-live)
+-   [Send](/SendingFundsFromLedgerLive.md)
 -   [Receive](https://coinstop.kayako.com/article/181-receive)
 
   
 
-## ADD NEW ACCOUNT
+## Add New Account
+
+  
 
   
 
 You can add a new account for each crypto asset supported by the Ledger Live application.
 
-### BEFORE YOU BEGIN
+### Before You Begin
 
 -   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Zcash account, you will need to have the Zcash application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 -   If you have a new and unused account, the add account feature will not work. You can only add additional accounts if all accounts of that specific cryptocurrency have seen at least one transaction.
 
-### INSTRUCTIONS
+### Instructions
 
 1.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
 2.  Click **next**

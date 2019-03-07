@@ -1,7 +1,7 @@
 
 # Ledger Live Currencies
 
-Ledger Live supports sending, receiving and hodling the following coins and tokens through one standalone desktop application:
+Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 
 -   Bitcoin ([BTC](https://bitcoin.org/))
 -   Ethereum ([ETH](https://www.ethereum.org/))
@@ -14,6 +14,7 @@ Ledger Live supports sending, receiving and hodling the following coins and toke
 -   Bitcoin Gold ([BTG](https://bitcoingold.org/))
 -   Dogecoin ([DOGE](https://dogecoin.com/))
 -   Qtum ([QTUM](https://qtum.org/))
+-   Decred ([DCR](https://decred.org/))
 -   Digibyte ([DGB](https://digibyte.io/))
 -   Stratis ([STRAT](https://stratisplatform.com/))
 -   Komodo ([KMD](https://komodoplatform.com/))
@@ -23,5 +24,6 @@ Ledger Live supports sending, receiving and hodling the following coins and toke
 -   Peercoin ([PPC](https://peercoin.net/))
 -   Viacoin ([VIA](https://viacoin.org/))
 -   Stealth ([XST](https://stealth.org/))
+-   Stakenet ([XSn](https://stakenet.io/))
 -   PoSW ([POSW](https://posw.io/))
 -   Hyper Cash ([HSR](https://h.cash/))
