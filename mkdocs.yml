@@ -92,8 +92,43 @@ nav:
       - 'VeForge Vault (VET)': 'Ledger/ThirdPartyWallets/VeForgeVaultVET.md'
       - 'Wanchain GUI (WAN)': 'Ledger/ThirdPartyWallets/WanchainGUIWAN.md'
       - 'Waves Web Client (WAVES)': 'Ledger/ThirdPartyWallets/WavesWebClient.md'
-- BilFodl:
-  - 'BillFodl Setup': 'BillFodl/BillFodlSetup/BillFodlSetup.md'
+
+- Keep Key:
+  - 'Keep Key Compatible Cryptocurrencies': 'KeepKey/NativeCryptocurrencyWallets.md'
+  - 'Keep Key Warranty and Returns': 'KeepKey/KeepKeyWarrantyReturns/KeepKeyRMA.md'
+  - Keep Key Setup Guides:
+    - 'General Setup': 'KeepKey/KeepKeySetup/KeepKeySetup.md'
+    - 'Mobile Setup': 'KeepKey/KeepKeySetup/KeepKeyMobile.md'
+    - 'Shape Shift': 'KeepKey/KeepKeySetup/ShapeShift.md'
+    - 'Update Application Firmware': 'KeepKey/KeepKeySetup/UpdateClientApplicationFirmware.md'
+    - 'Check Firmware Version': 'KeepKey/KeepKeySetup/CheckClientFirmwareVersion.md'
+  - Keep Key TroubleShooting:
+    - 'Change Account Name': 'KeepKey/KeepKeyTroubleshooting/ChangeKeepKeyAccountName.md'
+    - 'Change PIN Code': 'KeepKey/KeepKeyTroubleshooting/ChangePINcodekeepKey.md'
+    - 'Forgot Pin Code': 'KeepKey/KeepKeyTroubleshooting/ForgotPINCode.md'
+    - 'Could Not Parse Protocol': 'KeepKey/KeepKeyTroubleshooting/KeepKeyCouldNotParseProtocol.md'
+    - 'Find API Token': 'KeepKey/KeepKeyTroubleshooting/KeepKeyFindAPIToken.md'
+    - 'Not Accepting Recovery Phrase': 'KeepKey/KeepKeyTroubleshooting/KeepKeyNotAcceptingRecoveryPhrase.md'
+    - 'Not Recognised By Linux': 'KeepKey/KeepKeyTroubleshooting/KeepKeyNotRecognisedByLinux.md'
+    - 'OS Compatibility': 'KeepKey/KeepKeyTroubleshooting/KeepKeyOSCompatibility.md'
+    - 'Device Wont Turn on': 'KeepKey/KeepKeyTroubleshooting/KeepKeyWontTurnOn.md'
+    - 'xPub Linux': 'KeepKey/KeepKeyTroubleshooting/KeepKeyxPubLINUX.md'
+    - 'xPub Mac': 'KeepKey/KeepKeyTroubleshooting/KeepKeyxPubMAC.md'
+    - 'xPub Windows': 'KeepKey/KeepKeyTroubleshooting/KeepKeyxPubPC.md'
+    - 'Lost/Stolen/Broken Keep Key': 'KeepKey/KeepKeyTroubleshooting/LostBrokenStolenKeepKey.md'
+    - 'Obtain Logs': 'KeepKey/KeepKeyTroubleshooting/ObtainKeepKeyLogs.md'
+    - 'Restore Wallet To Keep Key': 'KeepKey/KeepKeyTroubleshooting/RestoreWalletToKeepKey.md'
+    - 'Wipe Keep Key': 'KeepKey/KeepKeyTroubleshooting/WipeKeepKey.md'
+    - 'SSH Config Mac': 'KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigMAC.md'
+    - 'SSH Config Linux': 'KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigLinux.md'
+    - 'Electrum Linux': 'KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyLinux.md'
+    - 'Electrum MAC': 'KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyMAC.md'
+    - 'Electrum Windows': 'KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyPC.md'
+
+
+
+#- BilFodl:
+#  - 'BillFodl Setup': 'BillFodl/BillFodlSetup/BillFodlSetup.md'
 
 
 # Customization
