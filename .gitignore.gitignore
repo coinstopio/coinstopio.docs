@@ -1,9 +1,0 @@
-# emacs files
-*~
-*\#*
-
-# venv
-
-v/
-site/
-.DS_Store
