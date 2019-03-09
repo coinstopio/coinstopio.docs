@@ -10,7 +10,7 @@
 /* Highlight current page in nav menu */
 .md-nav__link--active
 {
-    color      : black;
+    color      : rgb(38, 160, 223);
     font-weight: bold;
 }
 
@@ -24,8 +24,7 @@
 {
     html .md-nav--primary .md-nav__title--site 
     {
-    	background-color: rgb(255, 255, 255)
-;
+    	background-color: rgb(255, 255, 255);
     }
     .md-nav__source
     {
@@ -86,7 +85,7 @@
 }
 
 [data-md-toggle="search"]:checked ~ .md-header .md-search__input{
-    background-color:#1a1a1a!important;
+    background-color:rgb(38, 160, 223)!important;
 }
 
 .md-search__scrollwrap

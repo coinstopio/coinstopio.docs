@@ -116,12 +116,12 @@ pre, code
     }
     html .md-nav--primary .md-nav__title ~ .md-nav__list
     {
-        background-color:#1a1a1a!important;
+        background-color:white!important;
     }
     html .md-nav--primary .md-nav__title, 
     html .md-nav--primary .md-nav__title::before 
     {
-        background-color: black;
+        background-color: #1a1a1a;
         color           : rgb(248, 149, 29);
     }
 }
