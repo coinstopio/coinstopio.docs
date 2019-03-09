@@ -10,7 +10,7 @@ repo_url: 'https://github.com/coinstopio/coinstopio.docs'
 
 # Configuration
 theme:
-#  name: 'material'
+  name: 'material'
   language: 'en'
   palette:
      accent: 'orange'
@@ -31,9 +31,67 @@ nav:
 #  - 'insert name here': 'Introduction/insertnamehere.md'
 #  - 'insertnamehere': 'Introduction/insertnamehere.md'
 - Ledger:
-  - Ledger Live:
-    - 'Setup': 'Ledger/LedgerLive/setup.md'
-  - 'test': 'Ledger/LedgerNanoS/LedgerNanoSAdvancedPassphraseOptions.md'
+  - 'Ledger RMA Procedure': 'Ledger/LedgerWarrantyReturns/LedgerRMAProcedure.md'
+  - Compatible Cryptocurrencies: 
+      - 'Ledger Live Wallet': 'Ledger/CompatibleCryptocurrencies/LedgerLiveCurrencies.md'
+      - 'Third Party Wallets': 'Ledger/CompatibleCryptocurrencies/ThirdPartyWallets.md'
+  - Ledger Live Guides:
+      - 'Choose Your Network Fees': 'Ledger/LedgerLive/ChooseNetworkFees.md'
+      - 'Getting Started on Linux': 'Ledger/LedgerLive/GettingStartedLinux.md'
+      - 'Getting Started on Mac': 'Ledger/LedgerLive/GettingStartedMac.md'
+      - 'Getting Started on PC': 'Ledger/LedgerLive/GettingStartedPC.md'
+      - 'Getting Started on Android': 'Ledger/LedgerLive/LedgerLiveSetupAndroid.md'
+      - 'Getting Started on IOS': 'Ledger/LedgerLive/LedgerLiveSetupIOS.md'
+      - 'Receiving Funds': 'Ledger/LedgerLive/ReceivingFundsInLedgerLive.md'
+      - 'Sending Funds': 'Ledger/LedgerLive/SendingFundsFromLedgerLive.md'
+      - 'Tracking Transactions': 'Ledger/LedgerLive/TrackingATransaction.md'
+      - 'Verify a Transaction': 'Ledger/LedgerLive/VerifyTransactionDetails.md'
+  - Ledger Nano S Guides:
+      - Troubleshooting:
+        - 'Check Nano S Firmware': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/CheckNanoSFirmware.md'
+        - 'Lost Pin Code Recovery Phrase': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/LostNanoSPinCodeRecoveryPhrase.md'
+        - 'Manage Nano S Storage': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/ManageNanoSStorage.md'
+        - 'Browser Support': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSBrowserSupport.md'
+        - 'Export Logs': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSExportLogs.md'
+        - 'Fix Connection Issues': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixConnectionIssues.md'
+        - 'Fix Incorrect Balance': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixIncorrectBalance.md'
+        - 'Frozen Update': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFrozenUpdate.md'
+        - 'Only Displays Settings Menu': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSOnlyDisplaysSettingsMenu.md'
+        - 'Screen Unresponsive': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSScreenUnresponsive.md'
+        - 'Transaction Unconfirmed': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/NanoSTransactionUnconfirmed.md'
+        - 'Solve Error: 0x6b00': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/SolveError0x6b00.md'
+      - 'Nano S Setup': 'Ledger/LedgerNanoS/LedgerNanoSSetup.md'
+      - 'Advanced Passphrase Options': 'Ledger/LedgerNanoS/LedgerNanoSAdvancedPassphraseOptions.md'
+      - 'Change Pin Code': 'Ledger/LedgerNanoS/LedgerNanoSChangePinCode.md'
+      - 'Export Accounts': 'Ledger/LedgerNanoS/LedgerNanoSExportAccounts.md'
+      - 'Hide Account With Passphrase': 'Ledger/LedgerNanoS/LedgerNanoSHideAccountWithPassphrase.md'
+  - Ledger Nano X Guides:
+      - Troubleshooting:
+        - 'placeholder: to do': 'Ledger/LedgerNanoX/LedgerNanoXTroubleshooting/setup.md'
+      - 'placeholder: to do': 'Ledger/LedgerNanoX/setup.md'
+  - Third Party Wallets:
+      - 'Aion Desktop Wallet (AION)': 'Ledger/ThirdPartyWallets/AionDesktopWallet.md'
+      - 'Ark Wallet (ARK)': 'Ledger/ThirdPartyWallets/ArkWallet.md'
+      - 'BananoVault (BAN)': 'Ledger/ThirdPartyWallets/BananoVaultBAN.md'
+      - 'Electrum (BTCP)': 'Ledger/ThirdPartyWallets/ElectrumBTCP.md'
+      - 'Electrum (XCZ)': 'Ledger/ThirdPartyWallets/ElectrumXCZ.md'
+      - 'EOS Fairy Wallet (EOS)': 'Ledger/ThirdPartyWallets/EOSFairyWallet.md'
+      - 'Foxlet (eFIC)': 'Ledger/ThirdPartyWallets/FoxleteFIC.md'
+      - 'Hycon Desktop Wallet (HYC)': 'Ledger/ThirdPartyWallets/HyconDesktopWallet.md'
+      - 'ICONex Wallet (ICX)': 'Ledger/ThirdPartyWallets/ICONexWalletICX.md'
+      - 'Monero GUI & CLI (XMR)': 'Ledger/ThirdPartyWallets/MoneroGUIandCLIxmr.md'
+      - 'Nano Vault (NANO)': 'Ledger/ThirdPartyWallets/NanoVaultNANO.md'
+      - 'Neon Wallet (NEO)': 'Ledger/ThirdPartyWallets/NeonWalletNEO.md'
+      - 'Nimiq Safe (NIM)': 'Ledger/ThirdPartyWallets/NimiqSafe.md'
+      - 'Ontolgy Wallet (ONT)': 'Ledger/ThirdPartyWallets/ONTwalletOntolgy.md'
+      - 'Particl Wallet (QT)': 'Ledger/ThirdPartyWallets/ParticlQT.md'
+      - 'Pyrus Wallet (UBQ)': 'Ledger/ThirdPartyWallets/PyrusUBQ.md'
+      - 'Rise Web Wallet': 'Ledger/ThirdPartyWallets/RiseWebWallet.md'
+      - 'Stellar Account viewer (XLM)': 'Ledger/ThirdPartyWallets/StellarAccountViewerXLM.md'
+      - 'Tronscan Desktop (TRX)': 'Ledger/ThirdPartyWallets/TronscanDesktopTRX.md'
+      - 'VeForge Vault (VET)': 'Ledger/ThirdPartyWallets/VeForgeVaultVET.md'
+      - 'Wanchain GUI (WAN)': 'Ledger/ThirdPartyWallets/WanchainGUIWAN.md'
+      - 'Waves Web Client (WAVES)': 'Ledger/ThirdPartyWallets/WavesWebClient.md'
 - BilFodl:
   - 'BillFodl Setup': 'BillFodl/BillFodlSetup/BillFodlSetup.md'
 
