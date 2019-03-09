@@ -1,0 +1,1968 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://coinstopio.github.io/coinstopio.docs/Ledger/ThirdPartyWallets/ArkWallet/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+    
+    
+      
+        <title>Ark Wallet (ARK) - Coinstop Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.982221ab.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Regular:300,400,400i,700|Roboto">
+        <style>body,input{font-family:"Roboto Regular","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../CSS/style.css">
+    
+      <link rel="stylesheet" href="../../../CSS/font.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-XXXXXXXX-X", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="" data-md-color-accent="orange">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#draft-ark-wallet-ark" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://coinstopio.github.io/coinstopio.docs/" title="Coinstop Docs" class="md-header-nav__button md-logo">
+          
+            <img src="../../../logo.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Coinstop Docs
+            </span>
+            <span class="md-header-nav__topic">
+              Ark Wallet (ARK)
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/coinstopio/coinstopio.docs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Coinstop.docs
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../LedgerWarrantyReturns/LedgerRMAProcedure/" title="Ledger" class="md-tabs__link md-tabs__link--active">
+          Ledger
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../KeepKey/NativeCryptocurrencyWallets/" title="Keep Key" class="md-tabs__link">
+          Keep Key
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://coinstopio.github.io/coinstopio.docs/" title="Coinstop Docs" class="md-nav__button md-logo">
+      
+        <img src="../../../logo.svg" width="48" height="48">
+      
+    </a>
+    Coinstop Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/coinstopio/coinstopio.docs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Coinstop.docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Ledger
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Ledger
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerWarrantyReturns/LedgerRMAProcedure/" title="Ledger RMA Procedure" class="md-nav__link">
+      Ledger RMA Procedure
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Compatible Cryptocurrencies
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Compatible Cryptocurrencies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../CompatibleCryptocurrencies/LedgerLiveCurrencies/" title="Ledger Live Wallet" class="md-nav__link">
+      Ledger Live Wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../CompatibleCryptocurrencies/ThirdPartyWallets/" title="Third Party Wallets" class="md-nav__link">
+      Third Party Wallets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Ledger Live Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Ledger Live Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/ChooseNetworkFees/" title="Choose Your Network Fees" class="md-nav__link">
+      Choose Your Network Fees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/GettingStartedLinux/" title="Getting Started on Linux" class="md-nav__link">
+      Getting Started on Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/GettingStartedMac/" title="Getting Started on Mac" class="md-nav__link">
+      Getting Started on Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/GettingStartedPC/" title="Getting Started on PC" class="md-nav__link">
+      Getting Started on PC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/LedgerLiveSetupAndroid/" title="Getting Started on Android" class="md-nav__link">
+      Getting Started on Android
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/LedgerLiveSetupIOS/" title="Getting Started on IOS" class="md-nav__link">
+      Getting Started on IOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/ReceivingFundsInLedgerLive/" title="Receiving Funds" class="md-nav__link">
+      Receiving Funds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/SendingFundsFromLedgerLive/" title="Sending Funds" class="md-nav__link">
+      Sending Funds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/TrackingATransaction/" title="Tracking Transactions" class="md-nav__link">
+      Tracking Transactions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerLive/VerifyTransactionDetails/" title="Verify a Transaction" class="md-nav__link">
+      Verify a Transaction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Ledger Nano S Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Ledger Nano S Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4-1" type="checkbox" id="nav-2-4-1">
+    
+    <label class="md-nav__link" for="nav-2-4-1">
+      Troubleshooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-1">
+        Troubleshooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/CheckNanoSFirmware/" title="Check Nano S Firmware" class="md-nav__link">
+      Check Nano S Firmware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/LostNanoSPinCodeRecoveryPhrase/" title="Lost Pin Code Recovery Phrase" class="md-nav__link">
+      Lost Pin Code Recovery Phrase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/ManageNanoSStorage/" title="Manage Nano S Storage" class="md-nav__link">
+      Manage Nano S Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSBrowserSupport/" title="Browser Support" class="md-nav__link">
+      Browser Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSExportLogs/" title="Export Logs" class="md-nav__link">
+      Export Logs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixConnectionIssues/" title="Fix Connection Issues" class="md-nav__link">
+      Fix Connection Issues
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixIncorrectBalance/" title="Fix Incorrect Balance" class="md-nav__link">
+      Fix Incorrect Balance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFrozenUpdate/" title="Frozen Update" class="md-nav__link">
+      Frozen Update
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSOnlyDisplaysSettingsMenu/" title="Only Displays Settings Menu" class="md-nav__link">
+      Only Displays Settings Menu
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSScreenUnresponsive/" title="Screen Unresponsive" class="md-nav__link">
+      Screen Unresponsive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSTransactionUnconfirmed/" title="Transaction Unconfirmed" class="md-nav__link">
+      Transaction Unconfirmed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/SolveError0x6b00/" title="Solve Error: 0x6b00" class="md-nav__link">
+      Solve Error: 0x6b00
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSSetup/" title="Nano S Setup" class="md-nav__link">
+      Nano S Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSAdvancedPassphraseOptions/" title="Advanced Passphrase Options" class="md-nav__link">
+      Advanced Passphrase Options
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSChangePinCode/" title="Change Pin Code" class="md-nav__link">
+      Change Pin Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSExportAccounts/" title="Export Accounts" class="md-nav__link">
+      Export Accounts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSHideAccountWithPassphrase/" title="Hide Account With Passphrase" class="md-nav__link">
+      Hide Account With Passphrase
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      Ledger Nano X Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        Ledger Nano X Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5-1" type="checkbox" id="nav-2-5-1">
+    
+    <label class="md-nav__link" for="nav-2-5-1">
+      Troubleshooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-1">
+        Troubleshooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoX/LedgerNanoXTroubleshooting/setup/" title="placeholder: to do" class="md-nav__link">
+      placeholder: to do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoX/setup/" title="placeholder: to do" class="md-nav__link">
+      placeholder: to do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6" checked>
+    
+    <label class="md-nav__link" for="nav-2-6">
+      Third Party Wallets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        Third Party Wallets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../AionDesktopWallet/" title="Aion Desktop Wallet (AION)" class="md-nav__link">
+      Aion Desktop Wallet (AION)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Ark Wallet (ARK)
+      </label>
+    
+    <a href="./" title="Ark Wallet (ARK)" class="md-nav__link md-nav__link--active">
+      Ark Wallet (ARK)
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" title="Before you start" class="md-nav__link">
+    Before you start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-the-ark-app" title="Install the Ark app" class="md-nav__link">
+    Install the Ark app
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next steps" class="md-nav__link">
+    Next steps
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../BananoVaultBAN/" title="BananoVault (BAN)" class="md-nav__link">
+      BananoVault (BAN)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ElectrumBTCP/" title="Electrum (BTCP)" class="md-nav__link">
+      Electrum (BTCP)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ElectrumXCZ/" title="Electrum (XCZ)" class="md-nav__link">
+      Electrum (XCZ)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../EOSFairyWallet/" title="EOS Fairy Wallet (EOS)" class="md-nav__link">
+      EOS Fairy Wallet (EOS)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../FoxleteFIC/" title="Foxlet (eFIC)" class="md-nav__link">
+      Foxlet (eFIC)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../HyconDesktopWallet/" title="Hycon Desktop Wallet (HYC)" class="md-nav__link">
+      Hycon Desktop Wallet (HYC)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ICONexWalletICX/" title="ICONex Wallet (ICX)" class="md-nav__link">
+      ICONex Wallet (ICX)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MoneroGUIandCLIxmr/" title="Monero GUI & CLI (XMR)" class="md-nav__link">
+      Monero GUI & CLI (XMR)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NanoVaultNANO/" title="Nano Vault (NANO)" class="md-nav__link">
+      Nano Vault (NANO)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NeonWalletNEO/" title="Neon Wallet (NEO)" class="md-nav__link">
+      Neon Wallet (NEO)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NimiqSafe/" title="Nimiq Safe (NIM)" class="md-nav__link">
+      Nimiq Safe (NIM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ONTwalletOntolgy/" title="Ontolgy Wallet (ONT)" class="md-nav__link">
+      Ontolgy Wallet (ONT)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ParticlQT/" title="Particl Wallet (QT)" class="md-nav__link">
+      Particl Wallet (QT)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../PyrusUBQ/" title="Pyrus Wallet (UBQ)" class="md-nav__link">
+      Pyrus Wallet (UBQ)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../RiseWebWallet/" title="Rise Web Wallet" class="md-nav__link">
+      Rise Web Wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../StellarAccountViewerXLM/" title="Stellar Account viewer (XLM)" class="md-nav__link">
+      Stellar Account viewer (XLM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TronscanDesktopTRX/" title="Tronscan Desktop (TRX)" class="md-nav__link">
+      Tronscan Desktop (TRX)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VeForgeVaultVET/" title="VeForge Vault (VET)" class="md-nav__link">
+      VeForge Vault (VET)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../WanchainGUIWAN/" title="Wanchain GUI (WAN)" class="md-nav__link">
+      Wanchain GUI (WAN)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../WavesWebClient/" title="Waves Web Client (WAVES)" class="md-nav__link">
+      Waves Web Client (WAVES)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Keep Key
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Keep Key
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/NativeCryptocurrencyWallets/" title="Keep Key Compatible Cryptocurrencies" class="md-nav__link">
+      Keep Key Compatible Cryptocurrencies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyWarrantyReturns/KeepKeyRMA/" title="Keep Key Warranty and Returns" class="md-nav__link">
+      Keep Key Warranty and Returns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Keep Key Setup Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Keep Key Setup Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/KeepKeySetup/" title="General Setup" class="md-nav__link">
+      General Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/KeepKeyMobile/" title="Mobile Setup" class="md-nav__link">
+      Mobile Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/ShapeShift/" title="Shape Shift" class="md-nav__link">
+      Shape Shift
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/UpdateClientApplicationFirmware/" title="Update Application Firmware" class="md-nav__link">
+      Update Application Firmware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/CheckClientFirmwareVersion/" title="Check Firmware Version" class="md-nav__link">
+      Check Firmware Version
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Keep Key TroubleShooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Keep Key TroubleShooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ChangeKeepKeyAccountName/" title="Change Account Name" class="md-nav__link">
+      Change Account Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ChangePINcodekeepKey/" title="Change PIN Code" class="md-nav__link">
+      Change PIN Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ForgotPINCode/" title="Forgot Pin Code" class="md-nav__link">
+      Forgot Pin Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyCouldNotParseProtocol/" title="Could Not Parse Protocol" class="md-nav__link">
+      Could Not Parse Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyFindAPIToken/" title="Find API Token" class="md-nav__link">
+      Find API Token
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyNotAcceptingRecoveryPhrase/" title="Not Accepting Recovery Phrase" class="md-nav__link">
+      Not Accepting Recovery Phrase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyNotRecognisedByLinux/" title="Not Recognised By Linux" class="md-nav__link">
+      Not Recognised By Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyOSCompatibility/" title="OS Compatibility" class="md-nav__link">
+      OS Compatibility
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyWontTurnOn/" title="Device Wont Turn on" class="md-nav__link">
+      Device Wont Turn on
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubLINUX/" title="xPub Linux" class="md-nav__link">
+      xPub Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubMAC/" title="xPub Mac" class="md-nav__link">
+      xPub Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubPC/" title="xPub Windows" class="md-nav__link">
+      xPub Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/LostBrokenStolenKeepKey/" title="Lost/Stolen/Broken Keep Key" class="md-nav__link">
+      Lost/Stolen/Broken Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ObtainKeepKeyLogs/" title="Obtain Logs" class="md-nav__link">
+      Obtain Logs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/RestoreWalletToKeepKey/" title="Restore Wallet To Keep Key" class="md-nav__link">
+      Restore Wallet To Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/WipeKeepKey/" title="Wipe Keep Key" class="md-nav__link">
+      Wipe Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigMAC/" title="SSH Config Mac" class="md-nav__link">
+      SSH Config Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigLinux/" title="SSH Config Linux" class="md-nav__link">
+      SSH Config Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyLinux/" title="Electrum Linux" class="md-nav__link">
+      Electrum Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyMAC/" title="Electrum MAC" class="md-nav__link">
+      Electrum MAC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyPC/" title="Electrum Windows" class="md-nav__link">
+      Electrum Windows
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" title="Before you start" class="md-nav__link">
+    Before you start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-the-ark-app" title="Install the Ark app" class="md-nav__link">
+    Install the Ark app
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next steps" class="md-nav__link">
+    Next steps
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/coinstopio/coinstopio.docs/edit/master/docs/Ledger/ThirdPartyWallets/ArkWallet.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="draft-ark-wallet-ark">(DRAFT) Ark Wallet (ARK)<a class="headerlink" href="#draft-ark-wallet-ark" title="Permanent link">&para;</a></h1>
+<p>https://support.ledgerwallet.com/hc/en-us/articles/115005174589</p>
+<p>Install the Ark app on your Ledger Nano S to manage ARK with the <a href="https://github.com/ArkEcosystem/desktop-wallet/releases">Ark wallet</a>. The Ark app is developed and supported by the <a href="https://ark.io/">Ark community</a>.</p>
+<h2 id="before-you-start">Before you start<a class="headerlink" href="#before-you-start" title="Permanent link">&para;</a></h2>
+<ul>
+<li>You've <a href="https://support.ledgerwallet.com/hc/en-us/articles/360000613793">initialized</a> your Ledger Nano S.</li>
+<li>The latest firmware is <a href="https://support.ledgerwallet.com/hc/en-us/articles/360002731113">installed</a>.</li>
+<li>Ledger Live is <a href="https://support.ledgerwallet.com/hc/en-us/articles/360006395233">ready to use</a>.</li>
+</ul>
+<h2 id="install-the-ark-app">Install the Ark app<a class="headerlink" href="#install-the-ark-app" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Open the <strong>Manager</strong> in Ledger Live.</li>
+<li>Connect and unlock your Ledger Nano S.</li>
+<li>If asked, allow the manager on your device by pressing the right button.</li>
+<li>Find <strong>Ark</strong> in the app catalog.</li>
+<li>Click the <strong>Install</strong> button of the app.<ul>
+<li>An installation window appears.</li>
+<li>Your device will display <strong>Processing...</strong></li>
+<li>The app installation is confirmed.</li>
+</ul>
+</li>
+</ol>
+<h2 id="next-steps">Next steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Check the  <a href="https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef">user guide</a>  for step by step instructions.</li>
+<li>Join the Ark community on <a href="https://ark.io/slack">Slack</a> or on  <a href="https://www.reddit.com/r/ArkEcosystem/">Reddit</a>  if you require assistance.</li>
+</ul>
+<p>Ark accounts can not be added to Ledger Live.</p>
+<p>https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef</p>
+<h1 id="full-ledger-nano-s-hardware-wallet-guide-for-ark">Full Ledger Nano S Hardware Wallet Guide for ARK<a class="headerlink" href="#full-ledger-nano-s-hardware-wallet-guide-for-ark" title="Permanent link">&para;</a></h1>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*NiMJwFXZQKdhQUSf8oDEgg.png" /></p>
+<p>In this guide we will cover every aspect of interacting with the Ledger Nano S in the following three sections:</p>
+<p><strong>#1.</strong> <strong><em>Setting up Ledger for the first time </em></strong>— start here if you have a new or unused Ledger Nano S.</p>
+<p><strong>#2.</strong> <strong><em>Installing Ledger manager / ARK wallet app on Ledger</em></strong> —if you already have Ledger setup, but have not yet installed the Ledger manager or ARK wallet app on it, follow this process.</p>
+<p><strong>#3.</strong> <strong><em>Using Ledger with ARK Desktop wallet</em></strong> — here we will explain how to use Ledger with ARK desktop wallet.</p>
+<p>At the end of these articles there are also <strong>Frequently Asked Questions (FAQ).</strong> If that still doesn’t answer your questions, you can join the <a href="https://ark.io/slack/"><strong>ARK Slack</strong></a>(#help channel) for community or ARK team help.</p>
+<h3 id="1-setting-up-ledger-for-the-first-time">#1 Setting Up Ledger for the First Time<a class="headerlink" href="#1-setting-up-ledger-for-the-first-time" title="Permanent link">&para;</a></h3>
+<p><em>(if you already have it set up or have interacted with it you can skip to #2 or #3)</em></p>
+<p>So you’ve got your Ledger Nano S device — congratulations! First, connect it to your computer with the mini USB cable. You will be welcomed by Ledger and asked to press both buttons (Ledger only has 2 buttons).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*ZGOKfeDyZ90yFGlF5BUaTg.jpeg" /></p>
+<p>press both buttons at the same time to get started</p>
+<p>Press both buttons again to start configuration, you will be shown this screen:</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*zCA8z6js-Xm-J7TzR4noSg.jpeg" /></p>
+<p>press right button to setup new device (if you previously broke or lost Ledger you’d chose left button to input your recovery passphrase to regain access to your wallets)</p>
+<p>After you press on ‘configure as new device’ a new message will show prompting you to ‘Choose a PIN code’.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*v39oEZB5tUOSgnWczEjh3g.jpeg" /></p>
+<p>Press both buttons at the same time to open PIN selection screen</p>
+<p>At the PIN selection menu you are choosing numbers for your desired PIN. Press the right button to increase the current number and the left button to decrease it. To confirm a number at each stage press both buttons to move to the next number. If you want to delete an already confirmed number scroll through until the little icon for X (delete current number) appears, moving you back one spot.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*m1_gA6VsZuPmHGLTDT56dQ.jpeg" /></p>
+<p>When you enter 4 numbers a checkmark icon will appear letting you know that a 4 number PIN is ok (you can choose up to an 8 numbered PIN)— press both buttons to confirm. If you want to have more than a 4 number PIN, press the right or left button to choose your 5th PIN number. Make sure to choose a PIN number you will remember as if you forget it or input it wrong 3 times in a row you lose access to Ledger and will need to configure it again from the passphrase, which will be one of the next steps.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*p81uG-OWY8TTGfk29zB69w.jpeg" /></p>
+<p>Once you are OK with your PIN click both buttons at the check icon, which will move you onto the ‘Confirm your PIN code’ window.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*0K6xNKFhn8ys80PcIlAxZQ.jpeg" /></p>
+<p>Press both buttons and enter your PIN that you chose in the previous step to confirm you really wrote the one you want to have.</p>
+<blockquote>
+<p><em>Useful tip: If at any stage of configuration you feel like you did something wrong or are not sure — unplug Ledger and start over.</em></p>
+</blockquote>
+<p>Once you have successfully confirmed your PIN it is time for the most important step — ‘Writing down your recovery phrase’.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*dZwkwVtHKHjCL6Zftj-_iA.jpeg" /></p>
+<p>Press both buttons at the same time to begin. When purchasing a Ledger, you will get a little paper to write down your 24 words passphrase. You can use that or write them on your own piece of a paper (we don’t recommend writing them down on a computer).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*R7Z2Kz-cjmzgkc7XsAgfJQ.jpeg" /></p>
+<p>When you start you will be presented with word #1 — write it down exactly as shown and write them in the same order as shown (word order matters so write it down exactly as shown starting with #1 through #24). To move to the next word press the right button, to return to the previous word press the left button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*4HPix2f96apMcuiFE1cD7A.jpeg" /></p>
+<p>Once you’ve written down all the 24 words, you will confirm by pressing both buttons.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*ybZVhAmh8OOIc4aTqmTvcw.jpeg" /></p>
+<p>Now Ledger will ask you to select random words from your passphrase — to move in this list use left and right buttons, to confirm it press both buttons at the same time — if you select wrong word, you will need to begin ‘Confirm your recovery phrase’ section again.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*Dp7ZrLkXffCE_QJ_T6UlGA.jpeg" /></p>
+<p>If you select the wrong word from the list, this message will show ‘Recovery words do not match’ and you will need to start over (pressing both buttons at the same time) from step 4. ‘Confirm your recovery phrase’.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*G0Cj6iYa4cmDt7iWDo3bGQ.jpeg" /></p>
+<p>Once you have completed the confirmation step — this is it, ‘Your device is now ready’, press both buttons to move into the Ledger main menu.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*3ZiMN-364uUBdEZQSa5ibA.jpeg" /></p>
+<p><em>P.S. : Once in the main menu, you are moving through it with left and right buttons, and confirming by pressing both buttons, just like with all other interactions.</em></p>
+<p>Play a bit with the Ledger and get the hang of it, if you unplug it and plug it in again you’ll need to enter your PIN code that you chose in step one of this course. This is how you will access your Ledger from now on, there is no need to enter the 24 word passphrase, only enter your PIN. Your 24 word passphrase is safely secured in the Ledger device itself. Make sure you properly save your recovery sheet with 24 words in case the Ledger gets broken or you input your PIN number wrong 3 times and need to reset it! You’ll need to input those 24 words again to open that same Ledger wallet.</p>
+<p>Now it is time to move to the next phase — installing ARK Ledger wallet app.</p>
+<h3 id="2-installing-ledger-manager-and-ark-ledger-app-wallet">#2 <strong><em>Installing Ledger Manager and ARK Ledger App Wallet</em></strong><a class="headerlink" href="#2-installing-ledger-manager-and-ark-ledger-app-wallet" title="Permanent link">&para;</a></h3>
+<p>Now it is time to install Ledger ARK app onto the Ledger device itself. First start with plugging in your Ledger Nano S. Input your PIN code (still remember? Left button numbers down, right button numbers up, both buttons at the same time to confirm).</p>
+<h4 id="21-installing-ledger-manager-chrome-app">#2.1 Installing Ledger manager Chrome App<a class="headerlink" href="#21-installing-ledger-manager-chrome-app" title="Permanent link">&para;</a></h4>
+<p><em>(if you already have it installed you can skip to 2.2 of this section)</em></p>
+<p>If you don’t have Ledger manager installed yet, follow this : head over to <a href="https://www.ledgerwallet.com/apps/manager#get-the-apps">https://www.ledgerwallet.com/apps/manager#get-the-apps</a> and click on Install, which will open the Chrome app store. This is a Google Chrome Browser APP.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*fvmiQtxeJHONuVmK673fVQ.jpeg" /></p>
+<p>Once in the Chrome app store, their app will open. Click on the blue ‘Add to Chrome’ button and a popup will open — click on ‘Add app’ to install it.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*tvdGCwqxVNtV96yfbJg4bA.jpeg" /></p>
+<h4 id="22-installing-ark-app-wallet-on-your-ledger-device">#2.2 Installing ARK App Wallet on Your Ledger Device<a class="headerlink" href="#22-installing-ark-app-wallet-on-your-ledger-device" title="Permanent link">&para;</a></h4>
+<p>Click on the green ‘Launch app’ button to open the Ledger manager (<a href="https://chrome.google.com/webstore/detail/ledger-manager/beimhnaefocolcplfimocfiaiefpkgbf">https://chrome.google.com/webstore/detail/ledger-manager/beimhnaefocolcplfimocfiaiefpkgbf</a> ).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*YiASJkeAR3OcNJLTeLwujQ.jpeg" /></p>
+<p>If you don’t have Ledger connected you will see this message, asking you to plug in your Ledger device:</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*q9UKt1kpAehe33KHvBXl-g.jpeg" /></p>
+<p>If you already have it connected, the manager will open. Scroll down to where you see the ARK wallet and click on the install icon:</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*5OOAgPhVJCclqUamfEM3_g.jpeg" /></p>
+<p>A new screen will pop up on your computer, asking you to allow Ledger manager to perform actions on your Ledger (installing ARK in this case). Press the right button on the ledger device, and wait for it to process.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*UjfG1z4Nxdd97bxrkA9soQ.jpeg" /></p>
+<p>Now you will have the ARK app installed on your Ledger device. You will see a nice little ARK logo in the main menu of your Ledger device!</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*UzxA6Pz8we0wyBo2CdwYQA.jpeg" /></p>
+<p>Everytime you will want to use ARK wallet you will need to open it on the Ledger device by pressing both buttons at the same time</p>
+<h3 id="3-using-and-interacting-with-ledger-via-ark-desktop-wallet"><strong>#3</strong> <strong><em>Using and Interacting With Ledger via ARK Desktop Wallet</em></strong><a class="headerlink" href="#3-using-and-interacting-with-ledger-via-ark-desktop-wallet" title="Permanent link">&para;</a></h3>
+<p><em>Make sure you have closed the Ledger manager on your computer, or any other Ledger apps you have running, to be able to interact with ARK you will need to have ARK Desktop Wallet (version 1.3.2 or later from</em><a href="https://github.com/ArkEcosystem/ark-desktop/releases"><em>https://github.com/ArkEcosystem/ark-desktop/releases</em></a> <em>).</em></p>
+<p>Once the ARK desktop wallet is installed, plug in your Ledger, input your PIN and open the ARK app on the Ledger(move to ARK icon with left and right buttons and open by pressing on both buttons at the same time). On the Ledger you will have a screen like this :</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*_7mfCAKNiaznF1IUfiX5xw.jpeg" /></p>
+<p>Now open your ARK desktop wallet that you have on your computer ( to download and install download latest version from <a href="https://github.com/ArkEcosystem/ark-desktop/releases"><em>https://github.com/ArkEcosystem/ark-desktop/releases</em></a> <em>).</em></p>
+<p>You will now see a device named ‘Ledger Nano S’ in your ARK main menu. Click on it to open your Ledger ARK address(es).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*9k4ZPkfFMiqmh5dFPEsNxQ.jpeg" /></p>
+<p>Now everything is pretty much the same, once you start your Ledger for the first time it will be an empty address. You can send your ARK to your new Ledger address from your previous ARK address(es), a new ARK address, or from an exchange. On the left of the desktop wallet, you will see the Ledger Nano S and its address(es), and under My Accounts you’ll have your previous ARK address(es) that are not part of the Ledger device (the ones you use normally without the ledger).</p>
+<p>Now we just need to send some test tokens to our Ledger ARK address:</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*h3EUpv5AQEoZ7mYHRwPjCg.jpeg" /></p>
+<p>All the operations are the same as with normal ARK addresses, except you will now sign transactions with your Ledger (without the need to input your passphrase).</p>
+<h4 id="31-sending-ark-to-another-ark-address">3.1 Sending ARK to another ARK address<a class="headerlink" href="#31-sending-ark-to-another-ark-address" title="Permanent link">&para;</a></h4>
+<p>In order to send your ARK from your Ledger Nano ARK address, click on the send icon at the top right of the desktop wallet. Then input the address you are sending to and enter the amount of ARK you would like to send. After you are done click on ‘Sign with ledger’ button (notice: since we are using Ledger now, there is no need to input your passphrase as this is now handled inside your Ledger device).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*5-1DqmUL0H1wKp7V0A1WrQ.jpeg" /></p>
+<p>After you click on ‘Sign with Ledger’ check your Ledger device, a text will be shown. Operation: ‘Transfer’ the Ledger will now show you where you are sending to. To authorize the transaction click on right Ledger button, to reject the transfer click on left Ledger button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*_Ct8wPbUksT1ccsWBlIQrA.jpeg" /></p>
+<p>If you click on the right button, you will authorize it. Now looking back at the desktop wallet you will notice the summary of the transaction. To execute it just click on the ‘Send’ button and that is it!</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*eEsEOEfKEJiBxf-tHMj-vg.jpeg" /></p>
+<h4 id="32-voting-with-your-ledger-wallet">3.2 Voting With Your Ledger Wallet<a class="headerlink" href="#32-voting-with-your-ledger-wallet" title="Permanent link">&para;</a></h4>
+<p>In order to vote from your Ledger Nano ARK address, click on VOTES from the ARK address you wish to vote from inside the desktop wallet. Then click the ‘ADD DELEGATE’ button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*7IfIcGFnVNaPtH0L6Q4OPA.jpeg" /></p>
+<p>Now you have 2 options, you can either choose from a drop down menu (the 1st line, a list of currently forging delegates) or write the delegate name you wish to vote for (2nd line).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*33mBVZcyGcG52okPZLQW9w.jpeg" /></p>
+<p>Now a delegate will be added to the voting list. But we still have to verify and sign a voting transaction to confirm your vote. Click on the ‘VOTE’ button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*J-7k28ZWjo5Zhor09HwOGg.jpeg" /></p>
+<p>Now we need to sign the transaction with Ledger. A popup will now show in the desktop wallet. Click on the ‘SIGN WITH LEDGER’ button, and look on your Ledger device where it will say, ‘Vote’ with an overview of the voting TX. Click on right button to authorize or left button to deny voting TX.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*FxEDTuUWTrTm9Usa1xMAAw.jpeg" /></p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*AcOCZsscmAioPOgL-wX_Aw.jpeg" /></p>
+<p>Once you confirm on the Ledger device, you will see an overview of the voting transaction in the Desktop wallet — click on the ‘SEND NOW!’ button to confirm voting TX — that is it!</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*3wKd9r_9Pux5TH2H9UKuyA.jpeg" /></p>
+<h4 id="33-changing-vote-unvoting-with-your-ledger-wallet">3.3 Changing Vote (Unvoting) With Your Ledger Wallet<a class="headerlink" href="#33-changing-vote-unvoting-with-your-ledger-wallet" title="Permanent link">&para;</a></h4>
+<p>If you want to change your vote from your Ledger ARK address, the steps are the same as voting with your Ledger. Click on an ARK Ledger address you wish to change your vote for, and click on the VOTES tab, then untick the box next to the delegate you are currently voting for, then click on the ‘VOTE’ button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*K8vKesnRihSsUbumjbEchA.jpeg" /></p>
+<p>Now a popup will show in the desktop wallet. Click on the ‘SIGN WITH LEDGER’ button, then confirm on your Ledger device using the right button.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*C2qtFRp5ck0Qqyz-8yxK-A.jpeg" /></p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*AcOCZsscmAioPOgL-wX_Aw.jpeg" /></p>
+<p>Now you will see an overview of the un-voting transaction on the Desktop wallet — click on the ‘SEND NOW!’ button to confirm your vote removal TX.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*cLali1sdRFzjWXNu5RFgQA.jpeg" /></p>
+<p>Now if you want to change your vote wait for 10–15 seconds, and click on your current Ledger ARK address in the left menu (the one you were un-voting from) to update the view of the voting list — it should be empty now. If still not visable, simply restart your wallet. If you want to vote again, just follow the steps for voting under 3.2 of this section!</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/2000/1*UsTWxMQqdTJDY5ejJWGdwA.jpeg" /></p>
+<h4 id="34-multiple-ark-ledger-addresses"><strong>3.4 Multiple Ark Ledger Addresses</strong><a class="headerlink" href="#34-multiple-ark-ledger-addresses" title="Permanent link">&para;</a></h4>
+<p>As you will notice, once you first start using your Ledger with Ark you will see on the main screen of the desktop wallet, ‘1 Accounts’ listed.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*1vkFpHbVZwXG2m-Kk5iotg.jpeg" /></p>
+<p>After you start using the 1st Ledger Nano ARK address (sending transactions out/voting/sending to another address) and you quit or restart the ARK desktop wallet, the next time you open your wallet with the ledger connected you will now see ‘2 Accounts’. You might be wondering what is that? Do not worry, this is normal. ARK and Ledger support <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">BIP44</a> proposal, meaning your one Ledger device can have thousands of ARK addresses derived from 1 master passphrase. So you can have and use as many ARK Ledger addresses as you want — if you want more, start using the 2nd address (after one transaction out). Once you start your ARK desktop wallet again or click restart in the top right menu, there will now be ‘3 Accounts’, and this continues for as many accounts as you want!</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*OY-sk6_NWcNCskpKKTdTuw.jpeg" /></p>
+<p>To send from any of the Ledger ARK addresses click on ‘Ledger Nano S’ and on the left you will see a list of current ARK Ledger Nano S addresses.</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*f3xiUFLDNmgg4XxPVX_6MA.jpeg" /></p>
+<p>That is all for now! If you have further questions check the FAQ in the section below.</p>
+<h3 id="frequently-asked-questions-faq"><strong>Frequently Asked Questions (FAQ)</strong><a class="headerlink" href="#frequently-asked-questions-faq" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Where can I buy ARK branded Nano Ledger S?</strong></p>
+</blockquote>
+<p>You can order it from our shop : <a href="https://shop.ark.io/products/ark-brand-ledger-nano-s">https://shop.ark.io/products/ark-brand-ledger-nano-s</a> .</p>
+<blockquote>
+<p><strong>My Ledger is not showing in ARK desktop wallet when I connect it, what could be the cause?</strong></p>
+</blockquote>
+<ul>
+<li>Make sure that the Ledger manager app (chrome app) is not running (or any other Ledger chrome app / wallet)</li>
+<li>Make sure that you have the ARK ledger app installed and opened on the Ledger device and in <strong>settings</strong> you have <strong>browser compatibility</strong> set to <strong>‘no’</strong></li>
+<li>Check your mini USB cable, is it the official Ledger one or one that supports data transfer (not all mini USB cables are the same)?</li>
+</ul>
+<blockquote>
+<p><strong>Hey I’m seeing 2 ARK Ledger addresses in the ARK desktop wallet after I transferred my ARK to my 1st address, what is that about?</strong></p>
+</blockquote>
+<p>This is normal. ARK and Ledger support what is called <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">BIP44</a> ( Multi-Account Hierarchy for Deterministic Wallets), which allows the handling of multiple accounts, external and internal chains per account, and millions of addresses per chain.</p>
+<p>So as you start using the 1st ARK Ledger address, next time you start ARK desktop wallet you’ll see 2 addresses — 1st one that you are already using and 2nd one that you can start using with same Ledger device, having multiple ARK addresses with a single Ledger device — how cool is that?</p>
+<p>If you start using the 2nd ARK address, then a 3rd address gets added for you to use… and so on — you can have as many ARK Ledger addresses as you want and need. This is how you create new ARK addresses on your Ledger.</p>
+<blockquote>
+<p><strong>I want to remove some ARK addresses from my ARK Ledger, how can I do that?</strong></p>
+</blockquote>
+<p>You cannot remove ARK addresses that have already been used (received or spent ARK), as this is not stored on your Ledger device, but on a blockchain which is immutable (you cannot delete transactions from a blockchain once they have been included and confirmed in a block).</p>
+<blockquote>
+<p><strong>I want to reset my Ledger device how can I do it?</strong></p>
+</blockquote>
+<p>Input your PIN number 3 times wrong, which will reset your Ledger device and you will be able to set it up again (but be careful, in order to access the same Ledger wallet you will need your recovery passphrase that you were presented with once you setup your Ledger).</p>
+<blockquote>
+<p><strong>Oh no my dog ate my Ledger device and i am at the Veterinarian, will my dog be ok? And will I ever see my ARK again?</strong></p>
+</blockquote>
+<p>You need to ask your Veterinarian about the first part, but you can recover your ARK. If you have lost/broken your Ledger device, order a new one and set it up again with your (by default) 24 word recovery passphrase that was presented to you when you first set it up to access your Ledger addresses and wallets.</p>
+<blockquote>
+<p><strong>On Ledger website it says that ARK supports Ledger Blue device as well and you can actually install ARK on it, but it does not get recognized in ARK desktop wallet?</strong></p>
+</blockquote>
+<p>You can actually install ARK Ledger app wallet on your Ledger Blue, but currently cannot use it with ARK desktop wallet as it is not yet supported.</p>
+<p>ARK team will add option for Ledger Blue owners to be able to use it within ARK in the future as well, but currently you can only interact with ARK wallet via the Nano S device.</p>
+<blockquote>
+<p><strong>Do I need to vote for a delegate again from my Ledger ARK address or is the transfer of my ARK from my previous ARK address enough?</strong></p>
+</blockquote>
+<p>Yes, you need to vote again. New address, new vote.</p>
+<p>If you want to vote for a delegate, you will need to vote again from your Ledger device as this is a new ARK address that won’t yet vote for anyone (same as if you’d move from one ARK address to another, you need to vote again from new ARK address as votes are not transferred to a new account).</p>
+<blockquote>
+<p><strong>How can I remove ARK addresses from my Ledger Nano S?</strong></p>
+</blockquote>
+<p>You cannot remove ARK addresses from your Ledger Nano S once you start using them, as all transactions are recorded on the blockchain (which is immutable) and not stored in your Ledger device. Ledger devices only obtain the data from the blockchain.</p>
+<p><strong>Do I need/want to register 2nd passphrase with Ledger?</strong></p>
+<p>No, as this would require you to input your 2nd passphrase every time you are using your Ledger. If you lose it, you’d lose access to that ARK Ledger address that you’d register 2nd pass with.</p>
+<p>Ledger on its own is secured not only by “hardware sandbox”, but by (default) 24 words passphrase which is even more secure than the normal 12 word passphrase.</p>
+<blockquote>
+<p><strong>Hey I have a suggestion on how to improve user interface / I have found a bug what can I do to help out?</strong></p>
+</blockquote>
+<p>If you have found a bug or think something could be improved make sure to <strong>open a Github Isssue :</strong> <a href="https://github.com/ArkEcosystem/ark-desktop/issues"><strong>https://github.com/ArkEcosystem/ark-desktop/issues</strong></a>  and explain in detail what you found out / want improved so our programmers can review and get on it.</p>
+<blockquote>
+<p><strong>Oh no! All the Ledgers on the planet Earth have been wiped out by recent alien EMP attacks and dinosaurs ate all Ledger production facilities, what can I do?</strong></p>
+</blockquote>
+<p>As long as you have your Ledger seed passphrase (default 24 word passphrase) stored somewhere safe there will always be a way to get access to your Ledger wallets and addresses — be it ARK, Bitcoin, Ethereum, … even without Ledger. (pending you have internet access after the dinosaur and alien attacks)</p>
+<p>There are Ledger recovery tools online that let you access your Ledger wallets without actually having a Ledger hardware wallet. But use that as a last resort if you cannot get your hands on a new Ledger device (cause you know aliens).</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/1600/1*-FdAPY91YXTNB8kAaZTAQQ.jpeg" /></p>
+<p><strong>If you have any other questions, or need help don’t hesitate to join</strong> <a href="https://ark.io/slack/"><strong>ARK Slack</strong></a><strong>.</strong></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../AionDesktopWallet/" title="Aion Desktop Wallet (AION)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Aion Desktop Wallet (AION)
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../BananoVaultBAN/" title="BananoVault (BAN)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                BananoVault (BAN)
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/coinstopio/coinstopio.docs" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.d9aa80ab.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2221 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://coinstopio.github.io/coinstopio.docs/Ledger/LedgerLive/LedgerLiveSetupIOS/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+    
+    
+      
+        <title>Getting Started on IOS - Coinstop Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.982221ab.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Regular:300,400,400i,700|Roboto">
+        <style>body,input{font-family:"Roboto Regular","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../CSS/style.css">
+    
+      <link rel="stylesheet" href="../../../CSS/font.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-XXXXXXXX-X", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="" data-md-color-accent="orange">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#getting-started-ios" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://coinstopio.github.io/coinstopio.docs/" title="Coinstop Docs" class="md-header-nav__button md-logo">
+          
+            <img src="../../../logo.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Coinstop Docs
+            </span>
+            <span class="md-header-nav__topic">
+              Getting Started on IOS
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/coinstopio/coinstopio.docs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Coinstop.docs
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../LedgerWarrantyReturns/LedgerRMAProcedure/" title="Ledger" class="md-tabs__link md-tabs__link--active">
+          Ledger
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../KeepKey/NativeCryptocurrencyWallets/" title="Keep Key" class="md-tabs__link">
+          Keep Key
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://coinstopio.github.io/coinstopio.docs/" title="Coinstop Docs" class="md-nav__button md-logo">
+      
+        <img src="../../../logo.svg" width="48" height="48">
+      
+    </a>
+    Coinstop Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/coinstopio/coinstopio.docs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Coinstop.docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Ledger
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Ledger
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerWarrantyReturns/LedgerRMAProcedure/" title="Ledger RMA Procedure" class="md-nav__link">
+      Ledger RMA Procedure
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Compatible Cryptocurrencies
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Compatible Cryptocurrencies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../CompatibleCryptocurrencies/LedgerLiveCurrencies/" title="Ledger Live Wallet" class="md-nav__link">
+      Ledger Live Wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../CompatibleCryptocurrencies/ThirdPartyWallets/" title="Third Party Wallets" class="md-nav__link">
+      Third Party Wallets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Ledger Live Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Ledger Live Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ChooseNetworkFees/" title="Choose Your Network Fees" class="md-nav__link">
+      Choose Your Network Fees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStartedLinux/" title="Getting Started on Linux" class="md-nav__link">
+      Getting Started on Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStartedMac/" title="Getting Started on Mac" class="md-nav__link">
+      Getting Started on Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStartedPC/" title="Getting Started on PC" class="md-nav__link">
+      Getting Started on PC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../LedgerLiveSetupAndroid/" title="Getting Started on Android" class="md-nav__link">
+      Getting Started on Android
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Getting Started on IOS
+      </label>
+    
+    <a href="./" title="Getting Started on IOS" class="md-nav__link md-nav__link--active">
+      Getting Started on IOS
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-need" title="What You Need" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-overview" title="Interface Overview" class="md-nav__link">
+    Interface Overview
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menu" title="Menu" class="md-nav__link">
+    Menu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounts" title="Accounts" class="md-nav__link">
+    Accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-controls" title="Application Controls" class="md-nav__link">
+    Application Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-viewer" title="Main Viewer" class="md-nav__link">
+    Main Viewer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-get-started" title="Lets Get Started" class="md-nav__link">
+    Lets Get Started
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_1" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1" title="Step 1:" class="md-nav__link">
+    Step 1:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2" title="Step 2:" class="md-nav__link">
+    Step 2:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3" title="Step 3:" class="md-nav__link">
+    Step 3:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4" title="Step 4:" class="md-nav__link">
+    Step 4:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-bug-reports-analytics" title="Step 5: Bug reports &amp; analytics" class="md-nav__link">
+    Step 5: Bug reports &amp; analytics
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-existing-accounts" title="Add Existing Accounts" class="md-nav__link">
+    Add Existing Accounts
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin_1" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_2" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-new-account" title="Add New Account" class="md-nav__link">
+    Add New Account
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin_2" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_3" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ReceivingFundsInLedgerLive/" title="Receiving Funds" class="md-nav__link">
+      Receiving Funds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SendingFundsFromLedgerLive/" title="Sending Funds" class="md-nav__link">
+      Sending Funds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TrackingATransaction/" title="Tracking Transactions" class="md-nav__link">
+      Tracking Transactions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VerifyTransactionDetails/" title="Verify a Transaction" class="md-nav__link">
+      Verify a Transaction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Ledger Nano S Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Ledger Nano S Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4-1" type="checkbox" id="nav-2-4-1">
+    
+    <label class="md-nav__link" for="nav-2-4-1">
+      Troubleshooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-1">
+        Troubleshooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/CheckNanoSFirmware/" title="Check Nano S Firmware" class="md-nav__link">
+      Check Nano S Firmware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/LostNanoSPinCodeRecoveryPhrase/" title="Lost Pin Code Recovery Phrase" class="md-nav__link">
+      Lost Pin Code Recovery Phrase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/ManageNanoSStorage/" title="Manage Nano S Storage" class="md-nav__link">
+      Manage Nano S Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSBrowserSupport/" title="Browser Support" class="md-nav__link">
+      Browser Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSExportLogs/" title="Export Logs" class="md-nav__link">
+      Export Logs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixConnectionIssues/" title="Fix Connection Issues" class="md-nav__link">
+      Fix Connection Issues
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFixIncorrectBalance/" title="Fix Incorrect Balance" class="md-nav__link">
+      Fix Incorrect Balance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSFrozenUpdate/" title="Frozen Update" class="md-nav__link">
+      Frozen Update
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSOnlyDisplaysSettingsMenu/" title="Only Displays Settings Menu" class="md-nav__link">
+      Only Displays Settings Menu
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSScreenUnresponsive/" title="Screen Unresponsive" class="md-nav__link">
+      Screen Unresponsive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/NanoSTransactionUnconfirmed/" title="Transaction Unconfirmed" class="md-nav__link">
+      Transaction Unconfirmed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSTroubleshooting/SolveError0x6b00/" title="Solve Error: 0x6b00" class="md-nav__link">
+      Solve Error: 0x6b00
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSSetup/" title="Nano S Setup" class="md-nav__link">
+      Nano S Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSAdvancedPassphraseOptions/" title="Advanced Passphrase Options" class="md-nav__link">
+      Advanced Passphrase Options
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSChangePinCode/" title="Change Pin Code" class="md-nav__link">
+      Change Pin Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSExportAccounts/" title="Export Accounts" class="md-nav__link">
+      Export Accounts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoS/LedgerNanoSHideAccountWithPassphrase/" title="Hide Account With Passphrase" class="md-nav__link">
+      Hide Account With Passphrase
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      Ledger Nano X Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        Ledger Nano X Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5-1" type="checkbox" id="nav-2-5-1">
+    
+    <label class="md-nav__link" for="nav-2-5-1">
+      Troubleshooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-1">
+        Troubleshooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoX/LedgerNanoXTroubleshooting/setup/" title="placeholder: to do" class="md-nav__link">
+      placeholder: to do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LedgerNanoX/setup/" title="placeholder: to do" class="md-nav__link">
+      placeholder: to do
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      Third Party Wallets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        Third Party Wallets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/AionDesktopWallet/" title="Aion Desktop Wallet (AION)" class="md-nav__link">
+      Aion Desktop Wallet (AION)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ArkWallet/" title="Ark Wallet (ARK)" class="md-nav__link">
+      Ark Wallet (ARK)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/BananoVaultBAN/" title="BananoVault (BAN)" class="md-nav__link">
+      BananoVault (BAN)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ElectrumBTCP/" title="Electrum (BTCP)" class="md-nav__link">
+      Electrum (BTCP)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ElectrumXCZ/" title="Electrum (XCZ)" class="md-nav__link">
+      Electrum (XCZ)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/EOSFairyWallet/" title="EOS Fairy Wallet (EOS)" class="md-nav__link">
+      EOS Fairy Wallet (EOS)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/FoxleteFIC/" title="Foxlet (eFIC)" class="md-nav__link">
+      Foxlet (eFIC)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/HyconDesktopWallet/" title="Hycon Desktop Wallet (HYC)" class="md-nav__link">
+      Hycon Desktop Wallet (HYC)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ICONexWalletICX/" title="ICONex Wallet (ICX)" class="md-nav__link">
+      ICONex Wallet (ICX)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/MoneroGUIandCLIxmr/" title="Monero GUI & CLI (XMR)" class="md-nav__link">
+      Monero GUI & CLI (XMR)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/NanoVaultNANO/" title="Nano Vault (NANO)" class="md-nav__link">
+      Nano Vault (NANO)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/NeonWalletNEO/" title="Neon Wallet (NEO)" class="md-nav__link">
+      Neon Wallet (NEO)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/NimiqSafe/" title="Nimiq Safe (NIM)" class="md-nav__link">
+      Nimiq Safe (NIM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ONTwalletOntolgy/" title="Ontolgy Wallet (ONT)" class="md-nav__link">
+      Ontolgy Wallet (ONT)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/ParticlQT/" title="Particl Wallet (QT)" class="md-nav__link">
+      Particl Wallet (QT)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/PyrusUBQ/" title="Pyrus Wallet (UBQ)" class="md-nav__link">
+      Pyrus Wallet (UBQ)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/RiseWebWallet/" title="Rise Web Wallet" class="md-nav__link">
+      Rise Web Wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/StellarAccountViewerXLM/" title="Stellar Account viewer (XLM)" class="md-nav__link">
+      Stellar Account viewer (XLM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/TronscanDesktopTRX/" title="Tronscan Desktop (TRX)" class="md-nav__link">
+      Tronscan Desktop (TRX)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/VeForgeVaultVET/" title="VeForge Vault (VET)" class="md-nav__link">
+      VeForge Vault (VET)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/WanchainGUIWAN/" title="Wanchain GUI (WAN)" class="md-nav__link">
+      Wanchain GUI (WAN)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ThirdPartyWallets/WavesWebClient/" title="Waves Web Client (WAVES)" class="md-nav__link">
+      Waves Web Client (WAVES)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Keep Key
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Keep Key
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/NativeCryptocurrencyWallets/" title="Keep Key Compatible Cryptocurrencies" class="md-nav__link">
+      Keep Key Compatible Cryptocurrencies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyWarrantyReturns/KeepKeyRMA/" title="Keep Key Warranty and Returns" class="md-nav__link">
+      Keep Key Warranty and Returns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Keep Key Setup Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Keep Key Setup Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/KeepKeySetup/" title="General Setup" class="md-nav__link">
+      General Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/KeepKeyMobile/" title="Mobile Setup" class="md-nav__link">
+      Mobile Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/ShapeShift/" title="Shape Shift" class="md-nav__link">
+      Shape Shift
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/UpdateClientApplicationFirmware/" title="Update Application Firmware" class="md-nav__link">
+      Update Application Firmware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeySetup/CheckClientFirmwareVersion/" title="Check Firmware Version" class="md-nav__link">
+      Check Firmware Version
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Keep Key TroubleShooting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Keep Key TroubleShooting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ChangeKeepKeyAccountName/" title="Change Account Name" class="md-nav__link">
+      Change Account Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ChangePINcodekeepKey/" title="Change PIN Code" class="md-nav__link">
+      Change PIN Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ForgotPINCode/" title="Forgot Pin Code" class="md-nav__link">
+      Forgot Pin Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyCouldNotParseProtocol/" title="Could Not Parse Protocol" class="md-nav__link">
+      Could Not Parse Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyFindAPIToken/" title="Find API Token" class="md-nav__link">
+      Find API Token
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyNotAcceptingRecoveryPhrase/" title="Not Accepting Recovery Phrase" class="md-nav__link">
+      Not Accepting Recovery Phrase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyNotRecognisedByLinux/" title="Not Recognised By Linux" class="md-nav__link">
+      Not Recognised By Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyOSCompatibility/" title="OS Compatibility" class="md-nav__link">
+      OS Compatibility
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyWontTurnOn/" title="Device Wont Turn on" class="md-nav__link">
+      Device Wont Turn on
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubLINUX/" title="xPub Linux" class="md-nav__link">
+      xPub Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubMAC/" title="xPub Mac" class="md-nav__link">
+      xPub Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/KeepKeyxPubPC/" title="xPub Windows" class="md-nav__link">
+      xPub Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/LostBrokenStolenKeepKey/" title="Lost/Stolen/Broken Keep Key" class="md-nav__link">
+      Lost/Stolen/Broken Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ObtainKeepKeyLogs/" title="Obtain Logs" class="md-nav__link">
+      Obtain Logs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/RestoreWalletToKeepKey/" title="Restore Wallet To Keep Key" class="md-nav__link">
+      Restore Wallet To Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/WipeKeepKey/" title="Wipe Keep Key" class="md-nav__link">
+      Wipe Keep Key
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigMAC/" title="SSH Config Mac" class="md-nav__link">
+      SSH Config Mac
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/SSHKeepKeyConfigLinux/" title="SSH Config Linux" class="md-nav__link">
+      SSH Config Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyLinux/" title="Electrum Linux" class="md-nav__link">
+      Electrum Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyMAC/" title="Electrum MAC" class="md-nav__link">
+      Electrum MAC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../KeepKey/KeepKeyTroubleshooting/ElectrumKeepKeyPC/" title="Electrum Windows" class="md-nav__link">
+      Electrum Windows
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-need" title="What You Need" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-overview" title="Interface Overview" class="md-nav__link">
+    Interface Overview
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menu" title="Menu" class="md-nav__link">
+    Menu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounts" title="Accounts" class="md-nav__link">
+    Accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-controls" title="Application Controls" class="md-nav__link">
+    Application Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-viewer" title="Main Viewer" class="md-nav__link">
+    Main Viewer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-get-started" title="Lets Get Started" class="md-nav__link">
+    Lets Get Started
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_1" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1" title="Step 1:" class="md-nav__link">
+    Step 1:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2" title="Step 2:" class="md-nav__link">
+    Step 2:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3" title="Step 3:" class="md-nav__link">
+    Step 3:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4" title="Step 4:" class="md-nav__link">
+    Step 4:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-bug-reports-analytics" title="Step 5: Bug reports &amp; analytics" class="md-nav__link">
+    Step 5: Bug reports &amp; analytics
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-existing-accounts" title="Add Existing Accounts" class="md-nav__link">
+    Add Existing Accounts
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin_1" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_2" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-new-account" title="Add New Account" class="md-nav__link">
+    Add New Account
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-begin_2" title="Before You Begin" class="md-nav__link">
+    Before You Begin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_3" title="Instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/coinstopio/coinstopio.docs/edit/master/docs/Ledger/LedgerLive/LedgerLiveSetupIOS.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="getting-started-ios">Getting Started (iOS)<a class="headerlink" href="#getting-started-ios" title="Permanent link">&para;</a></h1>
+<h2 id="what-you-need">What You Need<a class="headerlink" href="#what-you-need" title="Permanent link">&para;</a></h2>
+<ul>
+<li>a <a href="https://coinstop.io/products/ledger-nano-s">Ledger Nano S</a></li>
+</ul>
+<p>Make sure your Apple phone has at least:</p>
+<ul>
+<li></li>
+<li></li>
+<li>an internet connection (warning about public wifi)</li>
+</ul>
+<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Download Ledger Live Mobile <a href="https://itunes.apple.com/app/id1361671700">iOS</a></li>
+<li>Open the downloaded Ledger Live .<strong>dmg</strong> file</li>
+<li>Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder</li>
+<li>Open the Ledger Live application</li>
+</ol>
+<h2 id="interface-overview">Interface Overview<a class="headerlink" href="#interface-overview" title="Permanent link">&para;</a></h2>
+<p>Ledger Live's interface consists of four main elements. In the left panel you'll find the <strong>menu</strong> and <strong>accounts</strong>, in the top bar you'll find buttons for <strong>application controls</strong> and then there's the <strong>main viewer</strong>.</p>
+<p><img alt="ledger_live_overview.png" src="https://coinstop.kayako.com/base/media/url/CEBdlIZUFTBJ7L6jOQacbeQG5i9ebGDv" /></p>
+<h3 id="menu">Menu<a class="headerlink" href="#menu" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>menu</strong> to go to different main sections:</p>
+<ul>
+<li><strong>Portfolio:</strong> Summary of your accounts</li>
+<li><strong>Send:</strong> Send crypto assets at any time</li>
+<li><strong>Receive:</strong> Receive crypto assets at any time</li>
+<li><strong>Manager:</strong> Manage your Ledger device</li>
+<li><strong>Exchanges:</strong> Discover some selected exchange services</li>
+</ul>
+<h3 id="accounts">Accounts<a class="headerlink" href="#accounts" title="Permanent link">&para;</a></h3>
+<p>The <strong>Accounts</strong> section lists the name and balance of the accounts in your portfolio:</p>
+<ul>
+<li>Click on an account to open it in the main viewer</li>
+<li>Click on the <strong>+</strong>  icon to add accounts</li>
+</ul>
+<h3 id="application-controls">Application Controls<a class="headerlink" href="#application-controls" title="Permanent link">&para;</a></h3>
+<p>The top bar contains the application controls.</p>
+<ul>
+<li><strong>Network status</strong>: The current status of synchronization with the blockchain networks of the crypto assets you've added. Click on it to force synchronization</li>
+<li><strong>Settings:</strong> Access Ledger Live's settings</li>
+<li><strong>Password lock:</strong> Lock your session by clicking on the lock icon</li>
+</ul>
+<h3 id="main-viewer">Main Viewer<a class="headerlink" href="#main-viewer" title="Permanent link">&para;</a></h3>
+<p>The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.</p>
+<h2 id="lets-get-started">Lets Get Started<a class="headerlink" href="#lets-get-started" title="Permanent link">&para;</a></h2>
+<p>When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the <em>Help</em> tab in the settings.</p>
+<h3 id="before-you-begin">Before You Begin<a class="headerlink" href="#before-you-begin" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Get your <a href="https://coinstop.io/products/ledger-nano-s">Ledger Nano S</a></li>
+<li>Make sure Ledger Live is installed</li>
+</ul>
+<h3 id="instructions_1">Instructions<a class="headerlink" href="#instructions_1" title="Permanent link">&para;</a></h3>
+<p>Follow these steps to initialise or restore your Ledger device.</p>
+<p><em>Go to Step 3. Security checklist if you use a device that's already initialised.</em></p>
+<h3 id="step-1">Step 1:<a class="headerlink" href="#step-1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Start the Ledger Live application</li>
+<li>Click <strong>Get started</strong></li>
+<li>This is where you choose between initialising a new device, or restoring an existing account<ul>
+<li>Select <strong>i</strong><strong>nitialise a new Ledger device</strong> if you're setting up a brand new device</li>
+<li>Select <strong>restore a Ledger device</strong> if you have recovery phrase associated with a wallet account you want to recover to a new device</li>
+</ul>
+</li>
+<li>Select your device, then click <strong>continue</strong></li>
+</ol>
+<h3 id="step-2">Step 2:<a class="headerlink" href="#step-2" title="Permanent link">&para;</a></h3>
+<p>First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.</p>
+<p><em>Your recovery phrase backs up the private keys generated on your device that manage your crypto assets. It can be used to recover your device in case you lose the PIN code or the device.</em></p>
+<ol>
+<li>Set up your device by following the steps provided in Ledger Live<ul>
+<li><strong>To initialise a device</strong></li>
+<li><strong>To restore your device</strong></li>
+</ul>
+</li>
+<li>Once done, click <strong>continue</strong></li>
+</ol>
+<h3 id="step-3">Step 3:<a class="headerlink" href="#step-3" title="Permanent link">&para;</a></h3>
+<p>Complete the security checklist to verify your device is running at an optimal level of security.</p>
+<ol>
+<li>Answer the questions on-screen by clicking on <strong>yes</strong> or <strong>no</strong></li>
+<li>Click <strong>check now</strong>, to verify your device is a genuine Ledger device.<ul>
+<li>
+<p>Only a genuine Ledger device can provide the cryptographic proof required to connect with Ledger’s secure server  </p>
+<p><em>Note: This process may take a few moments.</em>
+3.  Once done, click <strong>continue</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="step-4">Step 4:<a class="headerlink" href="#step-4" title="Permanent link">&para;</a></h3>
+<p>Choose a password that unlocks the application to enhance your privacy. This functionality is particularly useful if you use a shared computer.</p>
+<ol>
+<li>Click <strong>skip this step</strong> if you do not want to set a password.</li>
+<li>Choose your password in the <strong>password</strong> field</li>
+<li>Enter your password again in the <strong>confirm password</strong> field</li>
+<li>Click <strong>continue</strong></li>
+</ol>
+<p><em>Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your crypto assets.</em></p>
+<h3 id="step-5-bug-reports-analytics">Step 5: Bug reports &amp; analytics<a class="headerlink" href="#step-5-bug-reports-analytics" title="Permanent link">&para;</a></h3>
+<p>Besides mandatory technical data, you can choose which anonymous data to share with Ledger to help improve the quality of our products and services. By opting in, Ledger will automatically collect this data. You can decide to opt out at any time from the <strong>settings</strong> page.</p>
+<ol>
+<li>Select which optional data to share:<ul>
+<li><strong>Report bugs</strong>: Send automatic bug reports when the application crashes to help improve its stability</li>
+<li><strong>Share analytics</strong>: Enable analytics of usage data to help Ledger improve the user experience</li>
+</ul>
+</li>
+<li>Click <strong>continue</strong>.</li>
+<li>Click <strong>launch Ledger Live</strong> to open the application</li>
+</ol>
+<h2 id="add-existing-accounts">Add Existing Accounts<a class="headerlink" href="#add-existing-accounts" title="Permanent link">&para;</a></h2>
+<h3 id="before-you-begin_1">Before You Begin<a class="headerlink" href="#before-you-begin_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live</li>
+</ul>
+<h3 id="instructions_2">Instructions<a class="headerlink" href="#instructions_2" title="Permanent link">&para;</a></h3>
+<ol>
+<li>On the left panel, click the <strong>+</strong>  icon to add accounts</li>
+<li>Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for</li>
+<li>Click <strong>next</strong></li>
+<li>Connect and unlock your device, open the app of the selected cryptocurrency</li>
+<li>
+<p>Click <strong>next</strong>.  </p>
+<p><em>Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed</em>
+6.  In the <strong>select existing accounts</strong> section, ensure the account(s) you wish to add bear a check mark to be added. Choose a name for the account(s) you wish to add
+7.  Click <strong>add account(s)</strong></p>
+</li>
+</ol>
+<p>You've successfully added your account to Ledger Live. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:</p>
+<ul>
+<li><a href="/SendingFundsFromLedgerLive.md">Send</a></li>
+<li><a href="https://coinstop.kayako.com/article/181-receive">Receive</a></li>
+</ul>
+<h2 id="add-new-account">Add New Account<a class="headerlink" href="#add-new-account" title="Permanent link">&para;</a></h2>
+<p>You can add a new account for each crypto asset supported by the Ledger Live application.</p>
+<h3 id="before-you-begin_2">Before You Begin<a class="headerlink" href="#before-you-begin_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Zcash account, you will need to have the Zcash application installed - this can be achieved via the Ledger Manager function inside Ledger Live</li>
+<li>If you have a new and unused account, the add account feature will not work. You can only add additional accounts if all accounts of that specific cryptocurrency have seen at least one transaction.</li>
+</ul>
+<h3 id="instructions_3">Instructions<a class="headerlink" href="#instructions_3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for</li>
+<li>Click <strong>next</strong></li>
+<li>Connect and unlock your device, open the app of the selected crypto asset<br />
+<em>Note: For Windows users, this step might take a few moments</em></li>
+<li>
+<p>Click <strong>next</strong>.  </p>
+<p><em>Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed</em>
+5.  In the <strong>add new account</strong> section, ensure the account you wish to add bears a check mark to be added. Choose a name for the account you wish to add if you desire
+6.  Click <strong>add account(s)</strong></p>
+</li>
+</ol>
+<p>You've successfully added a new account. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../LedgerLiveSetupAndroid/" title="Getting Started on Android" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Getting Started on Android
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../ReceivingFundsInLedgerLive/" title="Receiving Funds" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Receiving Funds
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/coinstopio/coinstopio.docs" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.d9aa80ab.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
