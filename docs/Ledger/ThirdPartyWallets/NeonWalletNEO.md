@@ -4,17 +4,13 @@ Install the Neo app on your Ledger Nano S to manage NEO with the [NEON wallet](h
 
 _Note: The Neo application was not developed by the Ledger team, it has been developed and supported by the [Neo community](https://neo.org/)._
 
-##   
-
-**BEFORE YOU START**
+##   **BEFORE YOU START**
 
 -   You've [initialised](https://coinstop.kayako.com/article/8-ledger-nano-s-setup) your Ledger device
 -   The latest firmware is [installed](https://coinstop.kayako.com/article/126-check-firmware-version)
 -   Ledger Live is [ready to use](https://coinstop.kayako.com/section/3-ledger-live)
 
-##   
-
-**INSTALL THE NEO APPLICATION**
+##   **INSTALL THE NEO APPLICATION**
 
 1.  Open the **Manager** in Ledger Live
 2.  Connect and unlock your Ledger device
@@ -25,9 +21,7 @@ _Note: The Neo application was not developed by the Ledger team, it has been dev
     -   Your device will display **Processing...**
     -   The app installation is confirmed
 
-##   
-
-**SET UP THE NEON WALLET**
+##   **SET UP THE NEON WALLET**
 
 1.  Download the [NEON wallet](https://neonwallet.com/)
 2.  Open the the Neon wallet once you've installed it
@@ -39,7 +33,7 @@ You can use you wallet as shown below.
 
   
 
-**SEND AND RECEIVE NEO**
+## **SEND AND RECEIVE NEO**
 
 -   Share your public address with the sender to receive GAS or NEO. Verify the address on your device screen before sharing it.
 -   Click **Send** to create a sending transaction. Fill out the recipient address, the amount and fees. Verify the transaction details on your device before confirming it.

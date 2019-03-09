@@ -1,6 +1,6 @@
 # Getting Started (Android)
 
-### What You Need
+## What You Need
 
    -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
    

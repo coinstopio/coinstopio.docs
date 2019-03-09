@@ -2,9 +2,7 @@
 
 _Note: Although it takes longer, it can be a good idea to send a small amount of cryptocurrency as the first transaction, and sending the remainder of funds once the initial transaction has been verified as received by the recipient address._
 
-  
-
-### Before You Begin
+## Before You Begin
 
 You will need:
 -   A Ledger device holding the funds you will send.

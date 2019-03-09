@@ -133,12 +133,12 @@
 
 .md-typeset table:not([class]) th
 {
-    background-color:rgb(248, 149, 29);
+    background-color:#1a1a1a;
 }
 
 .md-typeset table:not([class]) td
 {
-    border-top:0.2rem solid rgb(248, 149, 29);
+    border-top:0.1rem solid rgb(248, 149, 29);
 }
 
 .md-typeset blockquote
@@ -165,6 +165,6 @@
 
 .md-tabs__link--active
 {
-    color      : black;
+    color      : #1a1a1a;
     font-weight: bold;
 }

@@ -13,25 +13,27 @@ If you're not sure whether a cryptocurrency is an ERC20 Token or not, please rev
 
 The list below contains a number of Third Party Applications used in conjunction with the Ledger Nano S:
 
--   NEON Wallet (NEO)[Setup Guide]
--   Tronscan Desktop (TRX)[Setup Guide]
--   Monero GUI & CLI (XMR)[Setup Guide]
--   Stellar Account Viewer (XLM)[Setup Guide]
--   Fairy-Wallet (EOS)[Setup Guide]
--   ICONex Wallet (ICX)[Setup Guide]
--   Pyrus (UBQ)[Setup Guide]
--   Wanchain GUI (WAN)[Setup Guide]
--   Waves Web Client (WAVES)[Setup Guide]
--   NanoVault (NANO)[Setup Guide]
--   ONT Wallet (ONT)[Setup Guide]
--   VeForge Vault (VET)[Setup Guide]
--   BananoVault (BAN)[Setup Guide]
--   Foxlet (eFIC)[Setup Guide]
--   Hycon Desktop Wallet (HYC)[Setup Guide]
--   Nimiq Safe (NIM)[Setup Guide]
--   Rise Web Wallet (RISE)[Setup Guide]
--   Particl-Qt (PART)[Setup Guide]
--   Electrum (BTCP)[Setup Guide]
--   Electrum (XZC)[Setup Guide]
--   Ark Wallet (ARK)[Setup Guide]
--   Aion Desktop Wallet (AION)[Setup Guide]
+
+| Cryptocurrency         | Ticker Code | Guide                                                        |
+|------------------------|-------------|--------------------------------------------------------------|
+| Aion                   | AION        | [Aion Desktop Wallet](../ThirdPartyWallets/AionDesktopWallet.md)|
+| Ark| ARK| [ARK Wallet](../ThirdPartyWallets/ArkWallet.md)|
+| Banano| BAN| [Banano Vault](../ThirdPartyWallets/BananoVaultBAN.md)|
+| Bitcoin Private| BTCP| [Electrum](../ThirdPartyWallets/ElectrumBTCP.md) |
+| Zcoin| XCZ| [Electrum](../ThirdPartyWallets/ElectrumXCZ.md)|
+| EOS| EOS| [Fairy Wallet](../ThirdPartyWallets/EOSFairyWallet)|
+| Foxlet| eFIC| [FIC APP](../ThirdPartyWallets/FoxleteFIC.md)|
+| Hycon| HYC| [Hycon Desktop Wallet](../ThirdPartyWallets/HyconDesktopWallet.md)|
+| Icon| ICX| [ICONex Wallet](../ThirdPartyWallets/ICONexWalletICX.md)|
+| Monero| XMR| [GUI and CLI](../ThirdPartyWallets/MoneroGUIandCLIxmr.md)|
+| Nano| NANO | [Nano Vault](../ThirdPartyWallets/NanoVaultNANO.md)|
+| Nimiq|NIM| [Nimiq Safe](../ThirdPartyWallets/NimiqSafe.md)|
+| Ontolgy| ONT| [ONT Wallet](../ThirdPartyWallets/ONTwalletOntology.md)|
+| Particl| IQT| [IQT Wallet](../ThirdPartyWallets/ParticlQT.md)|
+| Pyrus| UBQ| [UBQ Wallet](../ThirdPartyWallets/PyrusUBQ.md)|
+| Rise| RISE| [Rise Web Wallet](../ThirdPartyWallets/RiseWebWallet.md)|
+| Stellar| XLM| [Account Viewer](../ThirdPartyWallets/StellarAccountViewerXLM.md)|
+| Tron| TRX| [Tronscan Desktop Wallet](../ThirdPartyWallets/TronscanDesktopTRX.md)|
+| VeChain| VET| [VeForge Vault](../ThirdPartyWallets/VeForgeVaultVET.md)|
+| Wanchain| WAN| [Wanchain Gui](../ThirdPartyWallets/WanchainGUIWAN.md)|
+| Waves| WAVES| [Web Wallet](../ThirdPartyWallets/WavesWebClient.md)|

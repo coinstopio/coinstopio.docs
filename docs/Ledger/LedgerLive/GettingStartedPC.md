@@ -1,6 +1,6 @@
 # Getting Started (Windows)
 
-### What You Need
+## What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   Make sure your computer has at least:
@@ -9,7 +9,7 @@
     -   a USB port. Use an adapter for USB-C ports
     -   an internet connection
 
-### Instructions
+## Instructions
 
 1.  Download Ledger Live [Desktop](https://www.ledger.com/pages/ledger-live)
 

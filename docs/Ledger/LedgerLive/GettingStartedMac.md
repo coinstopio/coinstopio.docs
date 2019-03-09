@@ -1,6 +1,6 @@
 # Getting Started (Mac)
 
-### What You Need
+## What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   Make sure your computer has at least:

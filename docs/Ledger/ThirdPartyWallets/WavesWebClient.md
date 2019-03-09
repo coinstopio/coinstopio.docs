@@ -29,10 +29,6 @@ Install the Waves app on your Ledger Nano S to manage WAVES with the [Waves web 
 
 Waves accounts can not be added to Ledger Live.
 
-  
-
-  
-
 https://docs.wavesplatform.com/en/waves-client/account-management/ledger-nano.html
 
 Waves wallet can be managed on the Waves [web and desktop](https://wavesplatform.com/product) clients or by using the Waves app on your Ledger Nano S.

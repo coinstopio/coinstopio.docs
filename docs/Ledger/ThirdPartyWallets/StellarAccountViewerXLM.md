@@ -8,16 +8,12 @@ _Note: The Stellar account viewer was not developed by the Ledger team, it has b
 
 _Visit the [Stellar Help Centre](https://support.ledgerwallet.com/hc/en-us/articles/Stellar%20community) for more information._
 
-##   
-
-**BEFORE YOU BEGIN YOU WILL NEED:**
+## **BEFORE YOU BEGIN YOU WILL NEED:**
 
 -   A Ledger Nano S with the [latest firmware version](https://coinstop.kayako.com/article/126-check-firmware-version).
 -   The Google Chrome, Opera or Chromium browser. Other browsers are not supported.
 
-##   
-
-**INSTALL THE STELLAR APPLICATION**
+## **INSTALL THE STELLAR APPLICATION**
 
 1.  Open the **Manager** in Ledger Live.
 2.  Connect and unlock your Ledger Nano S.
@@ -28,27 +24,19 @@ _Visit the [Stellar Help Centre](https://support.ledgerwallet.com/hc/en-us/artic
     -   Your device will display **Processing...**
     -   The app installation is confirmed.
 
-##   
-
-**OPEN STELLAR ACCOUNT VIEWER**
+## **OPEN STELLAR ACCOUNT VIEWER**
 
 1.  Download and open the [Stellar account viewer](https://www.stellar.org/account-viewer/#%21/).
 2.  Open the Stellar app on your device. The button in the _Connect Ledger Nano S_ section becomes blue when your device is detected.
 3.  Click on **Sign in with Ledger**.
 
-##   
+## **USE THE STELLAR ACCOUNT VIEWER**
 
-**USE THE STELLAR ACCOUNT VIEWER**
-
-###   
-
-**RECEIVE LUMENS (XLM)**
+### **RECEIVE LUMENS (XLM)**
 
 To receive, share your **Stellar public key** with the person or service that wants to send. The account must first receive a minimum of 1 Lumen (XLM) to be created.
 
-###   
-
-**SEND LUMENS (XLM)**
+### **SEND LUMENS (XLM)**
 
 1.  To send, enter the recipient address in the **To** field in the _Send lumens_ section.
 2.  Enter the **amount** to send.

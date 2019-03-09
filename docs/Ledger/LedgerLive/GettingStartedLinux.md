@@ -1,7 +1,7 @@
 
 # Getting Started (Linux)
 
-### What You Need
+## What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
 -   a computer has at least:
@@ -10,7 +10,7 @@
     -   a USB port. Use an adapter for USB-C ports
     -   an internet connection
 
-### Instructions
+## Instructions
 
 -   Download the [Ledger Live AppImage](https://www.ledger.com/pages/ledger-live)
 -   Make the file executable  
