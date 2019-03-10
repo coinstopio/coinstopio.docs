@@ -11,6 +11,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://coinstopio.github.io/coinstopio.docs/Ledger/CompatibleCryptocurrencies/</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://coinstopio.github.io/coinstopio.docs/Ledger/LedgerLive/LedgerLiveOverview/</loc>
      <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
@@ -282,16 +287,6 @@
     </url>
     <url>
      <loc>https://coinstopio.github.io/coinstopio.docs/Ledger/LedgerWarrantyReturns/LedgerRMAProcedure/</loc>
-     <lastmod>2019-03-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://coinstopio.github.io/coinstopio.docs/Ledger/CompatibleCryptocurrencies/LedgerLiveCurrencies/</loc>
-     <lastmod>2019-03-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://coinstopio.github.io/coinstopio.docs/Ledger/CompatibleCryptocurrencies/ThirdPartyWallets/</loc>
      <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
