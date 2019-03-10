@@ -6,11 +6,11 @@
 
 |Guide|Description|
 |-|-|
-|[Device Setup Guide](/LedgerNanoSSetup.md)|How to setup your Ledger Nano S.|
-|[Change Device Pin Code](/LedgerNanoSChangePinCode.md)|How to change your pin code on your Ledger Nano S.|
-|[Export and Import Account](/LedgerNanoSExportAccounts.md)|How to export and import your Ledger Nano S accounts.|
-|[Advanced Passphrase Options](/LedgerNanoSAdvancedPassphraseOptions.md)|Use Ledger Nano S advanced passphrase options.|
-|[Hide Account With Passphrase](/LedgerNanoSHideAccountWithPassphrase.md)|Hide your account with a secondary passphrase.|
+|[Device Setup Guide](../LedgerNanoSSetup)|How to setup your Ledger Nano S.|
+|[Change Device Pin Code](../LedgerNanoSChangePinCode)|How to change your pin code on your Ledger Nano S.|
+|[Export and Import Account](../LedgerNanoSExportAccounts)|How to export and import your Ledger Nano S accounts.|
+|[Advanced Passphrase Options](../LedgerNanoSAdvancedPassphraseOptions)|Use Ledger Nano S advanced passphrase options.|
+|[Hide Account With Passphrase](../LedgerNanoSHideAccountWithPassphrase)|Hide your account with a secondary passphrase.|
 
 ## Ledger Nano S Troubleshooting
 

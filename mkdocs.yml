@@ -32,7 +32,7 @@ nav:
 #  - 'insertnamehere': 'Introduction/insertnamehere.md'
 - Ledger:
   - 'Ledger Overview': 'Ledger/LedgerOverview.md'
-
+  - 'Compatible Cryptocurrencies':  'Ledger/CompatibleCryptocurrencies.md'
   - 'Ledger Live': 'Ledger/LedgerLive/LedgerLiveOverview.md'
   - Ledger Live Guides:
       - 'Choose Your Network Fees': 'Ledger/LedgerLive/ChooseNetworkFees.md'
@@ -94,9 +94,6 @@ nav:
       - 'Wanchain GUI (WAN)': 'Ledger/ThirdPartyWallets/WanchainGUIWAN.md'
       - 'Waves Web Client (WAVES)': 'Ledger/ThirdPartyWallets/WavesWebClient.md'
   - 'Ledger RMA Procedure': 'Ledger/LedgerWarrantyReturns/LedgerRMAProcedure.md'
-  - Compatible Cryptocurrencies: 
-      - 'Ledger Live Wallet': 'Ledger/CompatibleCryptocurrencies/LedgerLiveCurrencies.md'
-      - 'Third Party Wallets': 'Ledger/CompatibleCryptocurrencies/ThirdPartyWallets.md'
 
 - Keep Key:
   - 'Keep Key Compatible Cryptocurrencies': 'KeepKey/NativeCryptocurrencyWallets.md'
