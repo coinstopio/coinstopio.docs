@@ -6,20 +6,20 @@ The perfect companion for your Ledger devices. Add new cryptocurrencies and chec
 
 | Guide| Description|
 |-|-|
-|[Windows Setup](/GettingStartedPC.md)| How to setup Ledger Live on Windows operating system.|
-|[Mac Setup](/GettingStartedMac.md)| How to setup Ledger Live on Mac operating System.|
-|[Linux Setup](/GettingStartedMac.md)| How to setup Ledger Live on Linux operating System.|
-|[Android Setup](/LedgerLiveSetupAndroid.md)| How to setup Ledger Live on Android.|
-|[IOS Setup](/LedgerLiveSetupIOS.md)| How to setup Ledger Live on IOS.|
+|[Windows Setup](../LedgerLive/GettingStartedPC.md)| How to setup Ledger Live on Windows operating system.|
+|[Mac Setup](../LedgerLive/GettingStartedMac.md)| How to setup Ledger Live on Mac operating System.|
+|[Linux Setup](../LedgerLive/GettingStartedMac.md)| How to setup Ledger Live on Linux operating System.|
+|[Android Setup](../LedgerLive/LedgerLiveSetupAndroid.md)| How to setup Ledger Live on Android.|
+|[IOS Setup](../LedgerLive/LedgerLiveSetupIOS.md)| How to setup Ledger Live on IOS.|
 
 ## Operating Guides
 | Guide| Description|
 |-|-|
-|[Choose Network Fees](/ChooseNetworkFees.md)|  How to choose how much you pay to the blockchain for your transaction to be sent.|
-|[Receiving Funds](/ReceivingFundsInLedgerLive.md)| How to receive funds to your wallet in Ledger Live Wallet.|
-|[Sending Funds](/SendingFundsFromLedgerLive.md)| How to send Cryptocurrency out of your Ledger Live Wallet.|
-|[Track a Transaction](/TrackingATransaction.md)| How to track a transaction you have sent or received.|
-|[VerifyTransactionDetails](/VerifyTransactionDetails.md)| How to verify transaction details.|
+|[Choose Network Fees](../LedgerLive/ChooseNetworkFees.md)|  How to choose how much you pay to the blockchain for your transaction to be sent.|
+|[Receiving Funds](../LedgerLive/ReceivingFundsInLedgerLive.md)| How to receive funds to your wallet in Ledger Live Wallet.|
+|[Sending Funds](../LedgerLive/SendingFundsFromLedgerLive.md)| How to send Cryptocurrency out of your Ledger Live Wallet.|
+|[Track a Transaction](../LedgerLive/TrackingATransaction.md)| How to track a transaction you have sent or received.|
+|[VerifyTransactionDetails](../LedgerLive/VerifyTransactionDetails.md)| How to verify transaction details.|
 
 
 ## Ledger Live Compatible Crypto Currencies
