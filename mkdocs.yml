@@ -31,10 +31,9 @@ nav:
 #  - 'insert name here': 'Introduction/insertnamehere.md'
 #  - 'insertnamehere': 'Introduction/insertnamehere.md'
 - Ledger:
-  - 'Ledger RMA Procedure': 'Ledger/LedgerWarrantyReturns/LedgerRMAProcedure.md'
-  - Compatible Cryptocurrencies: 
-      - 'Ledger Live Wallet': 'Ledger/CompatibleCryptocurrencies/LedgerLiveCurrencies.md'
-      - 'Third Party Wallets': 'Ledger/CompatibleCryptocurrencies/ThirdPartyWallets.md'
+  - 'Ledger Overview': 'Ledger/LedgerOverview.md'
+
+  - 'Ledger Live': 'Ledger/LedgerLive/LedgerLiveOverview.md'
   - Ledger Live Guides:
       - 'Choose Your Network Fees': 'Ledger/LedgerLive/ChooseNetworkFees.md'
       - 'Getting Started on Linux': 'Ledger/LedgerLive/GettingStartedLinux.md'
@@ -46,6 +45,7 @@ nav:
       - 'Sending Funds': 'Ledger/LedgerLive/SendingFundsFromLedgerLive.md'
       - 'Tracking Transactions': 'Ledger/LedgerLive/TrackingATransaction.md'
       - 'Verify a Transaction': 'Ledger/LedgerLive/VerifyTransactionDetails.md'
+  - 'Ledger Nano S': 'Ledger/LedgerNanoS/LedgerNanoSOverview.md'
   - Ledger Nano S Guides:
       - Troubleshooting:
         - 'Check Nano S Firmware': 'Ledger/LedgerNanoS/LedgerNanoSTroubleshooting/CheckNanoSFirmware.md'
@@ -65,6 +65,7 @@ nav:
       - 'Change Pin Code': 'Ledger/LedgerNanoS/LedgerNanoSChangePinCode.md'
       - 'Export Accounts': 'Ledger/LedgerNanoS/LedgerNanoSExportAccounts.md'
       - 'Hide Account With Passphrase': 'Ledger/LedgerNanoS/LedgerNanoSHideAccountWithPassphrase.md'
+  - 'Ledger Nano X': 'Ledger/LedgerNanoX/LedgerNanoXOverview.md'
   - Ledger Nano X Guides:
       - Troubleshooting:
         - 'placeholder: to do': 'Ledger/LedgerNanoX/LedgerNanoXTroubleshooting/setup.md'
@@ -92,6 +93,10 @@ nav:
       - 'VeForge Vault (VET)': 'Ledger/ThirdPartyWallets/VeForgeVaultVET.md'
       - 'Wanchain GUI (WAN)': 'Ledger/ThirdPartyWallets/WanchainGUIWAN.md'
       - 'Waves Web Client (WAVES)': 'Ledger/ThirdPartyWallets/WavesWebClient.md'
+  - 'Ledger RMA Procedure': 'Ledger/LedgerWarrantyReturns/LedgerRMAProcedure.md'
+  - Compatible Cryptocurrencies: 
+      - 'Ledger Live Wallet': 'Ledger/CompatibleCryptocurrencies/LedgerLiveCurrencies.md'
+      - 'Third Party Wallets': 'Ledger/CompatibleCryptocurrencies/ThirdPartyWallets.md'
 
 - Keep Key:
   - 'Keep Key Compatible Cryptocurrencies': 'KeepKey/NativeCryptocurrencyWallets.md'
