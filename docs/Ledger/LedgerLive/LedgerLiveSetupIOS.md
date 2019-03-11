@@ -6,8 +6,6 @@
    
 Make sure your Apple phone has at least:
 
-   -   
-   -   
    -   an internet connection (warning about public wifi)
 
 ## Instructions
@@ -17,16 +15,12 @@ Make sure your Apple phone has at least:
 3.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
 4.  Open the Ledger Live application
   
-
 ## Interface Overview
-
-  
 
 Ledger Live's interface consists of four main elements. In the left panel you'll find the **menu** and **accounts**, in the top bar you'll find buttons for **application controls** and then there's the **main viewer**.
 
 ![ledger_live_overview.png](https://coinstop.kayako.com/base/media/url/CEBdlIZUFTBJ7L6jOQacbeQG5i9ebGDv)
 
-  
 
 ### Menu
 
@@ -57,11 +51,9 @@ The top bar contains the application controls.
 
 The main viewer is the place where you interact with the main sections of Ledger Live. The screenshot above shows the portfolio is currently opened in the main viewer.
 
-  
+---
 
 ## Lets Get Started
-
-  
 
 When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the _Help_ tab in the settings.
 
@@ -74,11 +66,10 @@ When the Ledger Live application opens, you will be given the opportunity to ini
 
 Follow these steps to initialise or restore your Ledger device.
 
-_Go to Step 3. Security checklist if you use a device that's already initialised._
+_Go to [Step 3](#step-3-security-checklist) Security checklist if you use a device that's already initialised._
 
   
-
-### Step 1:
+### Step 1: Start Ledger Live
 
 1.  Start the Ledger Live application
 2.  Click **Get started**
@@ -87,9 +78,7 @@ _Go to Step 3. Security checklist if you use a device that's already initialised
     -   Select **restore a Ledger device** if you have recovery phrase associated with a wallet account you want to recover to a new device
 4.  Select your device, then click **continue**
 
-  
-
-### Step 2:
+### Step 2: Choose Your Pin
 
 First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.
 
@@ -100,9 +89,7 @@ _Your recovery phrase backs up the private keys generated on your device that ma
     -   **To restore your device**
 2.  Once done, click **continue**
 
-  
-
-### Step 3:
+### Step 3: Security Checklist
 
 Complete the security checklist to verify your device is running at an optimal level of security.
 
@@ -113,9 +100,7 @@ Complete the security checklist to verify your device is running at an optimal l
         _Note: This process may take a few moments._
 3.  Once done, click **continue**
 
-  
-
-### Step 4:
+### Step 4: Choose Your Password
 
 Choose a password that unlocks the application to enhance your privacy. This functionality is particularly useful if you use a shared computer.
 
@@ -125,8 +110,6 @@ Choose a password that unlocks the application to enhance your privacy. This fun
 4.  Click **continue**
 
 _Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your crypto assets._
-
-  
 
 ### Step 5: Bug reports & analytics
 
@@ -138,11 +121,10 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 2.  Click **continue**.
 3.  Click **launch Ledger Live** to open the application
 
-  
+---
 
 ## Add Existing Accounts
 
-  
 
 ### Before You Begin
 
@@ -162,16 +144,12 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
 You've successfully added your account to Ledger Live. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:
 
--   [Send](/SendingFundsFromLedgerLive.md)
--   [Receive](https://coinstop.kayako.com/article/181-receive)
+-   [Send](../LedgerLive/SendingFundsFromLedgerLive.md)
+-   [Receive](../LedgerLive/ReceivingFundsInLedgerLive.md)
 
-  
+---
 
 ## Add New Account
-
-  
-
-  
 
 You can add a new account for each crypto asset supported by the Ledger Live application.
 
@@ -193,3 +171,6 @@ You can add a new account for each crypto asset supported by the Ledger Live app
 6.  Click **add account(s)**
 
 You've successfully added a new account. On the left panel, click on the account you added to view its details. Check the following articles to learn how to:
+
+-   [Send](../LedgerLive/SendingFundsFromLedgerLive.md)
+-   [Receive](../LedgerLive/ReceivingFundsInLedgerLive.md)

@@ -12,4 +12,4 @@ _Example:  when an exchange has a receive address on its website, verify the add
 -   Verify that the receive address, amount and fees are correct and that they are the same on both your computer and the device’s screen when sending a transaction.
 -   Wait for a significant amount of confirmations before accepting a payment.  
       
-    _For Bitcoin, six confirmations are recommended_
+> _For Bitcoin, six confirmations are recommended_

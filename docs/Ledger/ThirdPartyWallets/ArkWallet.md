@@ -1,6 +1,6 @@
 # (DRAFT) Ark Wallet (ARK)
 
-https://support.ledgerwallet.com/hc/en-us/articles/115005174589
+[https://support.ledgerwallet.com/hc/en-us/articles/115005174589](https://support.ledgerwallet.com/hc/en-us/articles/115005174589)
 
 Install the Ark app on your Ledger Nano S to manage ARK with the [Ark wallet](https://github.com/ArkEcosystem/desktop-wallet/releases). The Ark app is developed and supported by the [Ark community](https://ark.io/).
 
@@ -27,10 +27,6 @@ Install the Ark app on your Ledger Nano S to manage ARK with the [Ark wallet](ht
 -   Join the Ark community on [Slack](https://ark.io/slack) or on  [Reddit](https://www.reddit.com/r/ArkEcosystem/)  if you require assistance.
 
 Ark accounts can not be added to Ledger Live.
-
-  
-
-  
 
 https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef
 
