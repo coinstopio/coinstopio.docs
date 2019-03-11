@@ -129,6 +129,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#transaction-remains-unconfirmed" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -700,10 +704,48 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Transaction Unconfirmed
+      </label>
     
     <a href="./" title="Transaction Unconfirmed" class="md-nav__link md-nav__link--active">
       Transaction Unconfirmed
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wait-until-the-transaction-is-dropped" title="Wait Until The Transaction Is Dropped" class="md-nav__link">
+    Wait Until The Transaction Is Dropped
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#increase-the-network-fees" title="Increase The Network Fees" class="md-nav__link">
+    Increase The Network Fees
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1594,39 +1636,71 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wait-until-the-transaction-is-dropped" title="Wait Until The Transaction Is Dropped" class="md-nav__link">
+    Wait Until The Transaction Is Dropped
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#increase-the-network-fees" title="Increase The Network Fees" class="md-nav__link">
+    Increase The Network Fees
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Transaction Unconfirmed</h1>
-                
-                <p>Transaction Remains Unconfirmed</p>
+                <h1 id="transaction-remains-unconfirmed">Transaction Remains Unconfirmed<a class="headerlink" href="#transaction-remains-unconfirmed" title="Permanent link">&para;</a></h1>
 <p>Sometimes a transaction can remain pending in the last operations list for a long time, up to several days. The time before a transaction gets its first confirmation depends on:</p>
-<div class="codehilite"><pre><span></span>the rate of network fees or gas included in the transaction
-the current load of pending transactions within the blockchain network
-</pre></div>
-
-
+<ul>
+<li>the rate of network fees or gas included in the transaction</li>
+<li>the current load of pending transactions within the blockchain network</li>
+</ul>
 <p>Learn more about network fees or the status of a transaction.</p>
-<p>WAIT UNTIL THE TRANSACTION IS DROPPED</p>
-<div class="codehilite"><pre><span></span>You can choose to continue waiting for a confirmation. The transaction may be confirmed, even if it can take days
-You can also wait until the transaction is dropped from by the network, although this is not very likely to happen, depending on the specific network
-When the transaction is dropped, it will disappear from your last operations
-</pre></div>
-
-
-<p>INCREASE THE NETWORK FEES</p>
+<h2 id="wait-until-the-transaction-is-dropped"><strong>Wait Until The Transaction Is Dropped</strong><a class="headerlink" href="#wait-until-the-transaction-is-dropped" title="Permanent link">&para;</a></h2>
+<p>You can choose to continue waiting for a confirmation. The transaction may be confirmed, even if it can take days</p>
+<p>You can also wait until the transaction is dropped from by the network, although this is not very likely to happen, depending on the specific network. When the transaction is dropped, it will disappear from your last operations</p>
+<h2 id="increase-the-network-fees"><strong>Increase The Network Fees</strong><a class="headerlink" href="#increase-the-network-fees" title="Permanent link">&para;</a></h2>
 <p>Instead of waiting, you can increase the network fees to accelerate your transaction. Currently this is only possible in the Ledger Wallet Bitcoin Chrome application. It will be implemented in Ledger Live later.</p>
-<div class="codehilite"><pre><span></span>Download and install the Ledger Wallet Bitcoin Chrome application
-Open the Ledger Bitcoin Wallet Chrome application
-Connect and unlock your Ledger device
-Click on the pending operation to open its details.
-Click the lightning bolt icon in the bottom left corner. The tool will propose you an increased network fee rate such that the transaction will urgently be confirmed
-Carefully review the fee rate, it can be very high
-Either accept or cancel, and confirm on your Ledger device
-</pre></div>
+<ul>
+<li>Download and install the Ledger Wallet Bitcoin Chrome application.</li>
+<li>Open the Ledger Bitcoin Wallet Chrome application.</li>
+<li>Connect and unlock your Ledger device.</li>
+<li>Click on the pending operation to open its details.</li>
+<li>Click the lightning bolt icon in the bottom left corner. The tool will propose you an increased network fee rate such that the transaction will urgently be confirmed.</li>
+<li>Carefully review the fee rate, it can be very high.</li>
+<li>Either accept or cancel, and confirm on your Ledger device.</li>
+</ul>
                 
                   
                 
