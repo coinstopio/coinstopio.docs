@@ -49,7 +49,7 @@ The list below contains a number of Third Party Applications used in conjunction
 | Cryptocurrency         | Ticker Code | Guide                                                        |
 |------------------------|-------------|--------------------------------------------------------------|
 | Aion                   | AION        | [Aion Desktop Wallet](../ThirdPartyWallets/AionDesktopWallet)|
-| Ark| ARK| [ARK Wallet](../ThirdPartyWallets/ArkWallet)|
+| Ark| ARK| [ARK Wallet](https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef)|
 | Banano| BAN| [Banano Vault](../ThirdPartyWallets/BananoVaultBAN)|
 | Bitcoin Private| BTCP| [Electrum](../ThirdPartyWallets/ElectrumBTCP) |
 | Zcoin| XCZ| [Electrum](../ThirdPartyWallets/ElectrumXCZ)|
