@@ -93,10 +93,11 @@ The list below contains a number of Third Party Applications used in conjunction
 
 Ledger Tools provide additional functionalities such as two factor authentication, encrypted messaging, and more.
 
-| Ledger Tools         | Guide                                                        |
-|------------------------|--------------------------------------------------------------|
-| FIDO U2F                   | [FIDO U2F Setup](https://support.ledger.com/hc/en-us/articles/115005198545-FIDO-U2F)|
-| HODL                   | [HODL Setup](https://support.ledger.com/hc/en-us/articles/360005064153-HODL)|
-| OpenPGP                   | [OpenPGP Setup](https://support.ledger.com/hc/en-us/articles/115005200649-OpenPGP)|
-| Recovery Check                   | [Recovery Check Setup](https://support.ledger.com/hc/en-us/articles/360007223753-Recovery-Check)|
-| Windows Hello                   | [Windows Hello Setup](https://support.ledger.com/hc/en-us/articles/115005200629-Windows-Hello)|
+| Ledger Tools  | Use Case | Guide                                                      |
+|------------------|-------------|--------------------------------------------------------------|
+| FIDO U2F | Two Factor Authentication | [FIDO U2F Setup](https://support.ledger.com/hc/en-us/articles/115005198545-FIDO-U2F)|
+| HODL | Enter Receive Addresses On Computer | [HODL Setup](https://support.ledger.com/hc/en-us/articles/360005064153-HODL)|
+| OpenPGP| Sign Encrypted Messages| [OpenPGP Setup](https://support.ledger.com/hc/en-us/articles/115005200649-OpenPGP)|
+| Recovery Check | Recovery Phrase Verification| [Recovery Check Setup](https://support.ledger.com/hc/en-us/articles/360007223753-Recovery-Check)|
+| Windows Hello | Unlock Windows Account| [Windows Hello Setup](https://support.ledger.com/hc/en-us/articles/115005200629-Windows-Hello)|
+
