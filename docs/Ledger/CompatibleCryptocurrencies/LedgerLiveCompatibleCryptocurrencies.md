@@ -3,6 +3,7 @@
 ## Ledger Live
 
 Instructions for adding wallet applications to your Ledger device can be found in the [Ledger Live Setup] guide.
+
 Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 
 | Crypto Currency  | Ticker Code | Website                                                      |
