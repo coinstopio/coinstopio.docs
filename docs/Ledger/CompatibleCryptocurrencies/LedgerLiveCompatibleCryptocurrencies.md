@@ -49,45 +49,45 @@ The list below contains a number of Third Party Applications used in conjunction
 
 | Cryptocurrency         | Ticker Code | Guide                                                        |
 |------------------------|-------------|--------------------------------------------------------------|
+| Aeternity| AE| [Aeternity Base](https://hackmd.aepps.com/s/rJ50IACAm)|
 | Aion                   | AION        | [Aion Desktop Wallet](https://docs.aion.network/docs/ledger-hardware-wallet-guide)|
 | Ark| ARK| [ARK Wallet](https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef)|
 | Banano| BAN| [Banano Vault](https://coranos.github.io/bananos/ledger-nano-s/guide)|
 | Bitcoin Private| BTCP| [Electrum](https://docs.google.com/document/u/1/d/e/2PACX-1vTsClCr23RxcsUh9drSiwuVAD-M40k2HVC8TCFHIxU_ZHWNAS5RVq7BnOHOXZp_r9oH6Ki-AZmHJTmX/pub) |
-| Zcoin| XCZ| [Electrum](https://zcoin.io/using-zcoin-with-ledger-on-electrum/)|
 | EOS| EOS| [Fairy Wallet](https://github.com/tarassh/fairy-wallet/wiki)|
-| TomoChain| TOMO| [TomoChain Wallet](https://medium.com/tomochain/tomochain-is-officially-supported-by-ledger-nano-s-d908b80e9578)|
+| Factom| FCT| [MyFactomWallet](https://help.myfactomwallet.com/)|
+| FIC Network| eFIC| [FIC Wallet Application](https://www.medium.com/fic-network/ledger-fic-75bdca73dc7b)|
+| GoChain| GO| [MyCrypto](https://support.mycrypto.com/accessing-your-wallet/how-to-use-your-ledger-with-mycrypto.html)|
+| Game Credits| GAME| [Electrum-GAME](http://electrum-game.org/ledgerhowto.html)|
+| Groestlcoin| GRS| [Electrum-GRS](https://groestlcoin.org/forum/index.php?topic=1045.0)|
 | Hycon| HYC| [Hycon Desktop Wallet](https://hycon.io/ledger/)|
 | Icon| ICX| [ICONex Wallet](https://icon.foundation/ledgerGuideForICX/en)|
+| IOTA| IOTA| [Romeo Wallet](https://github.com/IOTA-Ledger/iota-web-wallet-guide/blob/master/iota-Romeo-guide.md)|
+| IOTA| IOTA| [Trinity Wallet](https://trinity.iota.org/hardware)|
+| Kin| KIN| [KIN Viewer](https://www.kin.org/migrationLedger)|
+| Kowala| kUSD| [Kowala Wallet](https://www.kowala.tech/the-kowala-protocol/kusd/setting-up-ledger/)|
+| Lisk| LSK| [Liskish Wallet](https://medium.com/@hirishh/22763eb54d03)|
 | Monero| XMR| [GUI and CLI](https://support.ledger.com/hc/en-us/articles/360006352934-Monero-XMR-)|
 | Nano| NANO | [Nano Vault](http://blog.nanovault.io/guides/use-your-ledger-device-with-nanovault/)|
+| NEO| NEO| [Neon Wallet](https://support.ledger.com/hc/en-us/articles/115005530425-Neo-NEO-)|
 | Nimiq|NIM| [Nimiq Safe](https://nimiq.com/tutorials/ledger/)|
+| NIX Platform| NIX| [NIX-Electrum](https://medium.com/@nixplatform/81fffb1a1fc)|
+| Nollar| NOS| [NOS Wallet](https://docs.google.com/document/d/1gXvjJc1e1jZulc3K2E2D7EI0ZbB59-tsDjYFrXo0ksI/edit)|
 | Ontolgy| ONT| [ONT Wallet](https://github.com/ontio/documentation/blob/master/walletDevDocs/How%20to%20install%20and%20use%20ONT.md)|
 | Particl| IQT| [IQT Wallet](https://particl.wiki/ledger)|
-| Pyrus| UBQ| [UBQ Wallet](https://support.ledger.com/hc/en-us/articles/115005459725-Ubiq-UBQ-)|
+| Quantum Resistant Ledger| QRL| [QRL Web Wallet](https://docs.theqrl.org/wallet/ledger-nano-s/)|
 | Rise| RISE| [Rise Web Wallet](https://support.ledger.com/hc/en-us/articles/360008533894-Rise-RISE-)|
 | Stellar| XLM| [Account Viewer](https://support.ledger.com/hc/en-us/articles/115003797194-Stellar-XLM-)|
+| Tezos| XTZ| [Galleon Wallet](https://medium.com/@obsidian.systems/getting-started-with-tezos-on-the-ledger-nano-s-c011517b0f3c)|
+| TomoChain| TOMO| [TomoChain Wallet](https://medium.com/tomochain/tomochain-is-officially-supported-by-ledger-nano-s-d908b80e9578)|
 | Tron| TRX| [Tronscan Desktop Wallet](https://support.ledger.com/hc/en-us/articles/360006904193-TRON-TRX-)|
+| Ubiq| UBQ| [Pyrus Wallet](https://support.ledger.com/hc/en-us/articles/115005459725-Ubiq-UBQ-)|
+| Validator| DASC| [DasWallet](https://support.ledger.com/hc/article_attachments/360017758034/Ledger_Nano_S_Tutorial_final.pdf)|
 | VeChain| VET| [VeForge Vault](https://www.veforge.com/tutorials/ledger/)|
 | Wanchain| WAN| [Wanchain Gui](https://wanchain.org/files/Wanchain_Ledger_Wallet_Overview.pdf)|
 | Waves| WAVES| [Web Wallet](https://docs.wavesplatform.com/en/waves-client/account-management/ledger-nano.html)|
-| IOTA| IOTA| [Trinity Wallet](https://trinity.iota.org/hardware)|
-| IOTA| IOTA| [Romeo Wallet](https://github.com/IOTA-Ledger/iota-web-wallet-guide/blob/master/iota-Romeo-guide.md)|
-| NEO| NEO| [Neon Wallet](https://support.ledger.com/hc/en-us/articles/115005530425-Neo-NEO-)|
-| Tezos| XTZ| [Galleon Wallet](https://medium.com/@obsidian.systems/getting-started-with-tezos-on-the-ledger-nano-s-c011517b0f3c)|
-| Lisk| LSK| [Liskish Wallet](https://medium.com/@hirishh/22763eb54d03)|
-| Aeternity| AE| [Aeternity Base](https://hackmd.aepps.com/s/rJ50IACAm)|
-| GoChain| GO| [MyCrypto](https://support.mycrypto.com/accessing-your-wallet/how-to-use-your-ledger-with-mycrypto.html)|
-| Factom| FCT| [MyFactomWallet](https://help.myfactomwallet.com/)|
-| NIX Platform| NIX| [NIX-Electrum](https://medium.com/@nixplatform/81fffb1a1fc)|
-| Game Credits| GAME| [Electrum-GAME](http://electrum-game.org/ledgerhowto.html)|
-| Groestlcoin| GRS| [Electrum-GRS](https://groestlcoin.org/forum/index.php?topic=1045.0)|
-| Kin| KIN| [KIN Viewer](https://www.kin.org/migrationLedger)|
 | ZClassic| ZCL| [Electrum-ZCL](https://medium.com/@applicationist/zclassic-ledger-nano-s-guide-554c67033dae)|
-| Quantum Resistant Ledger| QRL| [QRL Web Wallet](https://docs.theqrl.org/wallet/ledger-nano-s/)|
-| Kowala| kUSD| [Kowala Wallet](https://www.kowala.tech/the-kowala-protocol/kusd/setting-up-ledger/)|
-| FIC Network| eFIC| [FIC Wallet Application](https://medium.com/fic-network/ledger-fic-75bdca73dc7b)|
-| Nollar| NOS| [NOS Wallet](https://docs.google.com/document/d/1gXvjJc1e1jZulc3K2E2D7EI0ZbB59-tsDjYFrXo0ksI/edit)|
-| Validator| DASC| [DasWallet](https://support.ledger.com/hc/article_attachments/360017758034/Ledger_Nano_S_Tutorial_final.pdf)|
+| Zcoin| XCZ| [Electrum](https://zcoin.io/using-zcoin-with-ledger-on-electrum/)|
 
 ## Ledger Tools
 
