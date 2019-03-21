@@ -28,8 +28,7 @@ Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 | Viacoin          | VIA         | [https://viacoin.org/](https://viacoin.org/)                 |
 | Stealth          | XST         | [https://stealth.org/](https://stealth.org/)                 |
 | Stakenet         | XSn         | [https://stakenet.io/](https://stakenet.io/)                 |
-| PoSW             | POSW        | [https://posw.io/](https://posw.io/)                         |
-| Hyper Cash       | HSR         | [https://h.cash/](https://h.cash/)                           |
+
 
 ## Third Party Wallet Applications
 
