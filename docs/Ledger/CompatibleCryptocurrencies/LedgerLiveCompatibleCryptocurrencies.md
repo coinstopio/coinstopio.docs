@@ -48,19 +48,19 @@ The list below contains a number of Third Party Applications used in conjunction
 
 | Cryptocurrency         | Ticker Code | Guide                                                        |
 |------------------------|-------------|--------------------------------------------------------------|
-| Aion                   | AION        | [Aion Desktop Wallet](../ThirdPartyWallets/AionDesktopWallet)|
+| Aion                   | AION        | [Aion Desktop Wallet](https://docs.aion.network/docs/ledger-hardware-wallet-guide)|
 | Ark| ARK| [ARK Wallet](https://blog.ark.io/full-ledger-nano-s-hardware-wallet-guide-for-ark-7bf7bfff4cef)|
-| Banano| BAN| [Banano Vault](../ThirdPartyWallets/BananoVaultBAN)|
-| Bitcoin Private| BTCP| [Electrum](../ThirdPartyWallets/ElectrumBTCP) |
-| Zcoin| XCZ| [Electrum](../ThirdPartyWallets/ElectrumXCZ)|
-| EOS| EOS| [Fairy Wallet](../ThirdPartyWallets/EOSFairyWallet)|
-| Foxlet| eFIC| [FIC APP](../ThirdPartyWallets/FoxleteFIC)|
-| Hycon| HYC| [Hycon Desktop Wallet](../ThirdPartyWallets/HyconDesktopWallet)|
-| Icon| ICX| [ICONex Wallet](../ThirdPartyWallets/ICONexWalletICX)|
-| Monero| XMR| [GUI and CLI](../ThirdPartyWallets/MoneroGUIandCLIxmr)|
-| Nano| NANO | [Nano Vault](../ThirdPartyWallets/NanoVaultNANO)|
-| Nimiq|NIM| [Nimiq Safe](../ThirdPartyWallets/NimiqSafe)|
-| Ontolgy| ONT| [ONT Wallet](../ThirdPartyWallets/ONTwalletOntolgy)|
+| Banano| BAN| [Banano Vault](https://coranos.github.io/bananos/ledger-nano-s/guide)|
+| Bitcoin Private| BTCP| [Electrum](https://docs.google.com/document/u/1/d/e/2PACX-1vTsClCr23RxcsUh9drSiwuVAD-M40k2HVC8TCFHIxU_ZHWNAS5RVq7BnOHOXZp_r9oH6Ki-AZmHJTmX/pub) |
+| Zcoin| XCZ| [Electrum](https://zcoin.io/using-zcoin-with-ledger-on-electrum/)|
+| EOS| EOS| [Fairy Wallet](https://github.com/tarassh/fairy-wallet/wiki)|
+| TomoChain| TOMO| [TomoChain Wallet](https://medium.com/tomochain/tomochain-is-officially-supported-by-ledger-nano-s-d908b80e9578)|
+| Hycon| HYC| [Hycon Desktop Wallet](https://hycon.io/ledger/)|
+| Icon| ICX| [ICONex Wallet](https://icon.foundation/ledgerGuideForICX/en)|
+| Monero| XMR| [GUI and CLI](https://support.ledger.com/hc/en-us/articles/360006352934-Monero-XMR-)|
+| Nano| NANO | [Nano Vault](http://blog.nanovault.io/guides/use-your-ledger-device-with-nanovault/)|
+| Nimiq|NIM| [Nimiq Safe](https://nimiq.com/tutorials/ledger/)|
+| Ontolgy| ONT| [ONT Wallet](https://github.com/ontio/documentation/blob/master/walletDevDocs/How%20to%20install%20and%20use%20ONT.md)|
 | Particl| IQT| [IQT Wallet](../ThirdPartyWallets/ParticlQT)|
 | Pyrus| UBQ| [UBQ Wallet](../ThirdPartyWallets/PyrusUBQ)|
 | Rise| RISE| [Rise Web Wallet](../ThirdPartyWallets/RiseWebWallet)|
