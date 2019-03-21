@@ -41,7 +41,7 @@ ERC20 Tokens can be accessed using the services listed below:
 -   [MetaMask](https://metamask.io/)
 -   [MyCrypto](https://mycrypto.com/)
 
-If you're not sure whether a cryptocurrency is an ERC20 Token or not, please review this [list of ERC20 tokens](https://eidoo.io/erc20-tokens-list/) ( this information may not be accurate to present time).
+If you're not sure whether a cryptocurrency is an ERC20 Token or not, please review this [list of ERC20 tokens](https://eidoo.io/erc20-tokens-list/) (this information may not be accurate to present time).
 
 The list below contains a number of Third Party Applications used in conjunction with the Ledger Nano S:
 
@@ -87,6 +87,10 @@ The list below contains a number of Third Party Applications used in conjunction
 | FIC Network| eFIC| [FIC Wallet Application](https://medium.com/fic-network/ledger-fic-75bdca73dc7b)|
 | Nollar| NOS| [NOS Wallet](https://docs.google.com/document/d/1gXvjJc1e1jZulc3K2E2D7EI0ZbB59-tsDjYFrXo0ksI/edit)|
 | Validator| DASC| [DasWallet](https://support.ledger.com/hc/article_attachments/360017758034/Ledger_Nano_S_Tutorial_final.pdf)|
+
+## Ledger Tools
+
+Ledger Tools provide additional functionalities such as two factor authentication, encrypted messaging, and more.
 
 | Ledger Tools         | Guide                                                        |
 |------------------------|--------------------------------------------------------------|
