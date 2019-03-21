@@ -76,7 +76,7 @@ _Go to [Step 3](#step-3-security-checklist) Security checklist if you use a devi
 1.  Start the Ledger Live application
 2.  Click **Get started**
 3.  This is where you choose between initialising a new device, or restoring an existing account
-    -   Select **i****nitialise a new Ledger device** if you're setting up a brand new device
+    -   Select **initialise a new Ledger device** if you're setting up a brand new device
     -   Select **restore a Ledger device** if you have recovery phrase associated with a wallet account you want to recover to a new device
 4.  Select your device, then click **continue**
 
