@@ -1,6 +1,6 @@
 # Ledger RMA (Return Merchandise Authorisation) Prodecure
 
-This is the procedure provided to us by Ledger which authorised resellers must follow to receive replacement devices.
+>This is the procedure provided to us by Ledger which authorised resellers must follow to receive replacement devices.
 
 ### Step 1: **Resolution On Support**
     
