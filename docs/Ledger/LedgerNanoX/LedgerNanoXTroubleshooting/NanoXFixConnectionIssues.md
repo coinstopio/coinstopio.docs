@@ -21,13 +21,13 @@ If you encounter connection issues when trying to connect your Ledger hardware w
 
 Update USB input device drivers:
     
-    1.  Open **Devices and Printers** from Control Panel.
-    2.  Double-click **Nano S** and open the **Hardware** tab.
-    3.  Select **USB Input Device** and click **Properties**.
-    4.  Click **Change Settings**.
-    5.  Click the **Driver** tab.
-    6.  Click **Update driver** and select automatic driver selection.
-    7.  Repeat this for both **USB Input Devices**.
+1.  Open **Devices and Printers** from Control Panel.
+2.  Double-click **Nano S** and open the **Hardware** tab.
+3.  Select **USB Input Device** and click **Properties**.
+4.  Click **Change Settings**.
+5.  Click the **Driver** tab.
+6.  Click **Update driver** and select automatic driver selection.
+7.  Repeat this for both **USB Input Devices**.
     
 >If the issue persists, please try on another operating system to verify that your Ledger Nano S is working properly. This could be on a Mac, Linux or different version of Windows.
 
