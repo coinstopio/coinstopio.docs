@@ -2,13 +2,13 @@
 
 ## The Use Of Network Fees
 
--   The security of a blockchain network generally depends on the amount of work done by miners
--   The miner that proposes the next block of transactions to the network, has to provide proof of the amount of work done to create the block.
--   If the transactions are valid and the proof of work is sufficient, the miner may collect the fees offered in the included transactions, as a reward for the work done
+-   The security of a blockchain network like Bitcoin generally depends on the amount of work done by miners. Miners are the computers competing to solve an algorithm that allows them to receive the block reward, the fees, and the ability to propagate the next block in the chain.
+-   The miner that proposes the next block of transactions to the network must also provide proof of the work done required to create the block.
+-   If the transactions are valid and the proof of work is sufficient, the miner may collect the fees offered in the included transactions, as a reward for the work done.
 
 ## Choose Your Network Fees
 
-When [sending cryptocurrency], the network fees you offer determine your priority in the queue of pending transactions. Miners will prioritise transactions that offer high fees.
+When **[sending cryptocurrency]**, the network fees you choose determine your priority in the queue of pending transactions, the mempool. Miners are incentivised to prioritise transactions that offer high fees.
 
 Ledger Live offers a three (3) tiered fee structure, as well as a custom fee option:
 
