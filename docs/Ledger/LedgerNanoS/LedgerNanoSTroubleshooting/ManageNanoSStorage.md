@@ -7,7 +7,7 @@ For a firmware update: simply uninstall all apps.
 
 To make space for apps: just uninstall apps you don't need.
 
-> _Uninstalling apps does not affect your crypto assets._
+> Uninstalling apps does not affect your crypto assets.
 
 ## **Uninstall Applications**
 
@@ -28,12 +28,12 @@ To make space for apps: just uninstall apps you don't need.
 
 Ledger Nano S securely stores the private keys giving access to your crypto assets. Each app on the device lets you manage a crypto asset.
 
-> _Example: To manage Bitcoin, install the Bitcoin app._
+To manage Bitcoin, install the Bitcoin app.
 
 Your device has limited storage. You can safely uninstall and install apps within seconds without losing access to your crypto assets. Your private keys stay safe on your device and on your Recovery sheet.
 
-Your cryptocurrency is not stored within the applications, your cryptocurrency is secured on the blockchain.  
+>Your cryptocurrency is not stored within the applications, your cryptocurrency is secured on the blockchain.  
 
-###**Simultaneously Use More Apps**
+### Simultaneously Use More Apps
 
 To avoid uninstalling apps to free storage, you can another device for different apps. If you restore the recovery phrase from the first device on the second one, both devices manage the same private keys and will access the same accounts.
