@@ -1,4 +1,4 @@
-# Lost device, PIN code or recovery phrase
+# Lost PIN Code
 
 If you cannot access your Ledger Nano X device, you forget your PIN code or you lose the recovery phrase, you immediately need to follow the steps outlined in this article to prevent losing your crypto assets.
 
