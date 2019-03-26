@@ -9,6 +9,7 @@ You can receive crypto assets on accounts managed by your Ledger Nano X device b
 
 -   Ledger Live should be ready to use.
 -   Check that the right app is installed on your Ledger Nano X.  
+
     >Install the Bitcoin app to receive Bitcoin.
 
 ## Instructions
