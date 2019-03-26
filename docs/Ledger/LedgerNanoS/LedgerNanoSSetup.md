@@ -1,41 +1,72 @@
-# Ledger Nano S Setup
 
-_Before you get started, it's important to check to ensure that your have purchased a genuine Ledger product. To do this, simply ask yourself these questions:_
+<need link>
 
--   Where did my product come from?
-    -   To ensure there is no interference with the product, it's best to order from an Authorised Reseller - like us! To check Coinstop's reseller status, simply visit the [reseller page](https://www.ledger.com/pages/retailers) on the Ledger website.
--   What's inside the box?
-    -   The contents of the Ledger Nano S box should be the following:
-        -   Ledger Nano S device
-        -   Three (3) Paper Cards (Getting Started, Did You Notice, and Recovery Sheet)
-            -   There may be multiple copies of the recovery sheet.
-        -   **FINISH LIST**
--   How does it look?
-    -   Your recovery sheet should be blank, and the contents of the box should be neatly arranged.
-    -   Ensure the device has not been preconfigured. Device should display welcome message upon first initialisation.
+# Set Up As New Device
 
-  
+Set up your Ledger Nano S as a new device to get started. It will generate new private keys so you can manage your crypto assets. You will also write down a new 24-word recovery phrase.
 
-**INITIALISING THE LEDGER NANO S**
+Alternatively,  **[restore your device from a recovery phrase]** to recover the private keys linked to an existing recovery phrase.
 
-  
+## What You'll Need
 
-**Step 1:** You will need a Ledger Nano S device, a computer (Windows 8+, MacOS 10.8+, or Linux)
+-   Ledger Nano S
+-   An iPhone with iOS 9, Android 7 smartphone, or newer.
+-   The Ledger Live [desktop application](https://www.ledger.com/pages/ledger-live) or mobile application downloaded and installed for either [Android](https://play.google.com/store/apps/details?id=com.ledger.live) or [iOS](https://itunes.apple.com/app/id1361671700).
 
-**Step 2:** Visit Ledger website and download Ledger Live application.Open Ledger Live once download and installation is complete.
+## Instructions
 
-[_Click here_](https://coinstop.kayako.com/section/3-ledger-live) _or more information on Ledger Live Setup._
+>Ledger Live features interactive setup instructions. Simply open the app to get started.
 
-**Step 3:** Connect Ledger Nano S to your computer using the USB cable provided. Read the onscreen instructions and press both buttons at once to proceed.
+### Step 1. Set Up As New Device
 
-**Step 4:** Navigate the onscreen menu until **configure as new device** is displayed, pressing the right side button to confirm this action.
+1.  Press the button next to the USB port until the Ledger logo appears to turn on the device.
+2.  Read the on-screen instructions.
 
-_This guide is for the first time initialisation of a Ledger Nano S, for information on how to recovery or restore a wallet to your Ledger Nano S, please visit the_ [_Ledger Nano S Recovery Guide_](https://coinstop.kayako.com/section/3-ledger-live)_._
+>Press the right button to proceed or the left button to go back.
 
-**Step 5:** Select a PIN code between four (4) and eight (8) digits in length. Press both buttons to confirm the action when **choose a PIN** is displayed on screen. Use the right side button to cycle through digits, and both buttons to confirm. Repeat this process until complete, selecting the tick icon to confirm your entry.
+3.  Press both simultaneously when **Set up as new device** is displayed.
 
-_Never use a device with a pre-supplied PIN code or recovery phrase._
+### Step 2. Choose Your PIN Code
 
-_**Step 6:**_ Saving your Recovery Phrase. Take the blank recovery sheet from the Ledger Nano S packaging. As each word is displayed on the Ledger Nano S screen, you will need to write the word down in the corresponding position, e.g. word #1 in space #1, word #2 in space #2. Repeat this process until all 24 words have been written in the correct location.
+1.  Press both buttons when **Choose PIN code** is displayed on the device.
+2.  Press the left or right button to select a digit. 
 
-**Step 7:** Confirm your Recovery Phrase. The Ledger Nano S will request confirmation of the 24 world recovery phrase by asking for the corresponding word for each number given, e.g. word #5, you would be required to confirm on the Ledger Nano S device the correct word. Navigate the selection of words using the left or right side buttons, and pressing both buttons to confirm. Repeat this process until complete.
+>Press both buttons to confirm a digit. Select the backspace icon to erase a digit.
+
+3.  Select the checkmark icon to confirm your PIN code of 4 to 8 digits.
+4.  Enter the PIN code again to confirm it.
+
+#### Security Tips
+
+-   Choose your own PIN code. This code unlocks your device.
+-   Use 8 digits for optimal security.
+-   Never use a device supplied with a PIN code and/or a recovery phrase.
+-   Contact [Ledger Support](https://support.ledger.com/hc/requests/new) in case of doubt.
+
+### Step 3. Record Your Recovery Phrase
+
+Your 24-word recovery phrase will now be displayed word by word on the Ledger Nano X screen.
+
+>Be careful, your recovery phrase will be displayed only once.
+
+1.  Take the blank Recovery sheet supplied in the box.
+2.  Press both buttons when **Write down your recovery phrase** is displayed.
+3.  Write down **word #1** on the Recovery sheet. Verify that you have copied it correctly in position 1. Press the right button to move to the next word.
+4.  Repeat the process until **Word #24** is written down in position 24.
+
+>Press both buttons on the final screen to proceed.
+
+5.  Press both buttons when **Confirm your recovery phrase** is shown.
+6.  Select the first word that you've written down in position 1 on your Recovery sheet with the left or right button.
+
+>Validate the word by pressing both buttons. Repeat this to confirm your entire 24-word recovery phrase.
+
+7.  **Your device is ready** is shown once you've successfully completed the setup process.
+8.  Press both buttons to **Access Dashboard.** 
+
+#### Security Tips
+
+-   Anyone with access to your recovery phrase could take your assets. Store it securely.
+-   Ledger does not keep a backup of your 24 words. Ensure you are the only holder.
+-   Never use a device supplied with a recovery phrase and/or a PIN code.
+-   Contact [Ledger Support](https://support.ledger.com/hc/requests/new) in case of doubt.
