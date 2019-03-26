@@ -3,11 +3,12 @@
 
 If you encounter connection issues when trying to connect your Ledger hardware wallet, try the following solutions one by one.
 
-## Mac, Windows or Linux
+## Basic: Mac, Windows or Linux
 
 1.  Close other applications
 
 > Ledger apps, crypto wallets, Geth, Parity, Mist, Bitcoin Core, etc
+
 2.  Turn OFF VPN and anti-virus.
 3.  Change the USB cable if possible
 4.  Try different USB ports.
@@ -16,9 +17,9 @@ If you encounter connection issues when trying to connect your Ledger hardware w
 
 ### If the steps above did not remedy the issue and your problem persists, please view the operating system specific guides below.
 
-## Windows
+## Windows: Advanced
 
--   **Update** **USB input device drivers**
+Update USB input device drivers:
     
     1.  Open **Devices and Printers** from Control Panel.
     2.  Double-click **Nano S** and open the **Hardware** tab.
@@ -28,9 +29,9 @@ If you encounter connection issues when trying to connect your Ledger hardware w
     6.  Click **Update driver** and select automatic driver selection.
     7.  Repeat this for both **USB Input Devices**.
     
--   If it still does not work, please try on a Mac to verify that your Ledger Nano S is working properly.
+>If the issue persists, please try on another operating system to verify that your Ledger Nano S is working properly. This could be on a Mac, Linux or different version of Windows.
 
-## Mac
+## Mac: Advanced
 
 If you're having connection issues on a Mac, you can try giving Ledger Live full disk access:
 
@@ -38,7 +39,7 @@ If you're having connection issues on a Mac, you can try giving Ledger Live full
 2.  Go to **Security & Privacy**.
 3.  In the **Privacy** tab, add Ledger Live to the **Full Disk Access** list.
 
-## Linux
+## Linux: Advanced
 
 On Linux you need to create a set of udev rules to allow device access. Refer to the [Chrome USB API documentation](https://developer.chrome.com/apps/app_usb#caveats) for details. Please follow the instructions below.
 
@@ -50,7 +51,7 @@ On Linux you need to create a set of udev rules to allow device access. Refer to
     cat /etc/group | grep plugdev
     ```
     
--   **Follow the steps below** **if the previous command did not return** **a result**
+#### Follow the steps below if the previous command did not return a result
     1.  **C**reate the **plugdev** group:  
         
         ```
@@ -95,7 +96,8 @@ On Linux you need to create a set of udev rules to allow device access. Refer to
 
 Try each of the following three options.
 
--   **Option 1  
+-   **OPTION 1**
+
     **Edit the file **/etc/udev/rules.d/20-hw1.rules** file by adding the **OWNER="<user>"** parameter to each line, where **<user>** is your Linux user name.  
     Then reload the rules as follows:  
     
@@ -104,7 +106,8 @@ Try each of the following three options.
     ```
     
     Retry the connection with Ledger Live. If it does not work, try the next option.
--   **Option 2**  
+-   **OPTION 2**  
+
     Edit the **/etc/udev/rules.d/20-hw1.rules** file and add the following lines:  
     
     ```
@@ -119,7 +122,8 @@ Try each of the following three options.
     ```
     
     Retry connecting with Ledger Live. If it does not work yet, try the last option.
--   **Option 3**  
+-   **OPTION 3** 
+
     If you are on Arch Linux, you can try the following rules:
     
     ```
