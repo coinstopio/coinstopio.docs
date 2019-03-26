@@ -10,7 +10,7 @@ Coinstop and Ledger hold no responsibility for funds lost in error while exporti
 >Your 24-word recovery phrase provides full access to your accounts. Entering your recovery phrase on a computer or smartphone may be insecure. Avoid doing so if possible.
 
 -   Carefully select a hardware or software wallet. Protecting your accounts remains your own responsibility.
--   Contact [Ledger Support](https://support.ledger.com/hc/en-us/articles/ https://support.ledgerwallet.com/hc/en-us/requests/new) if in doubt.
+-   Contact [Ledger Support](https://support.ledger.com/hc/en-us) if in doubt.
 
 ## Instructions
 
