@@ -2,7 +2,7 @@
 
 ## Can't Access Your Ledger Device?
 
--   In case of loss, theft, or destruction of your Ledger device you can [restore your accounts].
+-   In case of loss, theft, or destruction of your Ledger device you can **[restore your accounts]**.
 -   Your accounts can be restored on any hardware or software wallet that supports 24-word recovery phrases as described in the [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)/[BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)/[BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) standards. Please find a few examples [in this article](https://support.ledgerwallet.com/hc/en-us/articles/115005297709-Export-your-accounts).
 -   You'll need the Recovery sheet on which you've saved your recovery phrase during initialisation.
 
@@ -11,7 +11,7 @@
 ## Forgot Your Pin Code?
 
 -   After three invalid PIN code entries, Ledger hardware wallets reset to factory settings, erasing the private keys from their secure storage.
--   After the reset, [restore your configuration] by entering your 24-word recovery phrase.
+-   After the reset, **[restore your configuration]** by entering your 24-word recovery phrase.
 -   Choose a new PIN code during the restoration process.
 
 ##   Lost Your Recovery Phrase?
@@ -21,5 +21,5 @@ It is extremely important not to lose your recovery sheet: please keep it in a v
 In case you do lose access to your recovery sheet:
 
 1.  Immediately transfer your entire balance to temporary accounts (e.g. an exchange service or another hardware wallet).
-2.  Reset your Ledger device and [intialise as a new device].
+2.  Reset your Ledger device and **[intialise as a new device]**.
 3.  Then transfer back your balance to your newly configured device.
