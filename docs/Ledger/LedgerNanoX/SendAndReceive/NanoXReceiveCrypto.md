@@ -37,5 +37,5 @@ You can receive crypto assets on accounts managed by your Ledger Nano X device b
 You've generated an address for the selected account, that you can share with the sender.
 
 -   Blockchains based on Bitcoin are public networks. For optimal privacy, the addresses of those cryptocurrencies should generally not be re-used after a transaction.
--   Ledger Live generates new addresses for crypto assets based on Bitcoin.
+-   Ledger Live generates new addresses for cryptocurrencies based on Bitcoin.
 -   For cryptocurrencies based on Bitcoin, the previous addresses do remain valid, but they don't offer an optimal level of privacy.
