@@ -6,7 +6,10 @@ If the screen of your Ledger Nano S is stuck on the same menu and you can not sc
   
 
 1.  Open the Ledger Manager
-2.  **BEFORE** connecting your Ledger Nano S to the computer, press and hold the left button for at least 5 seconds (the button nearest to the micro USB port)
+2.  **BEFORE** connecting your Ledger Nano S to the computer, press and hold the left button for at least 5 seconds
+
+>The left button is the button nearest to the micro USB port
+
 3.  Plug in your Ledger Nano S
 4.  The screen will display **bootloader**
 5.  Release the left button
