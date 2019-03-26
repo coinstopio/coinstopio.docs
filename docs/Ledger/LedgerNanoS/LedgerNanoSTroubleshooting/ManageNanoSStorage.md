@@ -28,7 +28,7 @@ To make space for apps: just uninstall apps you don't need.
 
 Ledger Nano S securely stores the private keys giving access to your crypto assets. Each app on the device lets you manage a crypto asset.
 
-To manage Bitcoin, install the Bitcoin app.
+>To manage Bitcoin, install the Bitcoin app.
 
 Your device has limited storage. You can safely uninstall and install apps within seconds without losing access to your crypto assets. Your private keys stay safe on your device and on your Recovery sheet.
 
