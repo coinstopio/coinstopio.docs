@@ -1,8 +1,5 @@
 
-# User manual
+# Ledger Nano X User Manual
 
-Click the link below to download the Ledger Nano X user manual.
-
--   [LedgerNanoX_UserManual_v1.0.pdf](https://support.ledger.com/hc/en-us/article_attachments/360028173574/LedgerNanoX_UserManual_v1.0.pdf)
+Click the link  to download the [LedgerNanoX_UserManual_v1.0.pdf](https://support.ledger.com/hc/en-us/articles/360019514333-User-manual)
     
-    (700 KB)
