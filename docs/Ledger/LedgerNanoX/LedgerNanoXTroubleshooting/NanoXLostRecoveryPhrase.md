@@ -12,7 +12,7 @@ Your Recovery sheet is a full backup of the private keys that provide access to 
 
 #### If You Do Lose Your Recovery Sheet:
 
-1.  Immediately [send all your crypto assets](https://support.ledger.com/hc/en-us/articles/360019123593) to temporary accounts, like an exchange service or another hardware wallet.
-2.  Enter three wrong PIN codes to [reset your Ledger Nano X](https://support.ledger.com/hc/en-us/articles/360017582434).
-3.  [Set up your Ledger Nano X](https://support.ledger.com/hc/en-us/articles/360019095214) as a new device.
-4.  Then [transfer back](https://support.ledger.com/hc/en-us/articles/360018969774) your crypto assets to your newly configured device.
+1.  Immediately **[send]** your cryptocurrency to temporary accounts, preferably to another hardware wallet.
+2.  Enter three wrong PIN codes to **[reset your Ledger Nano X]**.
+3.  [Set up] your Ledger Nano X as a new device.
+4.  Then [transfer back](receive) your crypto assets to your newly configured device.
