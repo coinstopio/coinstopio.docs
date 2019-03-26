@@ -1,3 +1,6 @@
+
+<needs link>
+
 # Advanced Passphrase Feature
 
 > The Ledger Nano S supports an ADVANCED security mode to manage different sets of accounts, each protected with a different passphrase. This feature is also referred to sometimes called "Plausible deniability".
