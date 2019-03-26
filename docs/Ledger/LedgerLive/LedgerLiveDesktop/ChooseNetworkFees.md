@@ -19,7 +19,7 @@ Ledger Live offers a three (3) tiered fee structure, as well as a custom fee opt
 -   **Standard:** the transaction _should_ be included within 3 blocks (~30 min for Bitcoin)
 -   **Low:** the transaction _should_ be included within 6 blocks (~60 min for Bitcoin)
 
-_Choose high fees if you need a faster confirmation, or a lower fee if you can wait a little longer._
+>Choose high fees if you need a faster confirmation, or a lower fee if you can wait a little longer.
 
 ## Calculation Of Fees
 
