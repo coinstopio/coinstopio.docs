@@ -27,11 +27,11 @@ FIDO U2F is a two-factor authentication method (2FA) developed by the [FIDO Alli
 
 | Service| Guide|
 |-|-|
-|Facebook|[Set Up](https://www.facebook.com/help/401566786855239)|
-|Dashlane|[Set Up](https://support.dashlane.com/hc/en-us/articles/202625042-Protect-your-account-using-Two-Factor-Authentication#title3)|
-|Google|[Set Up](https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome)|
-|GitHub|[Set Up](https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/)|
-|Dropbox|[Set Up](https://www.dropbox.com/fr/help/363)|
+|Facebook|[Instructions](https://www.facebook.com/help/401566786855239)|
+|Dashlane|[Instructions](https://support.dashlane.com/hc/en-us/articles/202625042-Protect-your-account-using-Two-Factor-Authentication#title3)|
+|Google|[Instructions](https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome)|
+|GitHub|[Instructions](https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/)|
+|Dropbox|[Instructions](https://www.dropbox.com/fr/help/363)|
 
 Always ensure you set up an alternative login method. Reinstalling FIDO U2F requires you reconfigure it for each service.
 
