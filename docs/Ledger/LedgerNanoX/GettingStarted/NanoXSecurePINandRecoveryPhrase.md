@@ -5,16 +5,17 @@ Ledger products have a combination of hardware and software security features to
 
 ## Secure your PIN code
 
-During the setup process you choose a PIN.
+During the setup process you choose a secure PIN. Do not base your PIN off personal details like birthdays or phone numbers.
 
-**ALWAYS**
+### ALWAYS
 
 -   **Choose a PIN code by yourself.**
 -   Enter your PIN code out of sight.
--   Change your PIN code if needed. [Learn more](https://support.ledger.com/hc/en-us/articles/360019010273)
--   **Remember that three wrong PIN code entries in a row will reset the device.**
+-   Change your PIN code if needed. **[Learn more]**
 
-**NEVER**
+>Remember that three wrong PIN code entries in a row will reset the device.
+
+### NEVER
 
 -   Use an easy PIN code like 0000, 123456, or 55555555.
 -   Share your PIN code with anyone else.
@@ -27,7 +28,10 @@ The 24-word recovery phrase is the only backup to your crypto assets.
 
 **ALWAYS**
 
--   **Ensure your 24-word recovery phrase is obtained from the device screen.**
+-   **Ensure your 24-word recovery phrase is obtained from the screen of the Ledger device.**
+
+>You recovery phrase will only ever be shown on the screen of the Ledger device. Never on your computer or smartphone screen.
+
 -   Create multiple written copies of the recovery phrase.
 -   Store the copies of the recovery phrase in secure locations, out of sight.
 
@@ -40,4 +44,4 @@ The 24-word recovery phrase is the only backup to your crypto assets.
 
 ## Learn more
 
--   Maximize your account security [with a passphrase](https://support.ledger.com/hc/en-us/articles/360019010313) (advanced users).
+-   Maximize your account security **[with a passphrase]**.
