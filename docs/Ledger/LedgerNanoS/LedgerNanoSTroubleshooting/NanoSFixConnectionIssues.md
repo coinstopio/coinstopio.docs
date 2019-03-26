@@ -5,7 +5,7 @@ In some cases users may encounter connection issues when trying to connect their
 
 1.  Close all other applications 
 
-> Ledger apps, crypto wallets, Geth, Parity, Mist, Bitcoin Core, etc)
+> Ledger apps, crypto wallets, Geth, Parity, Mist, Bitcoin Core, etc
 
 2.  Turn off any VPN services
 3.  Change the USB cable if possible  
