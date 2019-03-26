@@ -28,6 +28,8 @@ Use your recovery phrase
 -   Ledger Nano
 -   Ledger HW.1
 
+>Ledger Nano and Ledger HW.1 have been discontinued.
+
 ### Third Party BIP39/BIP44 Compatible Software Wallets
 
 >Entering your recovery phrase into a computer or smartphone is a security risk and should be avoided where possible.
