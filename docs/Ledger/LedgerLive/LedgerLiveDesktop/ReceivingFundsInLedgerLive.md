@@ -1,6 +1,6 @@
 # Receiving Funds In Ledger Live
 
-_Note: For optimal security, use your Ledger device to verify the generated address before sharing it with the sender of the transaction._
+>For optimal security, use your Ledger device to verify the generated address before sharing it with the sender of the transaction.
 
 
 ## Instructions
@@ -13,17 +13,17 @@ _Note: For optimal security, use your Ledger device to verify the generated addr
 6.  Verify that the address shown on your screen matches the address shown in Ledger Live. If the addresses are the same, press the right button on your device to confirm.
 7.  Click **Copy** to copy the address and share it with the sender of the transaction.  
       
-_Check that the address does not change after you copy and paste it._
+>Check that the address does not change after you copy and paste it.
 
 
 ## Don't Have Your Device?
 
 -   On the account selection screen, click on **I don't have my device** to generate a receive address.
--   **The generated receive address does not benefit from the optimal level of security because the receive address on Ledger Live is not verified on your Ledger device.**
+>The generated receive address does not benefit from the optimal level of security because the receive address on Ledger Live is not verified on your Ledger device.
 
 
 ## Privacy Of Blockchain Addresses
 
--   Blockchains based on Bitcoin are public networks. For optimal privacy, the addresses of those cryptocurrencies should generally not be re-used after a transaction.
--   Ledger Live generates new addresses for cryptocurrencies based on Bitcoin.
--   For cryptocurrencies based on Bitcoin, the previous addresses do remain valid, but they don't offer an optimal level of privacy.
+Blockchains based on Bitcoin are public networks. For optimal privacy, the addresses of those cryptocurrencies should generally not be re-used after a transaction.
+>Ledger Live generates new addresses for cryptocurrencies based on Bitcoin.
+For cryptocurrencies based on Bitcoin, the previous addresses do remain valid, but they don't offer an optimal level of privacy.
