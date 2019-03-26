@@ -11,8 +11,8 @@
 
 ## Instructions
 
-1.  Download Ledger Live [Desktop](https://www.ledger.com/pages/ledger-live)
-2.  Open the downloaded Ledger Live .**dmg** file
+1.  Download [Ledger Live Desktop](https://www.ledger.com/pages/ledger-live)
+2.  Open the Ledger Live **.dmg** file
 3.  Install the Ledger Live application by dragging and dropping the Ledger Live application over the Applications folder
 4.  Open the Ledger Live application
   
@@ -24,12 +24,12 @@ Ledger Live's interface consists of four main elements. In the left panel you'll
 ![ledger_live_overview.png](https://coinstop.kayako.com/base/media/url/CEBdlIZUFTBJ7L6jOQacbeQG5i9ebGDv)
 
 ### Menu [red]
-
-Use the **menu** to go to different main sections:
+\\ change text colour \\ 
+Use the **Menu** to go to different main sections:
 
 -   **Portfolio:** Summary of your accounts
--   **Send:** Send crypto assets at any time
--   **Receive:** Receive crypto assets at any time
+-   **Send:** Send cryptocurrency at any time
+-   **Receive:** Receive cryptocurrency at any time
 -   **Manager:** Manage your Ledger device
 -   **Exchanges:** Discover some selected exchange services
 
