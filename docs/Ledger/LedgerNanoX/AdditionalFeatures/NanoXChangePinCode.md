@@ -6,7 +6,7 @@ The PIN code of your Ledger Nano X device prevents unauthorised access to your c
 ## Before you start
 
 -   Your device is **[set up]** and runs the **[latest firmware]**.
--   Check our article on [PIN code and recovery phrase security](https://support.ledger.com/hc/en-us/articles/360018786474).
+-   Check Ledger's article on [PIN code and recovery phrase security](https://support.ledger.com/hc/en-us/articles/360018786474).
 
 ## Instructions
 
