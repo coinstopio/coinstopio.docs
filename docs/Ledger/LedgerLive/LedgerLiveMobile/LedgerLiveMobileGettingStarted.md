@@ -7,7 +7,7 @@ To set up another device, restart the onboarding process from the Help section i
 ## Before you begin
 
 -   Make sure you've downloaded Ledger Live mobile for [iOS](https://itunes.apple.com/app/id1361671700) or [Android](https://play.google.com/store/apps/details?id=com.ledger.live).
--   Add your Ledger Nano S or Ledger Blue accounts in Ledger Live desktop. [Learn more...](https://support.ledger.com/hc/en-us/articles/360006410253-Add-your-accounts)
+-   [Add accounts] from your Ledger Nano S or Ledger Blue accounts in Ledger Live desktop.
 
 ## Instructions
 
