@@ -14,7 +14,7 @@ These two (2) steps are mandatory, Ledger will not accept returned devices if th
     
 The customer sends the complete box with the RMA number written on their invoice and return address, back to Coinstop - return address will be provided via email.  
       
-_We have no authority to accept returned devices that were purchased from other resellers._
+> We have no authority to accept returned devices that were purchased from other resellers.
     
 ### 4.  **VERIFICATION**
     
@@ -26,7 +26,7 @@ Ledger will confirm it is an authorised RMA.
     
 Coinstop will return the device to Ledger.  
 
-Please ensure you have wiped all funds from the accounts. If this is not possible due to the issue had by the device, you can restore your wallet to another BIP39 compatible wallet.
+>Please ensure you have wiped all funds from the accounts. If this is not possible due to the issue had by the device, you can restore your wallet to another BIP39 compatible wallet and move the funds to another wallet.
     
 ### 6.  **EXCHANGE**
     
