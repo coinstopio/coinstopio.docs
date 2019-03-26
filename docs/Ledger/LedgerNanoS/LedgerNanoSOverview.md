@@ -1,6 +1,6 @@
 # Ledger Nano S Overview
 
->> ADD what is ledger nano s
+The Ledger Nano S is a Bitcoin, Ethereum and altcoin hardware wallet. This device is built on robust safety features for storing cryptographic assets and securing digital payments. You can easily connect the Ledger Nano S to any computer. The Ledger Nano S uses a secure OLED display to double-check and confirm each transaction using the buttons located on the side of the device.
 
 ## Ledger Nano S Guides
 
