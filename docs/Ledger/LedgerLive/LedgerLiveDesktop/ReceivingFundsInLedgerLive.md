@@ -26,4 +26,5 @@
 
 Blockchains based on Bitcoin are public networks. For optimal privacy, the addresses of those cryptocurrencies should generally not be re-used after a transaction.
 >Ledger Live generates new addresses for cryptocurrencies based on Bitcoin.
+
 For cryptocurrencies based on Bitcoin, the previous addresses do remain valid, but they don't offer an optimal level of privacy.
