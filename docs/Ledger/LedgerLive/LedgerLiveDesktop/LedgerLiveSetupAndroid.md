@@ -1,4 +1,4 @@
-\# Getting Started (Android)
+# Getting Started (Android)
 
 ## What You Need
 
