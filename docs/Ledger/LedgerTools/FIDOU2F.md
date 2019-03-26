@@ -3,28 +3,35 @@
 
 FIDO U2F is a two-factor authentication method (2FA) developed by the [FIDO Alliance](https://fidoalliance.org/) that is supported on the Ledger Nano S and Ledger Blue devices. It works with several web services, like Facebook, Dashlane, Gmail, Dropbox, GitHub, etc.
 
--   FIDO U2F increases your account security as both your password **and** **Ledger device** are required to login.
--   FIDO U2F is not related to cryptocurrencies. It's an additional utility for your Ledger device.
+>FIDO U2F increases your account security as both your password **and** **Ledger device** are required to login. It is not related to cryptocurrencies. It's an additional utility for your Ledger device.
 
-## Prerequisites
+## What You'll Need
 
 -   A Ledger Nano S or Ledger Blue with the latest firmware version.
--   Ledger Live should be [downloaded](https://www.ledger.com/pages/ledger-live) and installed.
+-   Make sure you have downloaded Ledger Live mobile for [iOS](https://itunes.apple.com/app/id1361671700) or [Android](https://play.google.com/store/apps/details?id=com.ledger.live).
 
 ## Instructions
 
-Set up FIDO U2F
+### Set Up FIDO U2F
 
 1.  Open the **Manager** in Ledger Live.
 2.  Connect and unlock your Ledger device.
 3.  If asked, allow the manager on your device by pressing the right button.
 4.  Find **FIDO U2F** in the app catalog.
 5.  Click the **Install** button of the app.
-    -   An installation window appears.
+    -   An installation window will appear
     -   Your device will display **Processing...**
-    -   The app installation is confirmed.
+    -   The app installation will be confirmed.
 6.  Open FIDO U2F from the dashboard of your device.
-7.  Go to the security parameters of web services partnering with FIDO U2F and follow their instructions to register your device: [Facebook](https://www.facebook.com/help/401566786855239), [Dashlane](https://support.dashlane.com/hc/en-us/articles/202625042-Protect-your-account-using-Two-Factor-Authentication#title3), [Google](https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome), [GitHub](https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/), [Dropbox](https://www.dropbox.com/fr/help/363).
+7.  Go to the security parameters of web services partnering with FIDO U2F and follow their instructions to register your device: 
+
+| Service| Guide|
+|-|-|
+|Facebook|[Set Up](https://www.facebook.com/help/401566786855239)|
+|Dashlane|[Set Up](https://support.dashlane.com/hc/en-us/articles/202625042-Protect-your-account-using-Two-Factor-Authentication#title3)|
+|Google|[Set Up](https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome)|
+|GitHub|[Set Up](https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/)|
+|Dropbox|[Set Up](https://www.dropbox.com/fr/help/363)|
 
 Always ensure you set up an alternative login method. Reinstalling FIDO U2F requires you reconfigure it for each service.
 
