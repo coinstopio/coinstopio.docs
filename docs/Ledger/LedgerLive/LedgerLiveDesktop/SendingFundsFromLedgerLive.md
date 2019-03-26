@@ -1,3 +1,6 @@
+
+<need link>
+
 # Sending Funds From Ledger Live
 
 >Although it takes longer, it can be a good idea to send a small amount of cryptocurrency as the first transaction, and sending the remainder of funds once the initial transaction has been verified as received by the recipient address.
@@ -14,7 +17,7 @@ You will need:
 
 1.  Click **Send** on the left panel.
 2.  Type the name of the cryptocurrency or search within the drop-down menu to  **Select the Account to Debit**.
-3.  Enter the **Recipient Address**. Make sure to [double-check addresses](https://coinstop.kayako.com/article/182-verify-transaction-details) that you copy and paste.
+3.  Enter the **Recipient Address**. Make sure to **[double-check addresses]** that you copy and paste.
 4.  Enter the **Amount** of the crypto asset to send, or its  countervalue  .
       
 >A countervalue is simply the value of the cryptocurrency you wish to send, against another asset. E.g. Where 1BTC is equal to AU$10,000, AU$10,000 would be the countervalue to the 1BTC.
