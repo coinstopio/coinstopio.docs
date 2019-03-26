@@ -1,10 +1,12 @@
 # Set auto-lock and power off
 
-Set **auto-lock** to automatically lock or shutdown your Ledger Nano X device after a period of inactivity. The PIN code is then required to unlock it. It is recommended to enable auto-lock or auto-power off for optimal security.
+Set **auto-lock** to automatically lock or shutdown your Ledger Nano X device after a period of inactivity. The PIN code is then required to unlock it.
+
+>We recommended enabling the auto-lock or auto-power off features for optimal security.
 
 ## Instructions
 
-Enable auto-lock
+To enable the auto-lock feature, follow the instructions below:
 
 1.  Turn on and unlock your Ledger Nano X.
 2.  Hold both buttons to access **Control Center**.
