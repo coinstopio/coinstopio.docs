@@ -1,11 +1,11 @@
 
 # Change your PIN code
 
-The PIN code of your Ledger Nano X device prevents unauthorized access to your crypto assets. Your PIN code is chosen when you first set up the device, but you can change it at any time.
+The PIN code of your Ledger Nano X device prevents unauthorised access to your crypto assets. Your PIN code is chosen when you first set up the device, but you can change it at any time.
 
 ## Before you start
 
--   Your device is [set up](https://support.ledger.com/hc/en-us/articles/360018784134) and runs the latest firmware.
+-   Your device is **[set up]** and runs the **[latest firmware]**.
 -   Check our article on [PIN code and recovery phrase security](https://support.ledger.com/hc/en-us/articles/360018786474).
 
 ## Instructions
@@ -20,6 +20,8 @@ The PIN code of your Ledger Nano X device prevents unauthorized access to your c
 
 #### Security tips
 
--   Choose your own PIN code. This code unlocks your device.
+-   Choose your own PIN code.
 -   An 8-digit PIN code offers an optimum level of security.
 -   Choose a PIN code that's hard to guess.
+
+>Don't use your birthday, a family members birthday, part of your phone number or something that can be easily sourced.
