@@ -22,7 +22,9 @@ The perfect companion for your Ledger devices. Add new cryptocurrencies and chec
 |[VerifyTransactionDetails](../LedgerLive/VerifyTransactionDetails.md)| How to verify transaction details.|
 
 
-## Ledger Live Compatible Crypto Currencies
+## Compatible Cryptocurrencies
+
+### Ledger Live
 
 Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 
@@ -54,7 +56,7 @@ Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 | Zcash            | ZEC         | [https://z.cash/](https://z.cash/)                           |
 
 
-## Third Party Wallet Applications
+### Third Party Wallet Applications
 
 Ledger Supports the use of Third Party applications to facilitate secure storage of cryptocurrencies via project and community developed wallet software.
 
@@ -111,7 +113,7 @@ The list below contains a number of Third Party Applications used in conjunction
 | ZClassic| ZCL| [Electrum-ZCL](https://medium.com/@applicationist/zclassic-ledger-nano-s-guide-554c67033dae)|
 | Zcoin| XCZ| [Electrum](https://zcoin.io/using-zcoin-with-ledger-on-electrum/)|
 
-## Ledger Tools
+### Ledger Tools
 
 Ledger Tools provide additional functionalities such as two factor authentication, encrypted messaging, and more.
 
