@@ -40,8 +40,7 @@ To set up your passphrase, follow the instructions below:
 
 Attaching a passphrase to a new PIN code creates a new set of accounts on your Ledger Nano S based on a secret passphrase of your choice. You can access the accounts protected by this passphrase by entering a secondary PIN code.
 
--   The passphrase will be stored on the device until you overwrite it with another passphrase or until the device is reset.
--   Store a physical backup of the secret passphrase in a secure place. The device cannot display it after you've set it.
+>The passphrase will be stored on the device until you overwrite it with another passphrase or until the device is reset. Store a physical backup of the secret passphrase in a secure place. The device cannot display it after you've set it.
 
 #### INSTRUCTIONS
 
@@ -59,8 +58,7 @@ Attaching a passphrase to a new PIN code creates a new set of accounts on your L
 
 Using a temporary passphrase provides access to a new set of accounts on your Ledger Nano X **for the duration of the session**. Follow the instructions below **each time** you wish to access the accounts protected by the passphrase.
 
--   The accounts are based on a secret passphrase of your choice.
--   Store a physical backup of the secret passphrase in a secure place. The device cannot display it after initial setup.
+>The accounts are based on a secret passphrase of your choice. Store a physical backup of the secret passphrase in a secure place. The device cannot display it after initial setup.
 
 #### INSTRUCTIONS
 
