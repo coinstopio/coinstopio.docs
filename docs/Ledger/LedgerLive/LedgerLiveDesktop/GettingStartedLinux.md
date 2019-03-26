@@ -1,4 +1,7 @@
 
+
+<host image and change text colours in Interface Overview section if possible>
+
 # Getting Started (Linux)
 
 ## What You Need
