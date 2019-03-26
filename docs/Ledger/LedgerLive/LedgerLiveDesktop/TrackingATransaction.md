@@ -5,9 +5,11 @@ Once a transaction has been sent, it is broadcasted to the network for validatio
 ## Blockchain Validation
 
 -   Transactions are validated by the amount of blocks that include the transaction: block confirmations. At a certain amount of block confirmations, a transaction is considered as confirmed.
-_Six confirmations is generally considered acceptable for the Bitcoin blockchain)._
+
+>Six confirmations is generally considered acceptable for the Bitcoin blockchain.
+
 -   The minimum number of confirmations varies between cryptocurrencies, as each blockchain has its own block time. By default, Ledger Live sets the minimum number of confirmations to the amount of blocks that fit in 30 minutes.
--   You can configure the required number of confirmations in **settings > currencies**. For crypto assets that function like Bitcoin, a high number of confirmations makes a transaction irreversible.
+-   You can configure the required number of confirmations in **settings > currencies**. For crypto assets that function like Bitcoin, a high number of confirmations increases transaction irreversibility.
 
 ## Transaction States
 
