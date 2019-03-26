@@ -5,9 +5,9 @@ Directly enter cryptocurrency receive addresses on your computer using the HODL 
 
 ## Instructions
 
-Step 1. Install HODL
+### Step 1. Install HODL
 
-Make sure your Ledger Nano S is updated to the latest firmware.
+>Make sure your Ledger Nano S is updated to the latest firmware.
 
 1.  Either open the **Manager** in Ledger Live, **OR** open the legacy Ledger Manager.
 2.  Connect and unlock your device using your PIN code.
@@ -18,13 +18,13 @@ Make sure your Ledger Nano S is updated to the latest firmware.
 
 If the app could not be installed, free up some storage space by uninstalling apps. This does not affect your crypto assets, secured in the blockchain.
 
-Step 2. Launch HODL
+### Step 2. Launch HODL
 
 -   Connect and unlock your device using your PIN code.
 -   Press the right or left button to select the HODL app from the dashboard.
 -   Press both buttons to enter.
 
-Step 3. Set keyboard layout
+### Step 3. Set keyboard layout
 
 This step needs to be done only once when switching keyboard layouts.
 
@@ -32,15 +32,15 @@ This step needs to be done only once when switching keyboard layouts.
 2.  Select **Keyboard layout**. Press both buttons to enter.
 3.  Select the layout of your computer keyboard. Qwerty, Qwerty Int’l and Azerty are supported. Press both buttons to confirm.
 
-_Note:_ _Repeat this step after switching to another keyboard layout._
+>Repeat this step after switching to another keyboard layout
 
-Step 4. Select crypto asset and address format
+### Step 4. Select crypto asset and address format
 
 1.  Select **New address** from the main menu. Press both buttons to enter.
 2.  Select a cryptocurrency. Press both buttons to enter.
 3.  Select an address format. This option depends on the selected cryptocurrency. Bitcoin supports Legacy, Segwit and Bech32 address formats.
 
-Step 5. Select account and address index
+### Step 5. Select account and address index
 
 1.  Check the account and index shown on the device display as **/account/index****.** Example: **/0/0** indicates that the **first** **address** of the **first account** is selected, since accounts and indexes start counting from zero.  
     
@@ -48,7 +48,7 @@ Step 5. Select account and address index
     
 3.  To change the selected address index: select **Next index** or **Previous index** and press both buttons to enter. Note that the address index has changed.
 
-Step 6. Generate and verify address
+### Step 6. Generate and verify address
 
 1.  Click where you want to enter the address on your computer. For example, click on the Withdrawal Address field when sending funds from an exchange to your own address.  
     
