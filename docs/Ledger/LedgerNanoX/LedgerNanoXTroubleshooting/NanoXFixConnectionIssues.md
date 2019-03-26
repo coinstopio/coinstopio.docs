@@ -15,7 +15,7 @@ If you encounter connection issues when trying to connect your Ledger hardware w
 5.  Restart your computer.
 6.  Try another computer.
 
-### If the steps above did not remedy the issue and your problem persists, please view the operating system specific guides below.
+### If the steps above did not remedy the issue and your problem persists, please view the operating system specific guides below:
 
 ## Windows: Advanced
 
@@ -41,7 +41,7 @@ If you're having connection issues on a Mac, you can try giving Ledger Live full
 
 ## Linux: Advanced
 
-On Linux you need to create a set of udev rules to allow device access. Refer to the [Chrome USB API documentation](https://developer.chrome.com/apps/app_usb#caveats) for details. Please follow the instructions below.
+On Linux you need to create a set of udev rules to allow device access. Refer to the [Chrome USB API documentation](https://developer.chrome.com/apps/app_usb#caveats) for details. Please follow the instructions below:
 
 ### 1. Setup
 
@@ -80,7 +80,7 @@ On Linux you need to create a set of udev rules to allow device access. Refer to
         
         and search for a **plugdev** occurrence. If it's not there, you've missed a step and should restart from step 1.
 
-### 2. Add the udev rules
+### 2. Add udev Rules
 
 1.  Enter the following command to automatically add the rules and reload udev:
     
@@ -89,23 +89,22 @@ On Linux you need to create a set of udev rules to allow device access. Refer to
     ```
     
 2.  Retry connecting your Ledger Nano S with Ledger Live.  
-      
-    If it's still not working, continue to step 3: troubleshooting.
 
 ### 3. Troubleshooting
 
-Try each of the following three options.
+Try each of the following three options:
 
 -   **OPTION 1**
 
     **Edit the file **/etc/udev/rules.d/20-hw1.rules** file by adding the **OWNER="<user>"** parameter to each line, where **<user>** is your Linux user name.  
-    Then reload the rules as follows:  
+    
+    Reload the rules as follows:  
     
     ```
     udevadm triggerudevadm control --reload-rules
     ```
     
-    Retry the connection with Ledger Live. If it does not work, try the next option.
+    Retry the connection with Ledger Live. If it does not work, move on to **Option 2**.
 -   **OPTION 2**  
 
     Edit the **/etc/udev/rules.d/20-hw1.rules** file and add the following lines:  
@@ -121,7 +120,7 @@ Try each of the following three options.
     udevadm triggerudevadm control --reload-rules
     ```
     
-    Retry connecting with Ledger Live. If it does not work yet, try the last option.
+    Retry the connection with Ledger Live. If it does not work, move on to **Option 3**.
 -   **OPTION 3** 
 
     If you are on Arch Linux, you can try the following rules:
@@ -139,7 +138,7 @@ Try each of the following three options.
     SUBSYSTEMS=="usb", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0004", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
     ```
     
--   Then reload the rules again and retry the connection with Ledger Live:  
+-   Reload the rules again and retry the connection with Ledger Live:  
     
     ```
     udevadm triggerudevadm control --reload-rules
