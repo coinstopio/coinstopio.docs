@@ -1,3 +1,6 @@
+
+<needs link>
+
 # Lost Recovery Phrase
 
 If you cannot access your Ledger Nano X device, you forget your PIN code or you lose the recovery phrase, you immediately need to follow the steps outlined in this article to prevent losing your crypto assets.
@@ -14,5 +17,5 @@ Your Recovery sheet is a full backup of the private keys that provide access to 
 
 1.  Immediately **[send]** your cryptocurrency to temporary accounts, preferably to another hardware wallet.
 2.  Enter three wrong PIN codes to **[reset your Ledger Nano X]**.
-3.  [Set up] your Ledger Nano X as a new device.
-4.  Then [transfer back](receive) your crypto assets to your newly configured device.
+3.  **[Set up]** your Ledger Nano X as a new device.
+4.  Then **[transfer back](receive)** your crypto assets to your newly configured device.
