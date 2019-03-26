@@ -72,7 +72,7 @@ When the Ledger Live application opens, you will be given the opportunity to ini
 
 Follow these steps to initialise or restore your Ledger device.
 
-_Go to [Step 3](#step-3-security-checklist) if you use a device that's already initialised._
+>Go to [Step 3](#step-3-security-checklist) if you use a device that's already initialised.
 
 ### Step 1: Start Ledger Live
 
@@ -87,7 +87,7 @@ _Go to [Step 3](#step-3-security-checklist) if you use a device that's already i
 
 First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.
 
-_Your recovery phrase backs up the private keys generated on your device that manage your cryptocurrency. It can be used to recover your device in case you lose the PIN code or the device._
+>Your recovery phrase backs up the private keys generated on your device that manage your cryptocurrency. It can be used to recover your device in case you lose the PIN code or the device.
 
 1.  Set up your device by following the steps provided in Ledger Live:
     -   **To initialise a device**
@@ -102,7 +102,8 @@ Complete the security checklist to verify your device is running at an optimal l
 2.  Click **check now**, to verify your device is a genuine Ledger device.
     -   Only a genuine Ledger device can provide the cryptographic proof required to connect with Ledger’s secure server  
           
-        _Note: This process may take a few moments._
+        >This process may take a few moments.
+
 3.  Once done, click **continue**
 
 ### Step 4: Choose a Password
@@ -111,14 +112,14 @@ Choose a password that unlocks the application to enhance your privacy. This fun
 
 1.  Click **skip this step** if you do not want to set a password
 
-_We recommend using a password_
+>We recommend using a password.
 
 
 2.  Choose your password in the **password** field
 3.  Enter your password again in the **confirm password** field
 4.  Click **continue**
 
-_Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your cryptocurrency._
+>Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your cryptocurrency.
 
 ### Step 5: Bug reports & analytics
 
@@ -146,7 +147,7 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 4.  Connect and unlock your device, open the app of the selected cryptocurrency
 5.  Click **next**.  
       
-    _Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed_
+    >Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed
 6.  In the **select existing accounts** section, ensure the account(s) you wish to add bear a check mark to be added. Choose a name for the account(s) you wish to add
 7.  Click **add account(s)**
 
@@ -170,11 +171,9 @@ You can add a new account for each crypto asset supported by the Ledger Live app
 1.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
 2.  Click **next**
 3.  Connect and unlock your device, open the app of the selected crypto asset  
-    _Note: For Windows users, this step might take a few moments_
-    
 4.  Click **next**.  
       
-    _Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed_
+    >Ledger Live will check the blockchain to see if your Ledger device manages any existing accounts. If any pre-existing accounts are found, they will be displayed
 5.  In the **add new account** section, ensure the account you wish to add bears a check mark to be added. Choose a name for the account you wish to add if you desire
 6.  Click **add account(s)**
 

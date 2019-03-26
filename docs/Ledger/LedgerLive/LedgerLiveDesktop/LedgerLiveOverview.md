@@ -10,7 +10,7 @@ The perfect companion for your Ledger devices. Add new cryptocurrencies and chec
 |[Mac Setup](../LedgerLive/GettingStartedMac.md)| How to setup Ledger Live on Mac operating System.|
 |[Linux Setup](../LedgerLive/GettingStartedMac.md)| How to setup Ledger Live on Linux operating System.|
 |[Android Setup](../LedgerLive/LedgerLiveSetupAndroid.md)| How to setup Ledger Live on Android.|
-|[IOS Setup](../LedgerLive/LedgerLiveSetupIOS.md)| How to setup Ledger Live on IOS.|
+|[IOS Setup](../LedgerLive/LedgerLiveSetupIOS.md)| How to setup Ledger Live on iOS.|
 
 ## Operating Guides
 | Guide| Description|

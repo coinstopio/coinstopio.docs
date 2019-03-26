@@ -15,7 +15,7 @@
 
 _Make sure to download Ledger Live for the operating system you are using._
 
-2.  Double-click the Ledger Live executable file you downloaded.
+2.  Double-click the Ledger Live executable file you have downloaded.
 3.  If a warning displays, click **Yes** to allow the installation of Ledger Live.
 4.  Once the installation completes, click **Finish**.
 
@@ -27,11 +27,11 @@ Ledger Live's interface consists of four main elements. In the left panel you'll
 
 ### Menu
 
-Use the **menu** to go to different main sections:
+Use the **Menu** to go to different main sections:
 
 -   **Portfolio:** Summary of your accounts
--   **Send:** Send crypto assets at any time
--   **Receive:** Receive crypto assets at any time
+-   **Send:** Send cryptocurrency at any time
+-   **Receive:** Receive cryptocurrency at any time
 -   **Manager:** Manage your Ledger device
 -   **Exchanges:** Discover some selected exchange services
 
@@ -58,7 +58,7 @@ The main viewer is the place where you interact with the main sections of Ledger
 
 ## Lets Get Started
 
-When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the _Help_ tab in the settings.
+When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the **Help** tab in the settings.
 
 ### Before You Begin
 
@@ -84,7 +84,7 @@ _Go to [Step 3](#step-3-security-checklist) Security checklist if you use a devi
 
 First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.
 
-_Your recovery phrase backs up the private keys generated on your device that manage your crypto assets. It can be used to recover your device in case you lose the PIN code or the device._
+_Your recovery phrase backs up the private keys generated on your device that manage your cryptocurrency. It can be used to recover your device in case you lose the PIN code or the device._
 
 1.  Set up your device by following the steps provided in Ledger Live
     -   **To initialise a device**
@@ -111,7 +111,7 @@ Choose a password that unlocks the application to enhance your privacy. This fun
 3.  Enter your password again in the **confirm password** field
 4.  Click **continue**
 
-_Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your crypto assets._
+_Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your cryptocurrency._
 
 ### Step 5: Bug reports & analytics
 
