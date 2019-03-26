@@ -14,19 +14,19 @@ Directly enter cryptocurrency receive addresses on your computer using the HODL 
 3.  Press the right button on your device to **allow** **Ledger manager**.
 4.  Find **HODL** in the App catalog in Ledger Live and click **Install**.  An installation window will appear.
 5.  Navigate to HODL on the dashboard of your device, once it has been installed.
-6.  (Mac only) Press both buttons to open HODL. Close the Keyboard Setup Assistant that opens on your Mac. This only needs to be done once.
+6.  **Mac Only:** Press both buttons to open HODL. Close the Keyboard Setup Assistant that opens on your Mac. This only needs to be done once.
 
-If the app could not be installed, free up some storage space by uninstalling apps. This does not affect your crypto assets, secured in the blockchain.
+>If the app could not be installed, free up some storage space by uninstalling apps. This does not affect your cryptocuurency, as it is secured by the blockchain.
 
 ### Step 2. Launch HODL
 
--   Connect and unlock your device using your PIN code.
--   Press the right or left button to select the HODL app from the dashboard.
--   Press both buttons to enter.
+1.  Connect and unlock your device using your PIN code.
+2.  Press the right or left button to select the HODL app from the dashboard.
+3.  Press both buttons to enter.
 
-### Step 3. Set keyboard layout
+### Step 3. Set Keyboard Layout
 
-This step needs to be done only once when switching keyboard layouts.
+>This step needs to be done only once when switching keyboard layouts.
 
 1.  Press the right button to select **Settings**. Press both buttons to enter.
 2.  Select **Keyboard layout**. Press both buttons to enter.
@@ -34,21 +34,23 @@ This step needs to be done only once when switching keyboard layouts.
 
 >Repeat this step after switching to another keyboard layout
 
-### Step 4. Select crypto asset and address format
+### Step 4. Select Crypto Asset And Address Format
 
 1.  Select **New address** from the main menu. Press both buttons to enter.
 2.  Select a cryptocurrency. Press both buttons to enter.
 3.  Select an address format. This option depends on the selected cryptocurrency. Bitcoin supports Legacy, Segwit and Bech32 address formats.
 
-### Step 5. Select account and address index
+### Step 5. Select Account And Address Index
 
-1.  Check the account and index shown on the device display as **/account/index****.** Example: **/0/0** indicates that the **first** **address** of the **first account** is selected, since accounts and indexes start counting from zero.  
+1.  Check the account and index shown on the device display as **/account/index****.**
+
+>Example: **/0/0** indicates that the **first** **address** of the **first account** is selected, since accounts and indexes start counting from zero.  
     
 2.  To change the selected account: select **Next account** or **Previous account** and press both buttons to confirm. Note that the account has changed.  
     
 3.  To change the selected address index: select **Next index** or **Previous index** and press both buttons to enter. Note that the address index has changed.
 
-### Step 6. Generate and verify address
+### Step 6. Generate And Verify Address
 
 1.  Click where you want to enter the address on your computer. For example, click on the Withdrawal Address field when sending funds from an exchange to your own address.  
     
@@ -56,8 +58,8 @@ This step needs to be done only once when switching keyboard layouts.
     
 3.  **Verify that the address on the Ledger Nano S screen matches with the address on your computer screen. Press the right button located above the validation icon to confirm.**
 
-#### Security checks
+#### Security Checks
 
 -   Verify each address entered by the HODL application.
 -   Never send funds to an address that did not match with the address shown on your device.
--   Contact Ledger Support in case of doubt.
+-   Contact [Ledger Support](https://support.ledger.com/hc/en-us) in case of doubt.
