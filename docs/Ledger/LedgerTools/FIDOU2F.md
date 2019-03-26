@@ -33,12 +33,15 @@ FIDO U2F is a two-factor authentication method (2FA) developed by the [FIDO Alli
 |GitHub|[Instructions](https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/)|
 |Dropbox|[Instructions](https://www.dropbox.com/fr/help/363)|
 
-Always ensure you set up an alternative login method. Reinstalling FIDO U2F requires you reconfigure it for each service.
+>Always ensure you set up an alternative login method. Reinstalling FIDO U2F requires you reconfigure it for each service.
 
-Restore FIDO U2F after a firmware update
+### Restore FIDO U2F After A Firmware Update
 
 The FIDO U2F app on your Ledger device maintains an internal counter that changes each time you use FIDO U2F to login on a third party service. After a firmware update, all apps have to be reinstalled. Unfortunately, this means that the counter is reset and you will not be able to login using the FIDO U2F app on your device before reconfiguring the services you use it on:
 
-1.  Please use an alternative means of logging in onto the services you want to access (_authenticator app / one time password / request a password reset link by email_).
-2.  Once logged in, go into the (security) settings of the services on which you use FIDO U2F. Then, remove FIDO U2F with your Ledger device as a method of authentication.
+1.  Use an alternative means of logging in onto the services you want to access
+
+>Authenticator app / one time password / request a password reset link by email.
+
+2.  Once logged in, go into the security settings of the services on which you use FIDO U2F and remove FIDO U2F with your Ledger device as a method of authentication.
 3.  Re-register your device as authentication method.
