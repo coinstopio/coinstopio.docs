@@ -2,7 +2,7 @@
 
 If you cannot access your Ledger Nano X device, you forget your PIN code or you lose the recovery phrase, you immediately need to follow the steps outlined in this article to prevent losing your crypto assets.
 
-Make sure your recovery phrase stays securely stored. Protect your confidential PIN code and 24-word recovery phrase to guarantee the highest level of security offered by your Ledger hardware wallet.
+>Keep your PIN code confidential, your recovery phrase securely stored, and use the [Passphrase] feature to optimise the security offered by your Ledger hardware wallet.
 
 ## Instructions
 
