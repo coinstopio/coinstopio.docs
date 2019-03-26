@@ -11,7 +11,7 @@ Alternatively,  **[restore your device from a recovery phrase]** to recover the 
 
 -   Ledger Nano X
 -   An iPhone with iOS 9, Android 7 smartphone, or newer.
--   The Ledger Live application downloaded and installed for either [Android](https://play.google.com/store/apps/details?id=com.ledger.live) or [iOS](https://itunes.apple.com/app/id1361671700).
+-   The Ledger Live [desktop application](https://www.ledger.com/pages/ledger-live) or mobile application downloaded and installed for either [Android](https://play.google.com/store/apps/details?id=com.ledger.live) or [iOS](https://itunes.apple.com/app/id1361671700).
 
 ## Instructions
 
