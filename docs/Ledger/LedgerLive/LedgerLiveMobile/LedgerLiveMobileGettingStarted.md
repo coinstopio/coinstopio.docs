@@ -1,4 +1,4 @@
-# Take your first steps
+# Getting Started With Ledger Live Mobile
 
 The first time you use Ledger Live mobile, it will help you set up your Ledger device and configure a few important settings so you can quickly take your first steps with the application.
 
@@ -23,7 +23,7 @@ Import desktop accounts
 6.  Tap **Scan QR code** on your phone and use it to scan the LiveQR code until the progress loader hits 100%.
 7.  Select the accounts to import, choose to include general settings and tap **Continue**.
 
-Set up password lock (optional)
+### Set up password lock (optional)
 
 Choose an optional password that unlocks the application to enhance your privacy. Depending on your phone's functionality, you can enable biometrics to unlock the app without entering your password.
 
@@ -33,9 +33,9 @@ Choose an optional password that unlocks the application to enhance your privacy
 4.  Tap the checkmark to enable unlocking Ledger Live using your face or fingerprint.
 5.  Tap **Continue**.
 
-Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This does not affect your crypto assets.
+>Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This does not affect your crypto assets.
 
-Bug reports & analytics
+### Bug reports & analytics
 
 Besides mandatory technical data, you can opt-out of sharing anonymous data with Ledger to help improve the quality of our products and services. Unless you opt out, Ledger will automatically collect this data. You can decide to opt out at any time in **Settings > General**.
 
