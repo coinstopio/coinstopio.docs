@@ -1,4 +1,6 @@
 
+<need link>
+
 # Set up as new device
 
 Set up your Ledger Nano X as a new device to get started. It will generate new private keys so you can manage your crypto assets. You will also write down a new 24-word recovery phrase.
