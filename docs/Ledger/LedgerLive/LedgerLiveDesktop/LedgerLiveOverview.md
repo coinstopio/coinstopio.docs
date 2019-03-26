@@ -22,7 +22,7 @@ The perfect companion for your Ledger devices. Add new cryptocurrencies and chec
 |[VerifyTransactionDetails](../LedgerLive/VerifyTransactionDetails.md)| How to verify transaction details.|
 
 
-## Compatible Cryptocurrencies
+## Compatible Cryptocurrencies & Tools
 
 ### Ledger Live
 
