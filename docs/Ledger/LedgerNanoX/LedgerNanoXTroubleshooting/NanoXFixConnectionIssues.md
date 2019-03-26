@@ -5,16 +5,18 @@ If you encounter connection issues when trying to connect your Ledger hardware w
 
 ## Mac, Windows or Linux
 
-1.  Close other applications _(Ledger apps, crypto wallets, Geth, Parity, Mist, Bitcoin Core, etc)._
+1.  Close other applications
+
+> Ledger apps, crypto wallets, Geth, Parity, Mist, Bitcoin Core, etc
 2.  Turn OFF VPN and anti-virus.
 3.  Change the USB cable if possible
 4.  Try different USB ports.
 5.  Restart your computer.
 6.  Try another computer.
 
-If the problem persists, please select your system below.
+### If the steps above did not remedy the issue and your problem persists, please view the operating system specific guides below.
 
-Windows
+## Windows
 
 -   **Update** **USB input device drivers**
     
@@ -28,7 +30,7 @@ Windows
     
 -   If it still does not work, please try on a Mac to verify that your Ledger Nano S is working properly.
 
-Mac
+## Mac
 
 If you're having connection issues on a Mac, you can try giving Ledger Live full disk access:
 
@@ -36,7 +38,7 @@ If you're having connection issues on a Mac, you can try giving Ledger Live full
 2.  Go to **Security & Privacy**.
 3.  In the **Privacy** tab, add Ledger Live to the **Full Disk Access** list.
 
-Linux
+## Linux
 
 On Linux you need to create a set of udev rules to allow device access. Refer to the [Chrome USB API documentation](https://developer.chrome.com/apps/app_usb#caveats) for details. Please follow the instructions below.
 
