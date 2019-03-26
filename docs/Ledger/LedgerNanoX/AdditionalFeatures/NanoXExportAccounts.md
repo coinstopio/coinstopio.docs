@@ -28,9 +28,9 @@ Use your recovery phrase
 -   Ledger Nano
 -   Ledger HW.1
 
-### Arbitrary list of third-party software wallets
+### Third Party BIP39/BIP44 Compatible Software Wallets
 
-#### Software wallet security
+>Entering your recovery phrase into a computer or smartphone is a security risk and should be avoided where possible.
 
 Software wallets are highly insecure, have not been subjected to a security audit by Ledger and they should only be used for recovery as a last resort. If you proceed to use one of the software wallets below, you accept the responsibility for any possible outcome.
 
