@@ -4,7 +4,7 @@
 ## What You Need
 
 -   a [Ledger Nano S](https://coinstop.io/products/ledger-nano-s)
--   a computer has at least:
+-   a computer with at least:
     -   Linux Ubuntu 16.10  
         _Ledger Live is incompatible with 32-bit operating systems_
     -   a USB port. Use an adapter for USB-C ports
@@ -137,7 +137,7 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
 ### Before You Begin
 
--   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live
+Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Ethereum account, you will need to have the Ethereum application installed - this can be achieved via the Ledger Manager function inside Ledger Live
 
 ### Instructions
 
@@ -163,8 +163,9 @@ You can add a new account for each crypto asset supported by the Ledger Live app
 
 ### Before You Begin
 
--   Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Zcash account, you will need to have the Zcash application installed - this can be achieved via the Ledger Manager function inside Ledger Live
--   If you have a new and unused account, the add account feature will not work. You can only add additional accounts if all accounts of that specific cryptocurrency have seen at least one transaction.
+Ensure you have the appropriate cryptocurrency application installed on the device. For example, if you want to create an Zcash account, you will need to have the Zcash application installed - this can be achieved via the Ledger Manager function inside Ledger Live.
+
+If you have a new and unused account, the add account feature will not work. You can only add additional accounts if all accounts of that specific cryptocurrency have seen at least one transaction.
 
 ### Instructions
 
