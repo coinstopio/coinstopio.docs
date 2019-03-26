@@ -19,17 +19,21 @@ Alternatively, **[set up as a new device]** to generate new private keys and wri
 ### Step 1. Restore From Recovery Phrase
 
 1.  Press the button next to the USB port until the Ledger logo appears to turn on the device.
-2.  Read the on-screen instructions. Press the right button to proceed or the left button to go back.
+2.  Read the on-screen instructions.
+
+>Press the right button to proceed or the left button to go back.
+
 3.  Press both buttons simultaneously when **Restore from recovery phrase** is displayed.
 
 ### Step 2. Choose Your PIN Code
 
 1.  Press both buttons when **Choose PIN code** is displayed on the device.
-2.  Press the left or right button to select a digit. Press both buttons to confirm a digit.
+2.  Press the left or right button to select a digit. 
 
-> Select the checkmark icon to confirm your PIN code of 4 to 8 digits. Select the backspace icon to erase a digit.
+>Press both buttons to confirm a digit. Select the backspace icon to erase a digit.
 
-3.  Enter the PIN code again to confirm it.
+3.  Select the checkmark icon to confirm your PIN code of 4 to 8 digits.
+4.  Enter the PIN code again to confirm it.
 
 #### Security Tips
 
@@ -40,11 +44,18 @@ Alternatively, **[set up as a new device]** to generate new private keys and wri
 
 ### Step 3. Enter Your Recovery Phrase
 
-1.  Choose the length of your recovery phrase (12, 18 or 24 words). Press both buttons to validate.
+1.  Choose the length of your recovery phrase (12, 18 or 24 words). 
+
+>Press both buttons to validate.
+
 2.  Enter the first letters of Word #1 by selecting them with the right or left button. Press both buttons to validate each letter.
-3.  Choose Word #1 from the suggested words. Press both buttons to validate it.
+3.  Choose Word #1 from the suggested words.
+
+>Press both buttons to validate it.
+
 4.  Repeat the process until the last word of your recovery phrase.
-5.  **Your device is ready** is shown once you've successfully completed the setup process. Press both buttons to **Access Dashboard.** You will then arrive on the Dashboard.
+5.  **Your device is ready** is shown once you've successfully completed the setup process.
+4.  Press both buttons to **Access Dashboard.**
 
 #### Security Tips
 
