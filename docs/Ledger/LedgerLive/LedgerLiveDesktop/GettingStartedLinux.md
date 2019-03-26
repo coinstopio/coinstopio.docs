@@ -72,7 +72,7 @@ When the Ledger Live application opens, you will be given the opportunity to ini
 
 Follow these steps to initialise or restore your Ledger device.
 
-_Go to Step 3: Security checklist if you use a device that's already initialised._
+_Go to [Step 3](#step-3-security-checklist) if you use a device that's already initialised._
 
 ### Step 1: Start Ledger Live
 

@@ -24,7 +24,7 @@ Ledger Live's interface consists of four main elements. In the left panel you'll
 ![ledger_live_overview.png](https://coinstop.kayako.com/base/media/url/CEBdlIZUFTBJ7L6jOQacbeQG5i9ebGDv)
 
 ### Menu [red]
-\\ change text colour \\ 
+
 Use the **Menu** to go to different main sections:
 
 -   **Portfolio:** Summary of your accounts
@@ -44,7 +44,7 @@ The **Accounts** section lists the name and balance of the accounts in your port
 
 The top bar contains the application controls.
 
--   **Network status**: The current status of synchronization with the blockchain networks of the crypto assets you've added. Click on it to force synchronization
+-   **Network status**: The current status of synchronisation with the blockchain networks of the cryptocurrencies you've added. Click on it to force synchronisation
 -   **Settings:** Access Ledger Live's settings
 -   **Password lock:** Lock your session by clicking on the lock icon
 
@@ -56,7 +56,7 @@ The main viewer is the place where you interact with the main sections of Ledger
 
 ## Lets Get Started
 
-When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the _Help_ tab in the settings.
+When the Ledger Live application opens, you will be given the opportunity to initialise a new device, or recover an existing wallet. To set up a second device, you can restart the on-boarding process from the **Help** tab in the settings.
 
 ### Before You Begin
 
@@ -74,7 +74,7 @@ _Go to [Step 3](#step-3-security-checklist). Security checklist if you use a dev
 1.  Start the Ledger Live application
 2.  Click **Get started**
 3.  This is where you choose between initialising a new device, or restoring an existing account
-    -   Select **i****nitialise a new Ledger device** if you're setting up a brand new device
+    -   Select **initialise a new Ledger device** if you're setting up a brand new device
     -   Select **restore a Ledger device** if you have recovery phrase associated with a wallet account you want to recover to a new device
 4.  Select your device, then click **continue**
 
@@ -82,9 +82,9 @@ _Go to [Step 3](#step-3-security-checklist). Security checklist if you use a dev
 
 First you'll choose a 4 to 8-digit PIN code that unlocks your device - remember, the more digits, the more secure. Then you'll be asked to save or restore your 24-word recovery phrase.
 
-_Your recovery phrase backs up the private keys generated on your device that manage your crypto assets. It can be used to recover your device in case you lose the PIN code or the device._
+_Your recovery phrase backs up the private keys generated on your device that manage your cryptocurrency. It can be used to recover your device in case you lose the PIN code or the device._
 
-1.  Set up your device by following the steps provided in Ledger Live
+1.  Set up your device by following the steps provided in Ledger Live:
     -   **To initialise a device**
     -   **To restore your device**
 2.  Once done, click **continue** 
@@ -109,7 +109,7 @@ Choose a password that unlocks the application to enhance your privacy. This fun
 3.  Enter your password again in the **confirm password** field
 4.  Click **continue**
 
-_Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your crypto assets._
+_Note: Make sure to remember your password. Losing it requires resetting Ledger Live and re-adding accounts. This will not affect your cryptocurrency._
 
 ### Step 5: Bug reports & analytics
 
@@ -131,7 +131,7 @@ Besides mandatory technical data, you can choose which anonymous data to share w
 
 ### Instructions
 
-1.  On the left panel, click the **+**  icon to add accounts
+1.  In the **Accounts** panel on the left of the Ledger Live window, click the **+**  icon to add accounts
 2.  Type the name of the cryptocurrency or search within the drop-down menu to select the cryptocurrency you wish to make an account for
 3.  Click **next**
 4.  Connect and unlock your device, open the app of the selected cryptocurrency
