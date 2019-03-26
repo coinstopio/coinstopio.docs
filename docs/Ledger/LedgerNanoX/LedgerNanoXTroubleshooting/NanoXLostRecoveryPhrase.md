@@ -6,11 +6,11 @@ Make sure your recovery phrase stays securely stored. Protect your confidential 
 
 ## Instructions
 
-### Lost your recovery phrase?
+### Lost Your Recovery Phrase?
 
 Your Recovery sheet is a full backup of the private keys that provide access to your private keys. You must store it in a secure location. **Anyone with access to your Recovery sheet can take your crypto assets** without knowing the PIN code of your device.
 
-#### If you do lose your Recovery sheet:
+#### If You Do Lose Your Recovery Sheet:
 
 1.  Immediately [send all your crypto assets](https://support.ledger.com/hc/en-us/articles/360019123593) to temporary accounts, like an exchange service or another hardware wallet.
 2.  Enter three wrong PIN codes to [reset your Ledger Nano X](https://support.ledger.com/hc/en-us/articles/360017582434).
