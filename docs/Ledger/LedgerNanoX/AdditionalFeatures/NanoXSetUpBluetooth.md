@@ -1,5 +1,5 @@
 
-# Set up Bluetooth connection
+# Set Up A Bluetooth Connection
 
 Set up an [encrypted Bluetooth connection](https://www.ledger.fr/2019/01/15/ledger-nano-x-bluetooth-security-model-of-a-wireless-hardware-wallet/) between your Ledger Nano X device and Ledger Live on your smartphone to manage your crypto assets on the go. Alternatively, Bluetooth can be disabled to connect via USB only.
 
@@ -13,11 +13,11 @@ Pair your Ledger Nano X the first time you set it up with your smartphone.
 4.  Press both buttons on your Ledger Nano X to confirm the pariring.
 5.  Press both buttons to **Allow Ledger Manager**. The pairing is complete after the authenticity of your Ledger Nano X has been checked by Ledger's secure server.
 
-The pairing persists in your global smartphone settings. The pairing code does not have to be confirmed again until you forget the device in the Bluetooth settings of your smartphone.
+>The pairing will be saved in your smartphone settings. The pairing code does not have to be confirmed again until you forget the device in the Bluetooth settings of your smartphone.
 
 ## Disable Bluetooth connectivity
 
-By default, Bluetooth is enabled once you've set up your Ledger Nano X.
+>By default, Bluetooth is enabled once you've set up your Ledger Nano X.
 
 1.  Turn on and unlock your Ledger Nano X.
 2.  Hold both buttons to access the **Control Center**.
@@ -30,4 +30,4 @@ By default, Bluetooth is enabled once you've set up your Ledger Nano X.
 To use your Ledger Nano X via USB:
 
 -   **Desktop:** Use the USB-C cable that came with the Ledger Nano X to connect it to your desktop computer. Manage your crypto with Ledger Live desktop or any other compatible (web) app.
--   **Mobile:** Use an [OTG-cable](https://www.ledger.com/products/ledger-otg-kit) to connect your Ledger Nano X to your Android smartphone (iOS not supported). Manage your crypto with Ledger Live mobile or any other compatible (web) app.
+-   **Mobile:** Use an [OTG-cable](https://www.ledger.com/products/ledger-otg-kit) to connect your Ledger Nano X to your Android smartphone (iOS not supported). Manage your crypto with Ledger Live mobile or any other compatible app.
