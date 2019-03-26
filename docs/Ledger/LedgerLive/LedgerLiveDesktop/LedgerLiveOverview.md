@@ -28,7 +28,7 @@ The perfect companion for your Ledger devices. Add new cryptocurrencies and chec
 
 Ledger Live (Desktop & Mobile) natively support the following cryptocurrencies:
 
-> For an overview of all the Crypto Currency the Ledger Nano S is compatibile with click [here]() (This includes the use of third party applications).
+> For a list of all the cryptocurrencies compatible with the Ledger Nano S, click [here](https://www.ledger.com/pages/supported-crypto-assets).
 
 | Crypto Currency  | Ticker Code | Website                                                      |
 |------------------|-------------|--------------------------------------------------------------|
