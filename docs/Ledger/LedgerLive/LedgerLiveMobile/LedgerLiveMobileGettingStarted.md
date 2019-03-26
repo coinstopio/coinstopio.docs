@@ -23,7 +23,7 @@ Import desktop accounts
 6.  Tap **Scan QR code** on your phone and use it to scan the LiveQR code until the progress loader hits 100%.
 7.  Select the accounts to import, choose to include general settings and tap **Continue**.
 
-### Set up password lock (optional)
+### Optional: Set Up Password Lock
 
 Choose an optional password that unlocks the application to enhance your privacy. Depending on your phone's functionality, you can enable biometrics to unlock the app without entering your password.
 
