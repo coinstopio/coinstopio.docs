@@ -27,7 +27,7 @@ Ledger Nano X supports **up to** 100 simultaneously-installed apps. It has ten t
 By default, all apps supported on the Ledger Nano S also run on the Ledger Nano X by using the USB cable and a desktop computer. Moreover, all apps supported in Ledger Live have Bluetooth support and an SDK will be provided to developers of third-party apps to add Bluetooth support too.
 
 ### Which Ledger device is for you?
-Need help choosing? Check out [Ledger's hardware wallet comparison](https://support.ledger.com/hc/en-us/articles/360015259693).
+Need help choosing? Check out Ledger's [hardware wallet comparison](https://support.ledger.com/hc/en-us/articles/360015259693).
 
 ### Will the Ledger Nano X replace the Ledger Nano S?  
 The Ledger Nano S will continue to remain available alongside the Ledger Nano X at an attractive price. Both models have their own advantages, complementing each other and catering to different types of users. One could use a Ledger Nano X to manage their crypto on the go, and leave their Ledger Nano S at home or in a vault as a backup. As such, Ledger Nano S will continue to be fully supported in the future.
