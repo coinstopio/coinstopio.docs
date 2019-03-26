@@ -36,14 +36,14 @@ To set up your passphrase, follow the instructions below:
 
 ### Option 1 - Attach To PIN Code
 
-#### How it works
+#### HOW IT WORKS
 
 Attaching a passphrase to a new PIN code creates a new set of accounts on your Ledger Nano S based on a secret passphrase of your choice. You can access the accounts protected by this passphrase by entering a secondary PIN code.
 
 -   The passphrase will be stored on the device until you overwrite it with another passphrase or until the device is reset.
 -   Store a physical backup of the secret passphrase in a secure place. The device cannot display it after you've set it.
 
-#### Instructions
+#### INSTRUCTIONS
 
 1.  Choose **Attach to PIN** option from the **Passphrase** menu in the device security settings.
 2.  Press both buttons to validate **Set secret passphrase**.
@@ -55,14 +55,14 @@ Attaching a passphrase to a new PIN code creates a new set of accounts on your L
 
 ### Option 2 - Set Temporary Passphrase
 
-#### How it works
+#### HOW IT WORKS
 
 Using a temporary passphrase provides access to a new set of accounts on your Ledger Nano X **for the duration of the session**. Follow the instructions below **each time** you wish to access the accounts protected by the passphrase.
 
 -   The accounts are based on a secret passphrase of your choice.
 -   Store a physical backup of the secret passphrase in a secure place. The device cannot display it after initial setup.
 
-#### Instructions
+#### INSTRUCTIONS
 
 1.  Choose **Set temporary** option from the **Passphrase** menu in the device security settings.
 2.  Press both buttons to validate **Set secret passphrase**.
@@ -74,7 +74,7 @@ Using a temporary passphrase provides access to a new set of accounts on your Le
 
 In case of loss or a reset of your Ledger Nano X, you can recover access to your crypto assets on any Ledger device as long as you have both your 24-word recovery phrase and secret passphrase.
 
-#### Instructions
+#### INSTRUCTIONS
 
 1.  Take out your recovery phrase and passphrase.
 2.  Restore the Ledger device from your recovery phrase.
@@ -82,14 +82,14 @@ In case of loss or a reset of your Ledger Nano X, you can recover access to your
     -   **Temporary passphrase**: Simply enter the passphrase you've set up earlier to access the accounts protected by that passphrase.
     -   **Attach to PIN code:** You can choose any PIN code, but you need to **enter the passphrase you've set up earlier** to access the accounts protected by that passphrase.
 
-### Passphrase security in practice
+### Passphrase Security In Practice
 
-#### Plausible deniability
+#### PLAUSIBLE DENIABILITY
 
 To protect yourself in case of physical threat, make sure your primary PIN code unlocks only a minor part of your crypto assets. Then set up a passphrase attached to a PIN code and store more significant amount of crypto assets on the passphrase-protected accounts.
 
 If you are under duress to unlock your Ledger Nano X, you can surrender your main PIN code to the attacker while hiding the PIN code that unlocks your passphrase-protected accounts.
 
-#### Recovery phrase protection
+#### RECOVERY PHRASE PROTECTION
 
 It’s a good security practice to keep multiple copies of your Recovery sheet and to store them in different geographic locations. To mitigate the risk of losing your crypto assets if one of the copies of your recovery phrase is compromised, you can set up a passphrase. If you do so, make sure to store paper backups of your passphrase, preferably in geographic locations that are different from the locations where you keep a backup of your recovery phrase.
